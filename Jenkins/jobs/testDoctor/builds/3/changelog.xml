@@ -1,0 +1,11 @@
+commit 49f198f0e6e646d1d82da1604411c9494219b593
+tree 71b08c2d1968f8d3febca393c666195b30a4f209
+parent 7028ecfd2bff706cf313805a039e8f7827d968f8
+author tianjing1 <422391950@qq.com> 2017-07-19 17:16:54 +0800
+committer tianjing1 <422391950@qq.com> 2017-07-19 17:16:54 +0800
+
+    src/test/resources/config-test/doctor.xml
+
+
+
+:100644 100644 acaefee3288bc7202e33d9867d659ea7182ed3c3 3a9b5704c79629c8c75cd6761572871ea6b45db6 M	src/test/resources/config-test/doctor.xml

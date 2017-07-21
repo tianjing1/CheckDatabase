@@ -1,0 +1,518 @@
+Started by user [8mha:////4P0s7hGjA9VljF4c+Hu91PaVlAz/nad31wngZ9nOeP3iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CJ9x5TczDwAi45d7MAAAAA=[0madmin
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\testDoctor
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ttshmily/serviceapi.git # timeout=10
+Fetching upstream changes from https://github.com/ttshmily/serviceapi.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/ttshmily/serviceapi.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/dev^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/dev^{commit}" # timeout=10
+Checking out Revision c0866c52aade21700001cedc97179954f3a12935 (refs/remotes/origin/dev)
+Commit message: "src/test/resources/config-test/doctor.xml"
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f c0866c52aade21700001cedc97179954f3a12935
+ > git.exe rev-list 49f198f0e6e646d1d82da1604411c9494219b593 # timeout=10
+[testDoctor] $ cmd /c call C:\Windows\TEMP\jenkins3216149237485952425.bat
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo protocol = http 1>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_doc = services.dev.myzd.info/doctor 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_login = login.dev.myzd.info 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_kb = 192.168.33.1 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_crm = services.dev.myzd.info/crm 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo crm_token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImppbmcudGlhbkBtaW5neWl6aHVkYW8uY29tIiwibmFtZSI6Ilx1NzUzMFx1OTc1OSIsInN1YiI6MjMsImlzcyI6Imh0dHA6XC9cLzE5Mi4xNjguMzMuMjJcL2FwaVwvdjFcL2NhbGxiYWNrIiwiaWF0IjoxNTAwNDU2MjA0LCJleHAiOjE1MDA2NzIyMDQsIm5iZiI6MTUwMDQ1NjIwNCwianRpIjoiY0xTTzd3UTNLZmJIak91MSJ9.Tp51Tl73mReMGACxRwxV7VMN0m9sSbhu40yDl6-i85c 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_bda = services.dev.myzd.info/bd-assistant 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo bda_token = eyJzcmMiOiJjeHF5IiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJsZWFkaW5nX2dyb3VwIjoyLCJ1aWQiOiJjaGFvLmZhbmdAbWluZ3lpemh1ZGFvLmNvbSIsImdlbmRlciI6IjEiLCJzdGFmZl9pZCI6IlNIMDEzMyIsIm5hbWUiOiLmlrnotoUiLCJtb2JpbGUiOiIiLCJhdmF0YXIiOiJodHRwOi8vc2hwLnFwaWMuY24vYml6bXAvSEhFZGlhdmpSMVFNQ2dFVmh3OEwwaFNqYVRmZ05yOVp5TEFCaWEwSTJ0Y0RKdkFNdzM2dXpTYUEvIiwiZXhwIjoxNDk2NzE4MDU1LCJpYXQiOjE0OTY2MzE2NTUsImVtYWlsIjoiY2hhby5mYW5nQG1pbmd5aXpodWRhby5jb20iLCJzdGF0dXMiOjF9.p1SJUQqEvw6X7wlm7GJXDAzmRT60RvNHfFNkwN8kIJs 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo bda_token_staff = eyJzcmMiOiJjeHF5IiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJsZWFkaW5nX2dyb3VwIjo2LCJ1aWQiOiJmYW5nY2hhby10ZXN0QG1pbmd5aXpodWRhby5jb20iLCJnZW5kZXIiOiIxIiwic3RhZmZfaWQiOiJTSDA5OTkiLCJuYW1lIjoi5aSn5LiAIiwibW9iaWxlIjoiMTM4MTc2MzQyMDMiLCJhdmF0YXIiOiJodHRwOi8vcC5xbG9nby5jbi9iaXptYWlsLzdycU5SeUNQQWpaM3o2a2NOMlN1S3ZvQWhpYkJzV2ljVjZqUkNlT2V3dmNQMlJGaWJMVHU4ZU9kdy8wIiwiZXhwIjoxNDk2NzE4MDU1LCJpYXQiOjE0OTY2MzE2NTUsImVtYWlsIjoiZGF5aUBtaW5neWl6aHVkYW8uY29tIiwic3RhdHVzIjoxfQ.VR4MueuMfCN_sxztn32JmQzrXNCIt2Ceh5r2wZ_idT0 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo mainOperatorId = jing.tian@mingyizhudao.com 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo mainOperatorName = 田静 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>mvn test -DsuiteFilename=doctor.xml 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building serviceapi 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ serviceapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\testDoctor\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ serviceapi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ serviceapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 16 resources
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ serviceapi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ serviceapi ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[INFO][SendVerifyCode] 请求验证码到手机号13300899999 ...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/sendVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13300899999"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  8 ms
+[INFO][SendVerifyCode] mobile是: 13300899999...请发送验证码到服务器进行验证
+[INFO][CheckVerifyCode] 发送短信验证码到服务器进行验证...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/checkVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13300899999","code":"123456","state":"test"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  40 ms
+[INFO][CheckVerifyCode] token是: eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImZhNWQ5MGU0In0.eyJ1aWQiOiIzMzIxIiwibW9iaWxlIjoiMTMzMDA4OTk5OTkiLCJleHAiOjE1MDA1NDI5NTYsImlhdCI6MTUwMDQ1NjU1Nn0.qOWs0pBNO-gBsvr3S2eOdbHUrhWmSov01ABgHjkLBBQ
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  2142 ms
+[INFO][BaseTest] 更新医生信息...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  {"doctor":{"name":"庄恕pf","department":"胸外科","major_id":"72","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","hospital_id":"18139","inviter_no":"SH0031"}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  345 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  246 ms
+[INFO][BaseTest] mainDoctorId为:	3321
+[INFO][BaseTest] mainDoctorName为:	庄恕pf
+[INFO][BaseTest] mainDoctorHospitalId为:	18139
+[INFO][BaseTest] mainDoctorHospitalName为:	泰山慢性病医院
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/doctors/3321/profiles
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  122 ms
+[DEBUG][RegisteredDoctor_Certify_V2] {"code":1000000,"message":"成功","data":{"user_id":3321,"mobile":"13300899999","name":"庄恕pf","hospital_id":18139,"hospital_name":"泰山慢性病医院","department":"胸外科","major_id":72,"major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"2","date_verified":null,"created_at":"2017-07-19 17:29:18","modified_at":"2017-07-19 17:29:18","is_famous":0,"signed_status":"NOT_SIGNED","doctor_card_pictures":[],"doctor_card_pictures_deleted":null,"experted_authentication_pictures":null,"experted_authentication_pictures_deleted":null,"academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","city_id":370900,"create_order_time":null,"icon":null,"register_id":null,"signed_time":null,"order_count":0,"province_id":370000,"user_visible":0,"audit_time":null,"exp_list":null,"audit_state":"AUDIT_GNOT","inviter_mobile":"13611988792"}}
+[INFO][HttpRequest] 发送请求: >>>>>  PUT http://services.dev.myzd.info/crm/api/v1/doctors/3321/verificationssynchronization
+[INFO][HttpRequest] 请求数据: >>>>>  {"status":"1","reason":"程序认证注册医生并关联到医库"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  772 ms
+[DEBUG][RegisteredDoctor_Certify_V2] {"code":1000000,"message":"OK","data":{"user_id":3321,"mobile":"13300899999","name":"庄恕pf","hospital_id":18139,"hospital_name":"泰山慢性病医院","department":"胸外科","major_id":72,"major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","created_at":"2017-07-19 17:29:18","modified_at":"2017-07-19 17:29:19","is_famous":0,"signed_status":"NOT_SIGNED","doctor_card_pictures":null,"doctor_card_pictures_deleted":null,"experted_authentication_pictures":null,"experted_authentication_pictures_deleted":null,"academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","city_id":370900,"create_order_time":null,"icon":null,"register_id":7158,"signed_time":null,"order_count":0,"province_id":370000,"user_visible":0,"audit_time":null,"exp_list":null,"audit_state":"AUDIT_GNOT"}}
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/doctors/3321/profiles
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  117 ms
+[DEBUG][RegisteredDoctor_Certify_V2] {"code":1000000,"message":"成功","data":{"user_id":3321,"mobile":"13300899999","name":"庄恕pf","hospital_id":18139,"hospital_name":"泰山慢性病医院","department":"胸外科","major_id":72,"major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","created_at":"2017-07-19 17:29:18","modified_at":"2017-07-19 17:29:19","is_famous":0,"signed_status":"NOT_SIGNED","doctor_card_pictures":[],"doctor_card_pictures_deleted":null,"experted_authentication_pictures":null,"experted_authentication_pictures_deleted":null,"academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","city_id":370900,"create_order_time":null,"icon":null,"register_id":7158,"signed_time":null,"order_count":0,"province_id":370000,"user_visible":0,"audit_time":null,"exp_list":null,"audit_state":"AUDIT_GNOT","inviter_mobile":"13611988792"}}
+[INFO][BaseTest] 认证成功
+[INFO][BaseTest] ///////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+[INFO][BaseTest] //    TestAPI START:	GetDoctorProfile
+[INFO][BaseTest] ///////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_01_有token信息的请求可以获得有效信息
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  166 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"doctor":{"user_id":"3321","mobile":"13300899999","name":"庄恕pf","hospital_id":"18139","hospital_name":"泰山慢性病医院","department":"胸外科","major_id":"72","major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","city_id":"370900","order_count":"","province_id":"370000","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","register_id":"7158","exp_list":[],"is_required":1,"status_count":{"agentId":{"count":0},"surgeonId":{"count":0}},"AssistantInfo":[{"id":187,"staff_id":"SH0031","name":"武佳","province_id":130000,"province_name":"河北","city_id":370900,"city_name":"泰安","distributed_begin_at":"2017-07-10 13:44:20","distributed_end_at":null,"created_at":"2017-07-10 13:44:20","modified_at":"2017-07-10 13:44:20","status":0,"team_group":13,"avatar":"https://p.qlogo.cn/bizmail/2aH9iat6DmYhB7yCz8SYVDa6gViclRsFXS2zJB1stzGiabtwuykUWHibIw/0","mobile":"13611988792"}]}}
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_01_有token信息的请求可以获得有效信息
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_02_没有token信息的请求不能获得个人信息并返回正确的错误提示
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  22 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210304
+[INFO][BaseTest] <<<<<< [ message ]:	用户未登陆
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_02_没有token信息的请求不能获得个人信息并返回正确的错误提示
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_03_错误token的请求不能获得个人信息并返回正确的错误提示
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  20 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1211012
+[INFO][BaseTest] <<<<<< [ message ]:	Wrong number of segments
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_03_错误token的请求不能获得个人信息并返回正确的错误提示
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_04_测试data字段返回了足够的医生信息
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  169 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"doctor":{"user_id":"3321","mobile":"13300899999","name":"庄恕pf","hospital_id":"18139","hospital_name":"泰山慢性病医院","department":"胸外科","major_id":"72","major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","city_id":"370900","order_count":"","province_id":"370000","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","register_id":"7158","exp_list":[],"is_required":1,"status_count":{"agentId":{"count":0},"surgeonId":{"count":0}},"AssistantInfo":[{"id":187,"staff_id":"SH0031","name":"武佳","province_id":130000,"province_name":"河北","city_id":370900,"city_name":"泰安","distributed_begin_at":"2017-07-10 13:44:20","distributed_end_at":null,"created_at":"2017-07-10 13:44:20","modified_at":"2017-07-10 13:44:20","status":0,"team_group":13,"avatar":"https://p.qlogo.cn/bizmail/2aH9iat6DmYhB7yCz8SYVDa6gViclRsFXS2zJB1stzGiabtwuykUWHibIw/0","mobile":"13611988792"}]}}
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_04_测试data字段返回了足够的医生信息
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_05_测试总订单数_测试处理中订单数_CRM未领取
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹GbiL","patient_gender":"1","patient_age":"62","patient_phone":"13392889999","major_disease_id":"4322","minor_disease_id":"4344","diagnosis":"病情描述KDzHZKVqkCzwFlpTiLlotzBjFhOhpiLMoxIXFcoiDRrgvLFUgRzUioUzdmniLYLYclkDvGThIkkwvhNFVIcstNIRdSIIJMLMxYTS","is_reoperation":1,"reoperation_description":"二次手术描述rbJhrvGbzygVBnTYdHhmQYsLntIKOVAkVDVhTMOJXOLsvAYklFbddlxTLKHYxDIEOjflgVgWoIMmGBwZZUQlkceMyORAeCTyJWVh","expected_doctor_id":"2012","expected_surgery_start_date":"2017/07/23","expected_surgery_due_date":"2017/08/11","expected_surgery_hospital_id":"13262","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  730 ms
+[INFO][CreateOrder] orderid是: 1019921186
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  161 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"doctor":{"user_id":"3321","mobile":"13300899999","name":"庄恕pf","hospital_id":"18139","hospital_name":"泰山慢性病医院","department":"胸外科","major_id":"72","major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","city_id":"370900","order_count":"1","province_id":"370000","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","register_id":"7158","exp_list":[],"is_required":1,"status_count":{"agentId":{"count":1,"handling":1,"pendingpayment":0,"confirming":0,"finished":0},"surgeonId":{"count":0}},"AssistantInfo":[{"id":187,"staff_id":"SH0031","name":"武佳","province_id":130000,"province_name":"河北","city_id":370900,"city_name":"泰安","distributed_begin_at":"2017-07-10 13:44:20","distributed_end_at":null,"created_at":"2017-07-10 13:44:20","modified_at":"2017-07-10 13:44:20","status":0,"team_group":13,"avatar":"https://p.qlogo.cn/bizmail/2aH9iat6DmYhB7yCz8SYVDa6gViclRsFXS2zJB1stzGiabtwuykUWHibIw/0","mobile":"13611988792"}]}}
+总订单数：1
+处理中订单数：1
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹DQeX","patient_gender":"1","patient_age":"15","patient_phone":"13882339999","major_disease_id":"4111","minor_disease_id":"1096","diagnosis":"病情描述sBftkqnLjdywITVSqnDEPrKbWClzMVCNhVipJpIiodQWbZYWywrAzImKiZLFZkCkTFppMFDKeEEXSPRXEePSozcxSceUWrLcAbwG","is_reoperation":0,"reoperation_description":"二次手术描述vYxTBIelWgXKDVFJynfiwrBVpeYdXDFiOjSBLIAVOCGBwGgWTZeQywtidmeglKRKnXwKKxKgiZktAufNXsLWRDANyDrhNlPhrtof","expected_doctor_id":"3248","expected_surgery_start_date":"2017/07/21","expected_surgery_due_date":"2017/08/08","expected_surgery_hospital_id":"14799","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  349 ms
+[INFO][CreateOrder] orderid是: 1019921195
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹qYgZ","patient_gender":"1","patient_age":"43","patient_phone":"13532539999","major_disease_id":"4220","minor_disease_id":"4078","diagnosis":"病情描述uTxuOYrowpljtFGwEeSnlrYROJtfuLFATAdxPBDJPDhtEBgoqojZohkrOLcswGBndGPsAPfszhLSufMeZXEAQuzTcWGRmuwqSFvW","is_reoperation":1,"reoperation_description":"二次手术描述dzTnJuLShwGnLwzAuxuokiWEZEDEmUXeoymKjOOzYVtgFsMsnNhzVgTcHNTJHpHiYJdObgGeCnuDOlohHRkVJjbDbQRKPESOdnIn","expected_doctor_id":"4406","expected_surgery_start_date":"2017/07/25","expected_surgery_due_date":"2017/08/09","expected_surgery_hospital_id":"16899","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  358 ms
+[INFO][CreateOrder] orderid是: 1019921208
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  176 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"doctor":{"user_id":"3321","mobile":"13300899999","name":"庄恕pf","hospital_id":"18139","hospital_name":"泰山慢性病医院","department":"胸外科","major_id":"72","major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","city_id":"370900","order_count":"3","province_id":"370000","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","register_id":"7158","exp_list":[],"is_required":1,"status_count":{"agentId":{"count":3,"handling":3,"pendingpayment":0,"confirming":0,"finished":0},"surgeonId":{"count":0}},"AssistantInfo":[{"id":187,"staff_id":"SH0031","name":"武佳","province_id":130000,"province_name":"河北","city_id":370900,"city_name":"泰安","distributed_begin_at":"2017-07-10 13:44:20","distributed_end_at":null,"created_at":"2017-07-10 13:44:20","modified_at":"2017-07-10 13:44:20","status":0,"team_group":13,"avatar":"https://p.qlogo.cn/bizmail/2aH9iat6DmYhB7yCz8SYVDa6gViclRsFXS2zJB1stzGiabtwuykUWHibIw/0","mobile":"13611988792"}]}}
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_05_测试总订单数_测试处理中订单数_CRM未领取
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_06_测试总订单数_测试处理中订单数_CRM已领取
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  138 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"doctor":{"user_id":"3321","mobile":"13300899999","name":"庄恕pf","hospital_id":"18139","hospital_name":"泰山慢性病医院","department":"胸外科","major_id":"72","major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","city_id":"370900","order_count":"3","province_id":"370000","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","register_id":"7158","exp_list":[],"is_required":1,"status_count":{"agentId":{"count":3,"handling":3,"pendingpayment":0,"confirming":0,"finished":0},"surgeonId":{"count":0}},"AssistantInfo":[{"id":187,"staff_id":"SH0031","name":"武佳","province_id":130000,"province_name":"河北","city_id":370900,"city_name":"泰安","distributed_begin_at":"2017-07-10 13:44:20","distributed_end_at":null,"created_at":"2017-07-10 13:44:20","modified_at":"2017-07-10 13:44:20","status":0,"team_group":13,"avatar":"https://p.qlogo.cn/bizmail/2aH9iat6DmYhB7yCz8SYVDa6gViclRsFXS2zJB1stzGiabtwuykUWHibIw/0","mobile":"13611988792"}]}}
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹CpVg","patient_gender":"1","patient_age":"76","patient_phone":"13621269999","major_disease_id":"2671","minor_disease_id":"2663","diagnosis":"病情描述IOApPMfOgWYksGVrTcBwoVVhLZTyQYYGhZeKsXkPjVqfAqBuWFJPnthMXAMVXxyGrZJgrBjievupWrEIEeyNQymCduzmSIRPvehd","is_reoperation":1,"reoperation_description":"二次手术描述DpqrLoYkfdmxsNNWZDHXJtSeCWqtzstVyBiSkjAnpkoxYFziyiQQOvDsDxhwINsSHCuQTccLCtFbGWCEoDotObfuHdpsGNCneENE","expected_doctor_id":"3558","expected_surgery_start_date":"2017/07/23","expected_surgery_due_date":"2017/08/01","expected_surgery_hospital_id":"26969","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  397 ms
+[INFO][CreateOrder] orderid是: 1019921212
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921212/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  144 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/crm/api/v1/orders/1019921212/receiveTask
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  249 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921212/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  132 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  156 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"doctor":{"user_id":"3321","mobile":"13300899999","name":"庄恕pf","hospital_id":"18139","hospital_name":"泰山慢性病医院","department":"胸外科","major_id":"72","major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","city_id":"370900","order_count":"4","province_id":"370000","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","register_id":"7158","exp_list":[],"is_required":1,"status_count":{"agentId":{"count":4,"handling":4,"pendingpayment":0,"confirming":0,"finished":0},"surgeonId":{"count":0}},"AssistantInfo":[{"id":187,"staff_id":"SH0031","name":"武佳","province_id":130000,"province_name":"河北","city_id":370900,"city_name":"泰安","distributed_begin_at":"2017-07-10 13:44:20","distributed_end_at":null,"created_at":"2017-07-10 13:44:20","modified_at":"2017-07-10 13:44:20","status":0,"team_group":13,"avatar":"https://p.qlogo.cn/bizmail/2aH9iat6DmYhB7yCz8SYVDa6gViclRsFXS2zJB1stzGiabtwuykUWHibIw/0","mobile":"13611988792"}]}}
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_06_测试总订单数_测试处理中订单数_CRM已领取
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_07_测试总订单数_测试处理中订单数_推荐完医生
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  136 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"doctor":{"user_id":"3321","mobile":"13300899999","name":"庄恕pf","hospital_id":"18139","hospital_name":"泰山慢性病医院","department":"胸外科","major_id":"72","major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","city_id":"370900","order_count":"4","province_id":"370000","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","register_id":"7158","exp_list":[],"is_required":1,"status_count":{"agentId":{"count":4,"handling":4,"pendingpayment":0,"confirming":0,"finished":0},"surgeonId":{"count":0}},"AssistantInfo":[{"id":187,"staff_id":"SH0031","name":"武佳","province_id":130000,"province_name":"河北","city_id":370900,"city_name":"泰安","distributed_begin_at":"2017-07-10 13:44:20","distributed_end_at":null,"created_at":"2017-07-10 13:44:20","modified_at":"2017-07-10 13:44:20","status":0,"team_group":13,"avatar":"https://p.qlogo.cn/bizmail/2aH9iat6DmYhB7yCz8SYVDa6gViclRsFXS2zJB1stzGiabtwuykUWHibIw/0","mobile":"13611988792"}]}}
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹XtKh","patient_gender":"1","patient_age":"87","patient_phone":"13520859999","major_disease_id":"905","minor_disease_id":"1466","diagnosis":"病情描述cQNLhtlfOTxzrtfdgeLqokNZeQdEuFIxXsPkPRPwPPmOfelvhSbzujUnsfXRSVmPTEEGiCHNcRpLplcnIepPdkICbRiqmmlKZUAn","is_reoperation":0,"reoperation_description":"二次手术描述OwKpCRQguvpxvFBjzsjHtzOsMbJMQXkDSiDbjSspEPfhDCCmKzGRlpmGKGyApjxUsBBVQDABKYPkyhhfQQScIlKytHRXrJcSOUOU","expected_doctor_id":"3733","expected_surgery_start_date":"2017/07/25","expected_surgery_due_date":"2017/08/03","expected_surgery_hospital_id":"12895","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  366 ms
+[INFO][CreateOrder] orderid是: 1019921224
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921224/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  134 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/crm/api/v1/orders/1019921224/receiveTask
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  205 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921224/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  132 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921224/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  155 ms
+[INFO][HttpRequest] 发送请求: >>>>>  PUT http://services.dev.myzd.info/crm/api/v1/orders/1019921224/recommends
+[INFO][HttpRequest] 请求数据: >>>>>  {"surgeon_id":"3721","content":"自动化推荐的医生"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  297 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921224/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  177 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹PMor","patient_gender":"1","patient_age":"79","patient_phone":"13961739999","major_disease_id":"3866","minor_disease_id":"3856","diagnosis":"病情描述IQDpZVoWGuqGzWOquMeeMsHHDrrzWzfyUgBToIrqSpsiMzvQeHIikAgPLkINmvgJVxiOtbKUsxKcQEbNLLMvlbdSHckRrAstTeBd","is_reoperation":1,"reoperation_description":"二次手术描述zJUeNVQZAhSpTAITvlYVrgDzSPXACyzBNrqgBAHRKiPRoonjMnpHwTrJzsfvcsjrypuBmLALMnYYOoIRxJmxDChswudZeBJIIRTq","expected_doctor_id":"6262","expected_surgery_start_date":"2017/07/23","expected_surgery_due_date":"2017/08/22","expected_surgery_hospital_id":"15797","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  322 ms
+[INFO][CreateOrder] orderid是: 1019921235
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921235/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  136 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/crm/api/v1/orders/1019921235/receiveTask
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  172 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921235/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  133 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921235/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  152 ms
+[INFO][HttpRequest] 发送请求: >>>>>  PUT http://services.dev.myzd.info/crm/api/v1/orders/1019921235/recommends
+[INFO][HttpRequest] 请求数据: >>>>>  {"surgeon_id":"3721","content":"自动化推荐的医生"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  182 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921235/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  176 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  157 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"doctor":{"user_id":"3321","mobile":"13300899999","name":"庄恕pf","hospital_id":"18139","hospital_name":"泰山慢性病医院","department":"胸外科","major_id":"72","major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","city_id":"370900","order_count":"6","province_id":"370000","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","register_id":"7158","exp_list":[],"is_required":1,"status_count":{"agentId":{"count":6,"handling":6,"pendingpayment":0,"confirming":0,"finished":0},"surgeonId":{"count":0}},"AssistantInfo":[{"id":187,"staff_id":"SH0031","name":"武佳","province_id":130000,"province_name":"河北","city_id":370900,"city_name":"泰安","distributed_begin_at":"2017-07-10 13:44:20","distributed_end_at":null,"created_at":"2017-07-10 13:44:20","modified_at":"2017-07-10 13:44:20","status":0,"team_group":13,"avatar":"https://p.qlogo.cn/bizmail/2aH9iat6DmYhB7yCz8SYVDa6gViclRsFXS2zJB1stzGiabtwuykUWHibIw/0","mobile":"13611988792"}]}}
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_07_测试总订单数_测试处理中订单数_推荐完医生
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_08_测试总订单数_待支付状态的订单数
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  179 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"doctor":{"user_id":"3321","mobile":"13300899999","name":"庄恕pf","hospital_id":"18139","hospital_name":"泰山慢性病医院","department":"胸外科","major_id":"72","major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","city_id":"370900","order_count":"6","province_id":"370000","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","register_id":"7158","exp_list":[],"is_required":1,"status_count":{"agentId":{"count":6,"handling":6,"pendingpayment":0,"confirming":0,"finished":0},"surgeonId":{"count":0}},"AssistantInfo":[{"id":187,"staff_id":"SH0031","name":"武佳","province_id":130000,"province_name":"河北","city_id":370900,"city_name":"泰安","distributed_begin_at":"2017-07-10 13:44:20","distributed_end_at":null,"created_at":"2017-07-10 13:44:20","modified_at":"2017-07-10 13:44:20","status":0,"team_group":13,"avatar":"https://p.qlogo.cn/bizmail/2aH9iat6DmYhB7yCz8SYVDa6gViclRsFXS2zJB1stzGiabtwuykUWHibIw/0","mobile":"13611988792"}]}}
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹CPwN","patient_gender":"1","patient_age":"13","patient_phone":"13440469999","major_disease_id":"916","minor_disease_id":"2155","diagnosis":"病情描述tHrTCZIXbHXNpvSUZUVKNjTXtwWgArcnfNPOqMdiHKDrmXoErgAFAqDmDrhvWfFszdyVPgxunzliwENMJORXZHftnpXLkDsvLNlf","is_reoperation":0,"reoperation_description":"二次手术描述OKZdPQzrlVWHCRdXWDkpSAVZUfzWEnQbWJBpSJDXGyptbZXiqtbhuWjWxbVPkONdNJPxZdjXBSebkkGbzrwvmhttBIZByItFLqop","expected_doctor_id":"4918","expected_surgery_start_date":"2017/07/23","expected_surgery_due_date":"2017/08/14","expected_surgery_hospital_id":"10556","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  342 ms
+[INFO][CreateOrder] orderid是: 1019921242
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921242/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  152 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/crm/api/v1/orders/1019921242/receiveTask
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  175 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921242/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  124 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921242/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  133 ms
+[INFO][HttpRequest] 发送请求: >>>>>  PUT http://services.dev.myzd.info/crm/api/v1/orders/1019921242/recommends
+[INFO][HttpRequest] 请求数据: >>>>>  {"surgeon_id":"3721","content":"自动化推荐的医生"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  169 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921242/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  124 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921242/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  129 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/crm/api/v1/orders/1019921242/threeWayCalling
+[INFO][HttpRequest] 请求数据: >>>>>  {"surgeryFee":3,"calling_time":"2017-07-19","major_disease_id":"55","minor_disease_id":"66","content":"自动创建的通话记录","audio_file":"http://www.automation.com","record_type":"success","reject_reason":"http://www.automation.com"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  204 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921242/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  133 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹ZNub","patient_gender":"1","patient_age":"6","patient_phone":"13998029999","major_disease_id":"3563","minor_disease_id":"4389","diagnosis":"病情描述kBWZPGmZGANwYPrzLKugsBdjxehVYVDENScRtynsVUzBXsmyTsiGrpvSPgQhsQCwdjPZjnEhPHURMYkIIylvuyOwIpcWmKQTcyWS","is_reoperation":0,"reoperation_description":"二次手术描述GJhwCvoWmQJcZgcEFRtXHjDeRpHnRmlSVcNwNbMYHNkdNlzdzODPsZYgKxUzheNWnJAcWmTKgKgUVBUcXBKbnIKzgeAhTwPwghpc","expected_doctor_id":"2364","expected_surgery_start_date":"2017/07/21","expected_surgery_due_date":"2017/08/06","expected_surgery_hospital_id":"24102","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  342 ms
+[INFO][CreateOrder] orderid是: 1019921254
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921254/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  136 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/crm/api/v1/orders/1019921254/receiveTask
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  183 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921254/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  131 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921254/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  126 ms
+[INFO][HttpRequest] 发送请求: >>>>>  PUT http://services.dev.myzd.info/crm/api/v1/orders/1019921254/recommends
+[INFO][HttpRequest] 请求数据: >>>>>  {"surgeon_id":"3721","content":"自动化推荐的医生"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  170 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921254/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  124 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921254/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  129 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/crm/api/v1/orders/1019921254/threeWayCalling
+[INFO][HttpRequest] 请求数据: >>>>>  {"surgeryFee":2,"calling_time":"2017-07-19","major_disease_id":"55","minor_disease_id":"66","content":"自动创建的通话记录","audio_file":"http://www.automation.com","record_type":"success","reject_reason":"http://www.automation.com"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  199 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921254/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  130 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹YEEI","patient_gender":"1","patient_age":"77","patient_phone":"13428439999","major_disease_id":"2041","minor_disease_id":"2017","diagnosis":"病情描述ssiNTTgPoXrwRSNYhkNTYQVCgcNpWsrRFkdCDzGyNpLlZSLuBPCqSwVOEekPCVTVWgQkJEOUBRTQJrjhXINmTmjJJxmcUsMtoiYm","is_reoperation":1,"reoperation_description":"二次手术描述kOFzycjRigcUCcqUQxjYgwguESSCJJHxmOAVVNNDIVYdwIpHbnYrLHOcIktPOcADMNeyTUYoHnPJdmdobnwlSMVurKIQrXLrRKjA","expected_doctor_id":"3317","expected_surgery_start_date":"2017/07/22","expected_surgery_due_date":"2017/08/22","expected_surgery_hospital_id":"9148","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  359 ms
+[INFO][CreateOrder] orderid是: 1019921260
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921260/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  135 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/crm/api/v1/orders/1019921260/receiveTask
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  178 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921260/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  133 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921260/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  134 ms
+[INFO][HttpRequest] 发送请求: >>>>>  PUT http://services.dev.myzd.info/crm/api/v1/orders/1019921260/recommends
+[INFO][HttpRequest] 请求数据: >>>>>  {"surgeon_id":"3721","content":"自动化推荐的医生"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  166 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921260/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  126 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921260/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  131 ms
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/crm/api/v1/orders/1019921260/threeWayCalling
+[INFO][HttpRequest] 请求数据: >>>>>  {"surgeryFee":3,"calling_time":"2017-07-19","major_disease_id":"55","minor_disease_id":"66","content":"自动创建的通话记录","audio_file":"http://www.automation.com","record_type":"success","reject_reason":"http://www.automation.com"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  197 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/orders/1019921260/orderDetail
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  125 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  146 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"doctor":{"user_id":"3321","mobile":"13300899999","name":"庄恕pf","hospital_id":"18139","hospital_name":"泰山慢性病医院","department":"胸外科","major_id":"72","major_name":"口腔正畸学","academic_title":"其他","medical_title":"主管技师","inviter_no":"SH0031","inviter_name":"武佳","province":"山东","city":"泰安","is_verified":"1","date_verified":"2017-07-19 17:29:19","city_id":"370900","order_count":"9","province_id":"370000","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","register_id":"7158","exp_list":[],"is_required":1,"status_count":{"agentId":{"count":9,"handling":6,"pendingpayment":3,"confirming":0,"finished":0},"surgeonId":{"count":0}},"AssistantInfo":[{"id":187,"staff_id":"SH0031","name":"武佳","province_id":130000,"province_name":"河北","city_id":370900,"city_name":"泰安","distributed_begin_at":"2017-07-10 13:44:20","distributed_end_at":null,"created_at":"2017-07-10 13:44:20","modified_at":"2017-07-10 13:44:20","status":0,"team_group":13,"avatar":"https://p.qlogo.cn/bizmail/2aH9iat6DmYhB7yCz8SYVDa6gViclRsFXS2zJB1stzGiabtwuykUWHibIw/0","mobile":"13611988792"}]}}
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_08_测试总订单数_待支付状态的订单数
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_09_测试返回的地区服务专员
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_09_测试返回的地区服务专员
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] Test Cleaning...
+[INFO][BaseTest] mainDoctorId为3321
+[INFO][BaseTest] 恢复医生信息：
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  {"doctor":{"name":"庄恕pf","department":"胸外科","major_id":"72","academic_title_list":"NONE","medical_title_list":"SUPERVISOR_TECHNICIAN","hospital_id":"18139","inviter_no":"SH0031"}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  856 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][BaseTest] ============================================================================================================= 
+[INFO][BaseTest] ||    TestAPI END:	GetDoctorProfile
+[INFO][BaseTest] ============================================================================================================= 
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.783 sec - in TestSuite
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+
+Results :
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 21.133 s
+[INFO] Finished at: 2017-07-19T17:29:34+08:00
+[INFO] Final Memory: 13M/217M
+[INFO] ------------------------------------------------------------------------
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Recording test results
+Finished: SUCCESS

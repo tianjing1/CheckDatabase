@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty plugin="gitlab-plugin@1.4.5">
+      <gitLabConnection></gitLabConnection>
+    </com.dabsquared.gitlabjenkins.connection.GitLabConnectionProperty>
+    <com.sonyericsson.rebuild.RebuildSettings plugin="rebuild@1.25">
+      <autoRebuild>false</autoRebuild>
+      <rebuildDisabled>false</rebuildDisabled>
+    </com.sonyericsson.rebuild.RebuildSettings>
+    <hudson.plugins.throttleconcurrents.ThrottleJobProperty plugin="throttle-concurrents@2.0.1">
+      <maxConcurrentPerNode>0</maxConcurrentPerNode>
+      <maxConcurrentTotal>0</maxConcurrentTotal>
+      <categories class="java.util.concurrent.CopyOnWriteArrayList"/>
+      <throttleEnabled>false</throttleEnabled>
+      <throttleOption>project</throttleOption>
+      <limitOneJobWithMatchingParams>false</limitOneJobWithMatchingParams>
+      <paramsToUseForLimit></paramsToUseForLimit>
+    </hudson.plugins.throttleconcurrents.ThrottleJobProperty>
+  </properties>
+  <scm class="hudson.plugins.git.GitSCM" plugin="git@3.3.1">
+    <configVersion>2</configVersion>
+    <userRemoteConfigs>
+      <hudson.plugins.git.UserRemoteConfig>
+        <url>https://github.com/ttshmily/serviceapi.git</url>
+      </hudson.plugins.git.UserRemoteConfig>
+    </userRemoteConfigs>
+    <branches>
+      <hudson.plugins.git.BranchSpec>
+        <name>*/dev</name>
+      </hudson.plugins.git.BranchSpec>
+    </branches>
+    <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+    <submoduleCfg class="list"/>
+    <extensions/>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <com.dabsquared.gitlabjenkins.GitLabPushTrigger plugin="gitlab-plugin@1.4.5">
+      <spec></spec>
+      <triggerOnPush>true</triggerOnPush>
+      <triggerOnMergeRequest>true</triggerOnMergeRequest>
+      <triggerOpenMergeRequestOnPush>never</triggerOpenMergeRequestOnPush>
+      <triggerOnNoteRequest>true</triggerOnNoteRequest>
+      <noteRegex>Jenkins please retry a build</noteRegex>
+      <ciSkip>true</ciSkip>
+      <skipWorkInProgressMergeRequest>true</skipWorkInProgressMergeRequest>
+      <setBuildDescription>true</setBuildDescription>
+      <branchFilterType>All</branchFilterType>
+      <includeBranchesSpec></includeBranchesSpec>
+      <excludeBranchesSpec></excludeBranchesSpec>
+      <targetBranchRegex></targetBranchRegex>
+      <secretToken>{AQAAABAAAAAQIAgFFUNdv/vw691/QbCxp/bt3xU8Agqt7ew/1qdVh7A=}</secretToken>
+    </com.dabsquared.gitlabjenkins.GitLabPushTrigger>
+    <hudson.triggers.SCMTrigger>
+      <spec></spec>
+      <ignorePostCommitHooks>false</ignorePostCommitHooks>
+    </hudson.triggers.SCMTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.BatchFile>
+      <command>echo protocol = http&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+echo host_doc = services.dev.myzd.info/doctor&gt;&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+echo host_login = login.dev.myzd.info&gt;&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+echo host_kb = 192.168.33.1&gt;&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+echo host_crm = services.dev.myzd.info/crm&gt;&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+echo crm_token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImppbmcudGlhbkBtaW5neWl6aHVkYW8uY29tIiwibmFtZSI6Ilx1NzUzMFx1OTc1OSIsInN1YiI6MjMsImlzcyI6Imh0dHA6XC9cLzE5Mi4xNjguMzMuMjJcL2FwaVwvdjFcL2NhbGxiYWNrIiwiaWF0IjoxNTAwNDU2MjA0LCJleHAiOjE1MDA2NzIyMDQsIm5iZiI6MTUwMDQ1NjIwNCwianRpIjoiY0xTTzd3UTNLZmJIak91MSJ9.Tp51Tl73mReMGACxRwxV7VMN0m9sSbhu40yDl6-i85c&gt;&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+echo host_bda = services.dev.myzd.info/bd-assistant&gt;&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+echo bda_token = eyJzcmMiOiJjeHF5IiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJsZWFkaW5nX2dyb3VwIjoyLCJ1aWQiOiJjaGFvLmZhbmdAbWluZ3lpemh1ZGFvLmNvbSIsImdlbmRlciI6IjEiLCJzdGFmZl9pZCI6IlNIMDEzMyIsIm5hbWUiOiLmlrnotoUiLCJtb2JpbGUiOiIiLCJhdmF0YXIiOiJodHRwOi8vc2hwLnFwaWMuY24vYml6bXAvSEhFZGlhdmpSMVFNQ2dFVmh3OEwwaFNqYVRmZ05yOVp5TEFCaWEwSTJ0Y0RKdkFNdzM2dXpTYUEvIiwiZXhwIjoxNDk2NzE4MDU1LCJpYXQiOjE0OTY2MzE2NTUsImVtYWlsIjoiY2hhby5mYW5nQG1pbmd5aXpodWRhby5jb20iLCJzdGF0dXMiOjF9.p1SJUQqEvw6X7wlm7GJXDAzmRT60RvNHfFNkwN8kIJs&gt;&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+echo bda_token_staff = eyJzcmMiOiJjeHF5IiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJsZWFkaW5nX2dyb3VwIjo2LCJ1aWQiOiJmYW5nY2hhby10ZXN0QG1pbmd5aXpodWRhby5jb20iLCJnZW5kZXIiOiIxIiwic3RhZmZfaWQiOiJTSDA5OTkiLCJuYW1lIjoi5aSn5LiAIiwibW9iaWxlIjoiMTM4MTc2MzQyMDMiLCJhdmF0YXIiOiJodHRwOi8vcC5xbG9nby5jbi9iaXptYWlsLzdycU5SeUNQQWpaM3o2a2NOMlN1S3ZvQWhpYkJzV2ljVjZqUkNlT2V3dmNQMlJGaWJMVHU4ZU9kdy8wIiwiZXhwIjoxNDk2NzE4MDU1LCJpYXQiOjE0OTY2MzE2NTUsImVtYWlsIjoiZGF5aUBtaW5neWl6aHVkYW8uY29tIiwic3RhdHVzIjoxfQ.VR4MueuMfCN_sxztn32JmQzrXNCIt2Ceh5r2wZ_idT0&gt;&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+echo mainOperatorId = jing.tian@mingyizhudao.com&gt;&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+echo mainOperatorName = 田静&gt;&gt; C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties&#xd;
+mvn test -DsuiteFilename=doctor.xml</command>
+    </hudson.tasks.BatchFile>
+  </builders>
+  <publishers>
+    <hudson.tasks.junit.JUnitResultArchiver plugin="junit@1.20">
+      <testResults>/**/*.xml</testResults>
+      <keepLongStdio>false</keepLongStdio>
+      <healthScaleFactor>1.0</healthScaleFactor>
+      <allowEmptyResults>false</allowEmptyResults>
+    </hudson.tasks.junit.JUnitResultArchiver>
+  </publishers>
+  <buildWrappers/>
+</project>

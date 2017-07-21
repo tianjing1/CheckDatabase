@@ -1,0 +1,2297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\All\common.xml</file>
+      <name>common</name>
+      <duration>2.702</duration>
+      <timestamp>19 Jul 2017 05:38:29 GMT</timestamp>
+      <time>2.702</time>
+      <cases>
+        <case>
+          <duration>0.264</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile</className>
+          <testName>test_01_有token的用户请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.084</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile</className>
+          <testName>test_02_没有token的用户请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.125</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile</className>
+          <testName>test_03_员工ID无效时返回空的Employee</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.162</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_01_有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.128</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_02_没有searchName字段的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.125</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_03_查询字符串为空时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.143</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_04_查询字符串为中文时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.047</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_05_查询字符串为一串拼音时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.045</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_06_查询字符串为中英混合时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.073</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_07_返回的结果中详细字段不缺少</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.043</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_08_加城市ID搜索</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.042</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.ProfessionList</className>
+          <testName>test_01_有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.042</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.ProfessionList</className>
+          <testName>test_02_没有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.055</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory</className>
+          <testName>test_01_获取疾病_提供有效的categoryId</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.027</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory</className>
+          <testName>test_02_获取疾病_提供无效的categoryId_ID不存在</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.056</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory</className>
+          <testName>test_03_获取疾病_提供无效的categoryId_ID为其他字符</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\All\doctoruser.xml</file>
+      <name>doctoruser</name>
+      <duration>21.177</duration>
+      <timestamp>19 Jul 2017 05:38:51 GMT</timestamp>
+      <time>21.177</time>
+      <cases>
+        <case>
+          <duration>0.092</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_01_有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_02_没有token信息的请求不能获得个人信息并返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.024</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_03_错误token的请求不能获得个人信息并返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.092</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_04_测试data字段返回了足够的医生信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.516</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_05_测试总订单数_测试处理中订单数_CRM未领取</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.228</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_06_测试总订单数_测试处理中订单数_CRM已领取</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.987</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_07_测试总订单数_测试处理中订单数_推荐完医生</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>6.635</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_08_测试总订单数_待支付状态的订单数</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_09_测试返回的地区服务专员</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.308</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_02_已登录有token的用户可以更新个人信息department</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.477</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_03_已登录有token的用户可以更新个人信息hospital_id</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.31</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_05_已登录有token的用户可以更新个人信息major_id</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.025</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_06_未登录没有token的用户不可以更新信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_07_错误token的不可以更新信息并返回正确错误码</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.116</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_08_禁止更新city_name字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.801</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_09_禁止更新hospital_name字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.572</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_10_禁止更新major_name字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.316</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_12_更新doctor_card_pictures字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\All\login.xml</file>
+      <name>login</name>
+      <duration>11.506</duration>
+      <timestamp>19 Jul 2017 05:39:02 GMT</timestamp>
+      <time>11.506</time>
+      <cases>
+        <case>
+          <duration>0.005</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写正确手机号发送验证码成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.213</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误少于11位的手机号发送验证码失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.012</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误手机号发送验证码成功失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.085</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>同一手机号先请求验证码再验证应该返回token</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.036</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号未发送过请求但直接进行验证应该返回错误</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>8.641</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号非法或不符时发送验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.005</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>无手机号有验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.033</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>有手机号无验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.004</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>body中的token和http头中的token不一致</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.151</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>刷新token后返回新的token且老token依然可用</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: expected [7200] but found [86400]
+	at com.mingyizhudao.qa.testcase.login.Refresh.刷新token后返回新的token且老token依然可用(Refresh.java:50)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 26 stack frames
+    </errorStackTrace>
+          <errorDetails>expected [7200] but found [86400]</errorDetails>
+          <failedSince>10</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\All\trade.xml</file>
+      <name>trade</name>
+      <duration>32.445</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>32.445</time>
+      <cases>
+        <case>
+          <duration>0.672</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_01_创建订单_信息齐备_已认证用户</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: expected object to not be null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_01_创建订单_信息齐备_已认证用户(CreateOrder.java:94)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 24 stack frames
+    </errorStackTrace>
+          <errorDetails>expected object to not be null</errorDetails>
+          <failedSince>10</failedSince>
+        </case>
+        <case>
+          <duration>0.022</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_02_创建订单_信息齐备_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.636</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_03_创建订单_缺少患者姓名不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.084</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_04_创建订单_缺少患者性别或性别不正确不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.058</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_05_创建订单_缺少患者年龄不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.323</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_06_创建订单_缺少患者手机不可以创建</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_06_创建订单_缺少患者手机不可以创建(CreateOrder.java:227)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 24 stack frames
+    </errorStackTrace>
+          <errorDetails>null</errorDetails>
+          <failedSince>11</failedSince>
+        </case>
+        <case>
+          <duration>0.059</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_07_创建订单_缺少主诉疾病不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.634</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_08_创建订单_缺少次诉疾病可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.218</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.173</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.266</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_11_创建订单_信息齐备_期望手术医院不传</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.487</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_01_获取订单列表_登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>5.128</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_02_获取订单列表_登录用户_订单列表会更新且按时间倒序</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.02</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_03_获取订单列表_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.398</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_04_获取订单列表_推荐医生后病历不展示上级医生信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.665</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_05_获取订单列表_三方通话成功后病历上展示上级医生信息</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: 手术医生学术职称字段不能缺失 expected object to not be null
+	at com.mingyizhudao.qa.testcase.doctor.GetOrderList.test_05_获取订单列表_三方通话成功后病历上展示上级医生信息(GetOrderList.java:235)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 23 stack frames
+    </errorStackTrace>
+          <errorDetails>手术医生学术职称字段不能缺失 expected object to not be null</errorDetails>
+          <failedSince>11</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_01_获取type1的图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_02_获取type2的图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.024</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_03_获取type3的图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.048</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_04_获取PNG文件名正常图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.046</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_05_获取GIF文件名正常图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.045</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_06_获取文件名有特殊字符图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.615</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_01_获取订单详情_提供正确的属于自己的订单ID</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.031</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_02_获取订单详情_提供正确的错误的ID_ID为非法整数</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.031</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_03_获取订单详情_提供正确的错误的ID_ID为英文</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.155</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_04_获取订单详情_提供不属于自己的订单ID</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.244</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_01_更新病例_主诉疾病</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.938</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_02_更新病例_次诉疾病</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.044</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_03_更新病例_患者性别</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.772</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_04_更新病例_病例描述</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.19</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_05_更新病例_更新图片</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: 图片为空不应该更新成功 expected [2210431] but found [1000000]
+	at com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords.test_05_更新病例_更新图片(UpdateMedicalRecords.java:511)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 25 stack frames
+    </errorStackTrace>
+          <errorDetails>图片为空不应该更新成功 expected [2210431] but found [1000000]</errorDetails>
+          <failedSince>11</failedSince>
+        </case>
+        <case>
+          <duration>1.047</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_06_更新病例_期望手术医院</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.022</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_07_更新病例_患者姓名</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.759</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_08_更新病例_患者年龄</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\TEST-TestSuite.xml</file>
+      <name>TestSuite</name>
+      <duration>70.096</duration>
+      <time>70.096</time>
+      <cases>
+        <case>
+          <duration>0.265</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile</className>
+          <testName>test_01_有token的用户请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.083</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile</className>
+          <testName>test_02_没有token的用户请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.125</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile</className>
+          <testName>test_03_员工ID无效时返回空的Employee</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.165</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_01_有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.126</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_02_没有searchName字段的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.128</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_03_查询字符串为空时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.153</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_04_查询字符串为中文时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.037</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_05_查询字符串为一串拼音时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.043</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_06_查询字符串为中英混合时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.077</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_07_返回的结果中详细字段不缺少</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.043</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_08_加城市ID搜索</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.049</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.ProfessionList</className>
+          <testName>test_01_有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.039</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.ProfessionList</className>
+          <testName>test_02_没有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.057</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory</className>
+          <testName>test_01_获取疾病_提供有效的categoryId</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.03</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory</className>
+          <testName>test_02_获取疾病_提供无效的categoryId_ID不存在</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.055</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory</className>
+          <testName>test_03_获取疾病_提供无效的categoryId_ID为其他字符</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.091</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_01_有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_02_没有token信息的请求不能获得个人信息并返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_03_错误token的请求不能获得个人信息并返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.098</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_04_测试data字段返回了足够的医生信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.514</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_05_测试总订单数_测试处理中订单数_CRM未领取</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.229</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_06_测试总订单数_测试处理中订单数_CRM已领取</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.986</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_07_测试总订单数_测试处理中订单数_推荐完医生</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>6.636</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_08_测试总订单数_待支付状态的订单数</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_09_测试返回的地区服务专员</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.308</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_02_已登录有token的用户可以更新个人信息department</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.477</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_03_已登录有token的用户可以更新个人信息hospital_id</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.31</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_05_已登录有token的用户可以更新个人信息major_id</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.025</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_06_未登录没有token的用户不可以更新信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_07_错误token的不可以更新信息并返回正确错误码</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.116</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_08_禁止更新city_name字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.801</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_09_禁止更新hospital_name字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.572</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_10_禁止更新major_name字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.316</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_12_更新doctor_card_pictures字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.002</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写正确手机号发送验证码成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.213</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误少于11位的手机号发送验证码失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.012</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误手机号发送验证码成功失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.084</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>同一手机号先请求验证码再验证应该返回token</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.036</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号未发送过请求但直接进行验证应该返回错误</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>8.641</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号非法或不符时发送验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.005</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>无手机号有验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.033</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>有手机号无验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.005</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>body中的token和http头中的token不一致</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.166</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>刷新token后返回新的token且老token依然可用</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [7200] but found [86400]
+	at com.mingyizhudao.qa.testcase.login.Refresh.刷新token后返回新的token且老token依然可用(Refresh.java:50)
+</errorStackTrace>
+          <errorDetails>expected [7200] but found [86400]</errorDetails>
+          <stdout>[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+[INFO][BaseTest] ||    TestCase END:	body中的token和http头中的token不一致
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+[INFO][BaseTest] ||    TestCase START:	刷新token后返回新的token且老token依然可用
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+
+[INFO][SendVerifyCode] 请求验证码到手机号13903859999 ...
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://login.dev.myzd.info/api/login/sendVerifyCode
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;mobile&quot;:&quot;13903859999&quot;}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 null
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  2 ms
+[INFO][SendVerifyCode] mobile是: 13903859999...请发送验证码到服务器进行验证
+[INFO][CheckVerifyCode] 发送短信验证码到服务器进行验证...
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://login.dev.myzd.info/api/login/checkVerifyCode
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;mobile&quot;:&quot;13903859999&quot;,&quot;code&quot;:&quot;123456&quot;,&quot;state&quot;:&quot;test&quot;}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 null
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  138 ms
+[INFO][CheckVerifyCode] token是: eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImU0YmFmMTNjIn0.eyJ1aWQiOiIzMjgyIiwibW9iaWxlIjoiMTM5MDM4NTk5OTkiLCJleHAiOjE1MDA1MjkxNDIsImlhdCI6MTUwMDQ0Mjc0Mn0.hH1QdpkH2QFIyR5o549rH4n-9zkCNrcBh4UKJ8l3gSU
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://login.dev.myzd.info/api/login/refresh
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImU0YmFmMTNjIn0.eyJ1aWQiOiIzMjgyIiwibW9iaWxlIjoiMTM5MDM4NTk5OTkiLCJleHAiOjE1MDA1MjkxNDIsImlhdCI6MTUwMDQ0Mjc0Mn0.hH1QdpkH2QFIyR5o549rH4n-9zkCNrcBh4UKJ8l3gSU&quot;}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 null
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  4 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	success
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImU0YmFmMTNjIn0.eyJ1aWQiOiIzMjgyIiwibW9iaWxlIjoiMTM5MDM4NTk5OTkiLCJleHAiOjE1MDA1MjkxNDIsImlhdCI6MTUwMDQ0Mjc0Mn0.hH1QdpkH2QFIyR5o549rH4n-9zkCNrcBh4UKJ8l3gSU&quot;,&quot;expire&quot;:86400}
+</stdout>
+          <failedSince>10</failedSince>
+        </case>
+        <case>
+          <duration>0.673</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_01_创建订单_信息齐备_已认证用户</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected object to not be null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_01_创建订单_信息齐备_已认证用户(CreateOrder.java:94)
+</errorStackTrace>
+          <errorDetails>expected object to not be null</errorDetails>
+          <stdout>[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+[INFO][BaseTest] ||    TestCase END:	刷新token后返回新的token且老token依然可用
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+
+[INFO][BaseTest] Test Cleaning...
+[INFO][BaseTest] mainDoctorId为1164
+[INFO][BaseTest] 恢复医生信息：
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;doctor&quot;:{&quot;name&quot;:&quot;庄恕qR&quot;,&quot;department&quot;:&quot;胸外科&quot;,&quot;major_id&quot;:&quot;80&quot;,&quot;academic_title_list&quot;:&quot;PROFESSOR&quot;,&quot;medical_title_list&quot;:&quot;ARCHIATER&quot;,&quot;hospital_id&quot;:&quot;15350&quot;,&quot;inviter_no&quot;:&quot;SH0025&quot;}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  367 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][BaseTest] ============================================================================================================= 
+[INFO][BaseTest] ||    TestAPI END:	Refresh
+[INFO][BaseTest] ============================================================================================================= 
+
+[INFO][BaseTest] ///////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+[INFO][BaseTest] //    TestAPI START:	CreateOrder
+[INFO][BaseTest] ///////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+[INFO][BaseTest] ||    TestCase START:	test_01_创建订单_信息齐备_已认证用户
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;辣妹HleD&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;46&quot;,&quot;patient_phone&quot;:&quot;13205579999&quot;,&quot;major_disease_id&quot;:&quot;1652&quot;,&quot;minor_disease_id&quot;:&quot;2148&quot;,&quot;diagnosis&quot;:&quot;病情描述oOkvIbLkRiYFMWMTJwrQQDkDfFxklSdjWvQnGrmbYrGqyEFVyrnWKvseAgwsiYTnFEZvOGvKxDCEOqztvxXvRdzDgmCjKmkgJNhe&quot;,&quot;is_reoperation&quot;:1,&quot;reoperation_description&quot;:&quot;二次手术描述zIMowSIJOfmuIlBOIYHGCrVVloLFpJyXtTCoXXzggxODUcvxNPgbYlkHUfpyzMMoqzOsPNAnAUotQwfCcVHOKmQVDjcSNAOomYEg&quot;,&quot;expected_doctor_id&quot;:&quot;2520&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/25&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/19&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;11078&quot;,&quot;medical_record_pictures&quot;:[{&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;,&quot;type&quot;:&quot;1&quot;}]}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  607 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;id&quot;:10067,&quot;order_number&quot;:1019919745,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹HleD&quot;,&quot;patient_age&quot;:46,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13205579999&quot;,&quot;major_disease_id&quot;:1652,&quot;major_disease_name&quot;:&quot;慢性铅中毒&quot;,&quot;minor_disease_id&quot;:2148,&quot;minor_disease_name&quot;:&quot;三尖瓣闭锁不全&quot;,&quot;diagnosis&quot;:&quot;病情描述oOkvIbLkRiYFMWMTJwrQQDkDfFxklSdjWvQnGrmbYrGqyEFVyrnWKvseAgwsiYTnFEZvOGvKxDCEOqztvxXvRdzDgmCjKmkgJNhe&quot;,&quot;expected_doctor_id&quot;:2520,&quot;expected_doctor_name&quot;:&quot;彭玲玲&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-25&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-19&quot;,&quot;expected_surgery_hospital_id&quot;:11078,&quot;expected_surgery_hospital_name&quot;:&quot;长春市锦西医院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述zIMowSIJOfmuIlBOIYHGCrVVloLFpJyXtTCoXXzggxODUcvxNPgbYlkHUfpyzMMoqzOsPNAnAUotQwfCcVHOKmQVDjcSNAOomYEg&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:41.800Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:02&quot;,&quot;modified_at&quot;:&quot;2017-07-19T05:39:02.543Z&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}]}
+[INFO][CreateOrder] 查看刚刚创建的订单详情
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/doctor/api/getorderdetail/1019919745
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  48 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;order&quot;:{&quot;id&quot;:10067,&quot;order_number&quot;:1019919745,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹HleD&quot;,&quot;patient_age&quot;:46,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13205579999&quot;,&quot;major_disease_id&quot;:1652,&quot;major_disease_name&quot;:&quot;慢性铅中毒&quot;,&quot;minor_disease_id&quot;:2148,&quot;minor_disease_name&quot;:&quot;三尖瓣闭锁不全&quot;,&quot;diagnosis&quot;:&quot;病情描述oOkvIbLkRiYFMWMTJwrQQDkDfFxklSdjWvQnGrmbYrGqyEFVyrnWKvseAgwsiYTnFEZvOGvKxDCEOqztvxXvRdzDgmCjKmkgJNhe&quot;,&quot;expected_doctor_id&quot;:2520,&quot;expected_doctor_name&quot;:&quot;彭玲玲&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/25&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/19&quot;,&quot;expected_surgery_hospital_id&quot;:11078,&quot;expected_surgery_hospital_name&quot;:&quot;长春市锦西医院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述zIMowSIJOfmuIlBOIYHGCrVVloLFpJyXtTCoXXzggxODUcvxNPgbYlkHUfpyzMMoqzOsPNAnAUotQwfCcVHOKmQVDjcSNAOomYEg&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017/07/19 13:39:03&quot;,&quot;modified_at&quot;:&quot;2017/07/19 13:39:03&quot;,&quot;medical_record_pictures&quot;:[{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443043&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:AaFz3p6T6GD5YGOWegWDEJkRx5o=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443043&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:jRhdmvmOhpRTBNCk32HoantXUeY=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443043&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:s7qIyJoCDAt6Gdh7k2t0E80_MC0=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443043&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:R8tDMPx2zLlCvwbeMsjX0qUk4Dk=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;surgeon_recommended_time&quot;:&quot;&quot;,&quot;OrderStatusText&quot;:&quot;待处理&quot;,&quot;surgeon_fee&quot;:&quot;&quot;,&quot;surgeon_id&quot;:&quot;&quot;,&quot;surgeon_name&quot;:&quot;&quot;,&quot;surgeon_medical_title&quot;:&quot;&quot;,&quot;surgeon_academic_title&quot;:&quot;&quot;,&quot;surgeon_hospital&quot;:&quot;&quot;,&quot;surgeon_department&quot;:&quot;&quot;}}
+[INFO][UT] medical_record_pictures的长度为: 2
+</stdout>
+          <failedSince>10</failedSince>
+        </case>
+        <case>
+          <duration>0.022</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_02_创建订单_信息齐备_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.636</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_03_创建订单_缺少患者姓名不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.085</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_04_创建订单_缺少患者性别或性别不正确不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.058</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_05_创建订单_缺少患者年龄不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.323</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_06_创建订单_缺少患者手机不可以创建</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_06_创建订单_缺少患者手机不可以创建(CreateOrder.java:227)
+</errorStackTrace>
+          <stdout>[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+[INFO][BaseTest] ||    TestCase END:	test_05_创建订单_缺少患者年龄不可以创建
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+[INFO][BaseTest] ||    TestCase START:	test_06_创建订单_缺少患者手机不可以创建
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;辣妹BWXJ&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;100&quot;,&quot;patient_phone&quot;:&quot;&quot;,&quot;major_disease_id&quot;:&quot;3557&quot;,&quot;minor_disease_id&quot;:&quot;3472&quot;,&quot;diagnosis&quot;:&quot;病情描述cOgppxtVYtHuzvRAnhzjiAHMmAtCRFTBsmOFCIVOIoKkyBAVLvzyQCnkCfFQIFlDMXyecjbPwXpzBdIKrhxPCjnlfVEXLIvVNItl&quot;,&quot;is_reoperation&quot;:0,&quot;reoperation_description&quot;:&quot;二次手术描述UMWcACUmPAroFSSutUCPkMxyERJfNClPtVHsUOVtNJzCGYiTCuRdJPEGHdNxxVbSicimRmIdGPlERVIgSjPJEUqAMwSLuVncTqEB&quot;,&quot;expected_doctor_id&quot;:&quot;4557&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/23&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;2350&quot;,&quot;medical_record_pictures&quot;:[{&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;,&quot;type&quot;:&quot;1&quot;}]}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  318 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;id&quot;:10069,&quot;order_number&quot;:1019919760,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹BWXJ&quot;,&quot;patient_age&quot;:100,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;&quot;,&quot;major_disease_id&quot;:3557,&quot;major_disease_name&quot;:&quot;产后甲状腺炎&quot;,&quot;minor_disease_id&quot;:3472,&quot;minor_disease_name&quot;:&quot;膀胱阴道瘘&quot;,&quot;diagnosis&quot;:&quot;病情描述cOgppxtVYtHuzvRAnhzjiAHMmAtCRFTBsmOFCIVOIoKkyBAVLvzyQCnkCfFQIFlDMXyecjbPwXpzBdIKrhxPCjnlfVEXLIvVNItl&quot;,&quot;expected_doctor_id&quot;:4557,&quot;expected_doctor_name&quot;:&quot;杨传瑞&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-23&quot;,&quot;expected_surgery_hospital_id&quot;:2350,&quot;expected_surgery_hospital_name&quot;:&quot;安溪县医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:41.800Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:04&quot;,&quot;modified_at&quot;:&quot;2017-07-19T05:39:04.021Z&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}]}
+</stdout>
+          <failedSince>11</failedSince>
+        </case>
+        <case>
+          <duration>0.058</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_07_创建订单_缺少主诉疾病不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.635</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_08_创建订单_缺少次诉疾病可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.218</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.173</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.266</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_11_创建订单_信息齐备_期望手术医院不传</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.488</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_01_获取订单列表_登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>5.129</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_02_获取订单列表_登录用户_订单列表会更新且按时间倒序</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.02</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_03_获取订单列表_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.401</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_04_获取订单列表_推荐医生后病历不展示上级医生信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.665</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_05_获取订单列表_三方通话成功后病历上展示上级医生信息</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 手术医生学术职称字段不能缺失 expected object to not be null
+	at com.mingyizhudao.qa.testcase.doctor.GetOrderList.test_05_获取订单列表_三方通话成功后病历上展示上级医生信息(GetOrderList.java:235)
+</errorStackTrace>
+          <errorDetails>手术医生学术职称字段不能缺失 expected object to not be null</errorDetails>
+          <stdout>[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+[INFO][BaseTest] ||    TestCase END:	test_04_获取订单列表_推荐医生后病历不展示上级医生信息
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+[INFO][BaseTest] ||    TestCase START:	test_05_获取订单列表_三方通话成功后病历上展示上级医生信息
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+
+[INFO][GetOrderList] 创建订单with mainToken
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;辣妹Mrlk&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;97&quot;,&quot;patient_phone&quot;:&quot;13390679999&quot;,&quot;major_disease_id&quot;:&quot;3908&quot;,&quot;minor_disease_id&quot;:&quot;4195&quot;,&quot;diagnosis&quot;:&quot;病情描述DjgDlWLELkJlWDBPKbxsjffPUWKXUYoMYBentlqBzqhKwDfzyOGEXlBTTXWESGkCOglQYeQTEyNRstGlQmzsFFWrNXTFPAiRfwzS&quot;,&quot;is_reoperation&quot;:1,&quot;reoperation_description&quot;:&quot;二次手术描述YwOcwktnLRBXZKlDthJjbLJetxvhdGPRSiLqNsbTOXTojSpuqssAyyzIhOWxcBdqGdbloVprRyFRxIAiDnzNrkyrcnsteAGcbrLV&quot;,&quot;expected_doctor_id&quot;:&quot;5724&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/23&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/17&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;21488&quot;,&quot;medical_record_pictures&quot;:[{&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;,&quot;type&quot;:&quot;1&quot;}]}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  266 ms
+[INFO][CreateOrder] orderid是: 1019919891
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/crm/api/v1/orders/1019919891/orderDetail
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  129 ms
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/crm/api/v1/orders/1019919891/receiveTask
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  190 ms
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/crm/api/v1/orders/1019919891/orderDetail
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  125 ms
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/crm/api/v1/orders/1019919891/orderDetail
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  123 ms
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  PUT http://services.dev.myzd.info/crm/api/v1/orders/1019919891/recommends
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;surgeon_id&quot;:&quot;445&quot;,&quot;content&quot;:&quot;自动化推荐的医生&quot;}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  165 ms
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/crm/api/v1/orders/1019919891/orderDetail
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  151 ms
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/crm/api/v1/orders/1019919891/orderDetail
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  142 ms
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/crm/api/v1/orders/1019919891/threeWayCalling
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;surgeryFee&quot;:5,&quot;calling_time&quot;:&quot;2017-07-19&quot;,&quot;major_disease_id&quot;:&quot;55&quot;,&quot;minor_disease_id&quot;:&quot;66&quot;,&quot;content&quot;:&quot;自动创建的通话记录&quot;,&quot;audio_file&quot;:&quot;http://www.automation.com&quot;,&quot;record_type&quot;:&quot;success&quot;,&quot;reject_reason&quot;:&quot;http://www.automation.com&quot;}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  182 ms
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/crm/api/v1/orders/1019919891/orderDetail
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  125 ms
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/doctor/api/getorderlist
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  30 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;order&quot;:[{&quot;id&quot;:10082,&quot;order_number&quot;:1019919891,&quot;type&quot;:1,&quot;status&quot;:3000,&quot;patient_name&quot;:&quot;辣妹Mrlk&quot;,&quot;patient_age&quot;:97,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13390679999&quot;,&quot;major_disease_id&quot;:3908,&quot;major_disease_name&quot;:&quot;法洛三联症&quot;,&quot;minor_disease_id&quot;:4195,&quot;minor_disease_name&quot;:&quot;修改疾病名称iC&quot;,&quot;diagnosis&quot;:&quot;病情描述DjgDlWLELkJlWDBPKbxsjffPUWKXUYoMYBentlqBzqhKwDfzyOGEXlBTTXWESGkCOglQYeQTEyNRstGlQmzsFFWrNXTFPAiRfwzS&quot;,&quot;expected_doctor_id&quot;:5724,&quot;expected_doctor_name&quot;:&quot;庄恕dF&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-23&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-17&quot;,&quot;expected_surgery_hospital_id&quot;:21488,&quot;expected_surgery_hospital_name&quot;:&quot;上海455医院美容整形外科激光中心&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述YwOcwktnLRBXZKlDthJjbLJetxvhdGPRSiLqNsbTOXTojSpuqssAyyzIhOWxcBdqGdbloVprRyFRxIAiDnzNrkyrcnsteAGcbrLV&quot;,&quot;surgeon_fee&quot;:5,&quot;surgeon_travel_expense&quot;:0,&quot;pre_order_fee&quot;:1,&quot;agent_fee&quot;:0,&quot;platform_fee&quot;:1,&quot;surgeon_id&quot;:445,&quot;surgeon_name&quot;:&quot;金惠明&quot;,&quot;surgeon_medical_title&quot;:&quot;主任医师&quot;,&quot;surgeon_hospital&quot;:&quot;上海交通大学医学院附属新华医院&quot;,&quot;surgeon_city_id&quot;:310100,&quot;surgeon_city_name&quot;:&quot;上海&quot;,&quot;surgeon_recommended_time&quot;:&quot;2017-07-19T05:39:21.000Z&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;major_reps_id&quot;:&quot;jing.tian@mingyizhudao.com&quot;,&quot;major_reps_name&quot;:&quot;田静&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;conference_call_major_disease_id&quot;:55,&quot;conference_call_major_disease_name&quot;:&quot;生乳头汗管囊腺瘤&quot;,&quot;conference_call_minor_disease_name&quot;:&quot;乳头状小汗腺腺瘤&quot;,&quot;conference_call_minor_disease_id&quot;:66,&quot;conference_call_status&quot;:&quot;success&quot;,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:20&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:21&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10081,&quot;order_number&quot;:1019919886,&quot;type&quot;:1,&quot;status&quot;:2020,&quot;patient_name&quot;:&quot;辣妹DqgX&quot;,&quot;patient_age&quot;:61,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13776089999&quot;,&quot;major_disease_id&quot;:4080,&quot;major_disease_name&quot;:&quot;病rhJmkczvpFnQLihY&quot;,&quot;minor_disease_id&quot;:4348,&quot;minor_disease_name&quot;:&quot;病VVHTIKGvGrYhcjmr&quot;,&quot;diagnosis&quot;:&quot;病情描述JWCNOVYXxXeNxnGQGMYAJCjCHEHpwDwGDQOiHPjfZxGDHLfHDxyxVPblcvqBUPSxAjNsYrxsovqqReplFohmkgBsvcciPNeUbpOD&quot;,&quot;expected_doctor_id&quot;:6579,&quot;expected_doctor_name&quot;:&quot;钟西北nV&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-23&quot;,&quot;expected_surgery_hospital_id&quot;:18608,&quot;expected_surgery_hospital_name&quot;:&quot;淄博矿业集团有限责任公司夏庄煤矿职工医院&quot;,&quot;surgeon_id&quot;:3220,&quot;surgeon_name&quot;:&quot;智发朝&quot;,&quot;surgeon_phone&quot;:&quot;13076877351&quot;,&quot;surgeon_medical_title&quot;:&quot;主任医师&quot;,&quot;surgeon_academic_title&quot;:&quot;教授&quot;,&quot;surgeon_hospital&quot;:&quot;南方医科大学南方医院&quot;,&quot;surgeon_city_id&quot;:440100,&quot;surgeon_city_name&quot;:&quot;广州&quot;,&quot;surgeon_recommended_time&quot;:&quot;2017-07-19T05:39:20.000Z&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;major_reps_id&quot;:&quot;jing.tian@mingyizhudao.com&quot;,&quot;major_reps_name&quot;:&quot;田静&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:19&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:20&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10076,&quot;order_number&quot;:1019919830,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹mYyQ&quot;,&quot;patient_age&quot;:34,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13540669999&quot;,&quot;major_disease_id&quot;:1778,&quot;major_disease_name&quot;:&quot;神经胶质瘤&quot;,&quot;minor_disease_id&quot;:4021,&quot;minor_disease_name&quot;:&quot;病IrewjbnvxZUBDcki&quot;,&quot;diagnosis&quot;:&quot;病情描述iiJqtWsirjppOVGAfENhoSdNxUuCKJiQJsPfZDnPNlgOqwrUDTvICZMeCTmwRNArypWWtItdAEsvxvzluGnIBywfnIZrjmQrutpl&quot;,&quot;expected_doctor_id&quot;:5074,&quot;expected_doctor_name&quot;:&quot;钟西北qA&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-18&quot;,&quot;expected_surgery_hospital_id&quot;:16630,&quot;expected_surgery_hospital_name&quot;:&quot;通辽市中医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:13&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:13&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10075,&quot;order_number&quot;:1019919826,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹YnTG&quot;,&quot;patient_age&quot;:7,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13578639999&quot;,&quot;major_disease_id&quot;:3825,&quot;major_disease_name&quot;:&quot;包皮过长&quot;,&quot;minor_disease_id&quot;:2868,&quot;minor_disease_name&quot;:&quot;鼻外伤&quot;,&quot;diagnosis&quot;:&quot;病情描述JQRZdjcFAHfGsCOQWOyhidQKvTuYnxEkduwoNRLgeUMUjHWTyrEvsTezZshjKtyBImsmwgzPbbBpSmbjoAUIOFFkAPJuzlxquhOL&quot;,&quot;expected_doctor_id&quot;:4991,&quot;expected_doctor_name&quot;:&quot;庄恕wW&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-03&quot;,&quot;expected_surgery_hospital_id&quot;:15350,&quot;expected_surgery_hospital_name&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:12&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:12&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10074,&quot;order_number&quot;:1019919810,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹YnTG&quot;,&quot;patient_age&quot;:7,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13578639999&quot;,&quot;major_disease_id&quot;:3825,&quot;major_disease_name&quot;:&quot;包皮过长&quot;,&quot;minor_disease_id&quot;:2868,&quot;minor_disease_name&quot;:&quot;鼻外伤&quot;,&quot;diagnosis&quot;:&quot;病情描述JQRZdjcFAHfGsCOQWOyhidQKvTuYnxEkduwoNRLgeUMUjHWTyrEvsTezZshjKtyBImsmwgzPbbBpSmbjoAUIOFFkAPJuzlxquhOL&quot;,&quot;expected_doctor_id&quot;:4991,&quot;expected_doctor_name&quot;:&quot;庄恕wW&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-03&quot;,&quot;expected_surgery_hospital_id&quot;:15350,&quot;expected_surgery_hospital_name&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:12&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:12&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10073,&quot;order_number&quot;:1019919804,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹YnTG&quot;,&quot;patient_age&quot;:7,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13578639999&quot;,&quot;major_disease_id&quot;:3825,&quot;major_disease_name&quot;:&quot;包皮过长&quot;,&quot;minor_disease_id&quot;:2868,&quot;minor_disease_name&quot;:&quot;鼻外伤&quot;,&quot;diagnosis&quot;:&quot;病情描述JQRZdjcFAHfGsCOQWOyhidQKvTuYnxEkduwoNRLgeUMUjHWTyrEvsTezZshjKtyBImsmwgzPbbBpSmbjoAUIOFFkAPJuzlxquhOL&quot;,&quot;expected_doctor_id&quot;:4991,&quot;expected_doctor_name&quot;:&quot;庄恕wW&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-03&quot;,&quot;expected_surgery_hospital_id&quot;:15350,&quot;expected_surgery_hospital_name&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:11&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:11&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10071,&quot;order_number&quot;:1019919783,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹lRQO&quot;,&quot;patient_age&quot;:55,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13748059999&quot;,&quot;major_disease_id&quot;:2436,&quot;major_disease_name&quot;:&quot;KT综合征&quot;,&quot;diagnosis&quot;:&quot;病情描述dnvsLXnySEbNThMqWyidvooOqcZYkcOZARPAFHneKDOeXItFpbZqKWVVvSsgCFHHRETyDsWAewvgUAUJmwfMiejGGAkmvSIioRJg&quot;,&quot;expected_doctor_id&quot;:2533,&quot;expected_doctor_name&quot;:&quot;郭克勤&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-23&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-16&quot;,&quot;expected_surgery_hospital_id&quot;:17815,&quot;expected_surgery_hospital_name&quot;:&quot;临沂市兰山区第二人民医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:05&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:05&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10070,&quot;order_number&quot;:1019919778,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹lRQO&quot;,&quot;patient_age&quot;:55,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13748059999&quot;,&quot;major_disease_id&quot;:2436,&quot;major_disease_name&quot;:&quot;KT综合征&quot;,&quot;diagnosis&quot;:&quot;病情描述dnvsLXnySEbNThMqWyidvooOqcZYkcOZARPAFHneKDOeXItFpbZqKWVVvSsgCFHHRETyDsWAewvgUAUJmwfMiejGGAkmvSIioRJg&quot;,&quot;expected_doctor_id&quot;:2533,&quot;expected_doctor_name&quot;:&quot;郭克勤&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-23&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-16&quot;,&quot;expected_surgery_hospital_id&quot;:17815,&quot;expected_surgery_hospital_name&quot;:&quot;临沂市兰山区第二人民医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:04&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:04&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10069,&quot;order_number&quot;:1019919760,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹BWXJ&quot;,&quot;patient_age&quot;:100,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;&quot;,&quot;major_disease_id&quot;:3557,&quot;major_disease_name&quot;:&quot;产后甲状腺炎&quot;,&quot;minor_disease_id&quot;:3472,&quot;minor_disease_name&quot;:&quot;膀胱阴道瘘&quot;,&quot;diagnosis&quot;:&quot;病情描述cOgppxtVYtHuzvRAnhzjiAHMmAtCRFTBsmOFCIVOIoKkyBAVLvzyQCnkCfFQIFlDMXyecjbPwXpzBdIKrhxPCjnlfVEXLIvVNItl&quot;,&quot;expected_doctor_id&quot;:4557,&quot;expected_doctor_name&quot;:&quot;杨传瑞&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-23&quot;,&quot;expected_surgery_hospital_id&quot;:2350,&quot;expected_surgery_hospital_name&quot;:&quot;安溪县医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:04&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:04&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10068,&quot;order_number&quot;:1019919750,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;abcdefghijklmnopqrstuvwxyz一二三四五六七八九十甲乙丙地子卯寅丑&quot;,&quot;patient_age&quot;:1,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13914749999&quot;,&quot;major_disease_id&quot;:1096,&quot;major_disease_name&quot;:&quot;肠系膜裂孔疝&quot;,&quot;minor_disease_id&quot;:4354,&quot;minor_disease_name&quot;:&quot;病lUyVDIvRGijxsAMT&quot;,&quot;diagnosis&quot;:&quot;病情描述RnAfxBAzJeSmiOGUxwEuIxSiUotUJNZYmHdoCHEIhFZsLwRCZxtodHzEqHxCTqLgcKrlCwuESTVBCoFZokKtmWuHYGkKZQODUIHr&quot;,&quot;expected_doctor_id&quot;:2931,&quot;expected_doctor_name&quot;:&quot;毕允力&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-21&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-04&quot;,&quot;expected_surgery_hospital_id&quot;:11057,&quot;expected_surgery_hospital_name&quot;:&quot;长春市春日脑血管病医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:03&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:03&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10067,&quot;order_number&quot;:1019919745,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹HleD&quot;,&quot;patient_age&quot;:46,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13205579999&quot;,&quot;major_disease_id&quot;:1652,&quot;major_disease_name&quot;:&quot;慢性铅中毒&quot;,&quot;minor_disease_id&quot;:2148,&quot;minor_disease_name&quot;:&quot;三尖瓣闭锁不全&quot;,&quot;diagnosis&quot;:&quot;病情描述oOkvIbLkRiYFMWMTJwrQQDkDfFxklSdjWvQnGrmbYrGqyEFVyrnWKvseAgwsiYTnFEZvOGvKxDCEOqztvxXvRdzDgmCjKmkgJNhe&quot;,&quot;expected_doctor_id&quot;:2520,&quot;expected_doctor_name&quot;:&quot;彭玲玲&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-25&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-19&quot;,&quot;expected_surgery_hospital_id&quot;:11078,&quot;expected_surgery_hospital_name&quot;:&quot;长春市锦西医院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述zIMowSIJOfmuIlBOIYHGCrVVloLFpJyXtTCoXXzggxODUcvxNPgbYlkHUfpyzMMoqzOsPNAnAUotQwfCcVHOKmQVDjcSNAOomYEg&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:39:03&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:39:03&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10066,&quot;order_number&quot;:1019919732,&quot;type&quot;:1,&quot;status&quot;:3000,&quot;patient_name&quot;:&quot;辣妹qsYy&quot;,&quot;patient_age&quot;:72,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13060859999&quot;,&quot;major_disease_id&quot;:4184,&quot;major_disease_name&quot;:&quot;病dMgFPspiDSHHflbX&quot;,&quot;minor_disease_id&quot;:2091,&quot;minor_disease_name&quot;:&quot;气管肿瘤&quot;,&quot;diagnosis&quot;:&quot;病情描述DSHAMBinhnrQMQqSqrptHeElgWKPAClILNRhdGpFonKPAKmYjEEGYupxxPrhAWbLxLdqLBPhzzsZrkHeZtJFtTbQImNlSnMjJHnw&quot;,&quot;expected_doctor_id&quot;:1390,&quot;expected_doctor_name&quot;:&quot;陈维杰&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-07-29&quot;,&quot;expected_surgery_hospital_id&quot;:6829,&quot;expected_surgery_hospital_name&quot;:&quot;巩义市人民医院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述sOqktPATrkOiWbFsENnxteJVnqOICkwjmBEXByRokJjppJfnLIIhnridYvAPCrtpyQGMovyceDijBUNfFCCzXgplLoNXRYBxmlhe&quot;,&quot;surgeon_fee&quot;:3,&quot;surgeon_travel_expense&quot;:0,&quot;pre_order_fee&quot;:1,&quot;agent_fee&quot;:0,&quot;platform_fee&quot;:0,&quot;surgeon_id&quot;:3721,&quot;surgeon_name&quot;:&quot;郑军&quot;,&quot;surgeon_phone&quot;:&quot;18910778617&quot;,&quot;surgeon_medical_title&quot;:&quot;副主任医师&quot;,&quot;surgeon_academic_title&quot;:&quot;副教授&quot;,&quot;surgeon_hospital&quot;:&quot;首都医科大学附属北京安贞医院&quot;,&quot;surgeon_city_id&quot;:110100,&quot;surgeon_city_name&quot;:&quot;北京&quot;,&quot;surgeon_recommended_time&quot;:&quot;2017-07-19T05:38:44.000Z&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;major_reps_id&quot;:&quot;jing.tian@mingyizhudao.com&quot;,&quot;major_reps_name&quot;:&quot;田静&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;conference_call_major_disease_id&quot;:55,&quot;conference_call_major_disease_name&quot;:&quot;生乳头汗管囊腺瘤&quot;,&quot;conference_call_minor_disease_name&quot;:&quot;乳头状小汗腺腺瘤&quot;,&quot;conference_call_minor_disease_id&quot;:66,&quot;conference_call_status&quot;:&quot;success&quot;,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:38:43&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:38:45&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10065,&quot;order_number&quot;:1019919722,&quot;type&quot;:1,&quot;status&quot;:3000,&quot;patient_name&quot;:&quot;辣妹UHkR&quot;,&quot;patient_age&quot;:66,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13456569999&quot;,&quot;major_disease_id&quot;:4052,&quot;major_disease_name&quot;:&quot;病MPRKPXhEpljxJtxG&quot;,&quot;minor_disease_id&quot;:3904,&quot;minor_disease_name&quot;:&quot;先天性二尖瓣闭锁&quot;,&quot;diagnosis&quot;:&quot;病情描述lhnbehqSKEzcDQfrwBcrRgtvXZBRODMSARHAPYpGTIMQqycCDnskGiZtkfIDHgdNAIUOvEhjVTFuuBiZJQgcVlckwNCnPGuuoQvG&quot;,&quot;expected_doctor_id&quot;:1845,&quot;expected_doctor_name&quot;:&quot;吴波以&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-21&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-05&quot;,&quot;expected_surgery_hospital_id&quot;:8657,&quot;expected_surgery_hospital_name&quot;:&quot;丹江口市第一医院&quot;,&quot;surgeon_fee&quot;:3,&quot;surgeon_travel_expense&quot;:0,&quot;pre_order_fee&quot;:1,&quot;agent_fee&quot;:0,&quot;platform_fee&quot;:0,&quot;surgeon_id&quot;:3721,&quot;surgeon_name&quot;:&quot;郑军&quot;,&quot;surgeon_phone&quot;:&quot;18910778617&quot;,&quot;surgeon_medical_title&quot;:&quot;副主任医师&quot;,&quot;surgeon_academic_title&quot;:&quot;副教授&quot;,&quot;surgeon_hospital&quot;:&quot;首都医科大学附属北京安贞医院&quot;,&quot;surgeon_city_id&quot;:110100,&quot;surgeon_city_name&quot;:&quot;北京&quot;,&quot;surgeon_recommended_time&quot;:&quot;2017-07-19T05:38:42.000Z&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;major_reps_id&quot;:&quot;jing.tian@mingyizhudao.com&quot;,&quot;major_reps_name&quot;:&quot;田静&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;conference_call_major_disease_id&quot;:55,&quot;conference_call_major_disease_name&quot;:&quot;生乳头汗管囊腺瘤&quot;,&quot;conference_call_minor_disease_name&quot;:&quot;乳头状小汗腺腺瘤&quot;,&quot;conference_call_minor_disease_id&quot;:66,&quot;conference_call_status&quot;:&quot;success&quot;,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:38:41&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:38:42&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10064,&quot;order_number&quot;:1019919715,&quot;type&quot;:1,&quot;status&quot;:3000,&quot;patient_name&quot;:&quot;辣妹hzQB&quot;,&quot;patient_age&quot;:65,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13747299999&quot;,&quot;major_disease_id&quot;:263,&quot;major_disease_name&quot;:&quot;自主性高功能性甲状腺腺瘤&quot;,&quot;minor_disease_id&quot;:4233,&quot;minor_disease_name&quot;:&quot;病OnDeQysVBpeyzeIx&quot;,&quot;diagnosis&quot;:&quot;病情描述tnFditRuRjUPFUjzosYlUmGcGtAmVleSzOdpwDIxmkAmHEqZmTzKHnlMJPzSuxqhJlUOhUEchAYBqtDxyYOjijRWSSPmMwNPEgPc&quot;,&quot;expected_doctor_id&quot;:2096,&quot;expected_doctor_name&quot;:&quot;毛根军&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-25&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-09&quot;,&quot;expected_surgery_hospital_id&quot;:24498,&quot;expected_surgery_hospital_name&quot;:&quot;昆明虹丽医学美容整形医院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述IpPRAoAJGEzRYxjJudLfcNvkLbbDSwFiOYetirKRcixgxqgtVEPqTCTLTNDUyAcbpLzdxcWkbivOguNHGVXjndRwNbOOLjLTOpdS&quot;,&quot;surgeon_fee&quot;:3,&quot;surgeon_travel_expense&quot;:0,&quot;pre_order_fee&quot;:1,&quot;agent_fee&quot;:0,&quot;platform_fee&quot;:0,&quot;surgeon_id&quot;:3721,&quot;surgeon_name&quot;:&quot;郑军&quot;,&quot;surgeon_phone&quot;:&quot;18910778617&quot;,&quot;surgeon_medical_title&quot;:&quot;副主任医师&quot;,&quot;surgeon_academic_title&quot;:&quot;副教授&quot;,&quot;surgeon_hospital&quot;:&quot;首都医科大学附属北京安贞医院&quot;,&quot;surgeon_city_id&quot;:110100,&quot;surgeon_city_name&quot;:&quot;北京&quot;,&quot;surgeon_recommended_time&quot;:&quot;2017-07-19T05:38:40.000Z&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;major_reps_id&quot;:&quot;jing.tian@mingyizhudao.com&quot;,&quot;major_reps_name&quot;:&quot;田静&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;conference_call_major_disease_id&quot;:55,&quot;conference_call_major_disease_name&quot;:&quot;生乳头汗管囊腺瘤&quot;,&quot;conference_call_minor_disease_name&quot;:&quot;乳头状小汗腺腺瘤&quot;,&quot;conference_call_minor_disease_id&quot;:66,&quot;conference_call_status&quot;:&quot;success&quot;,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:38:39&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:38:40&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10063,&quot;order_number&quot;:1019919702,&quot;type&quot;:1,&quot;status&quot;:2020,&quot;patient_name&quot;:&quot;辣妹nTfT&quot;,&quot;patient_age&quot;:55,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13604629999&quot;,&quot;major_disease_id&quot;:4277,&quot;major_disease_name&quot;:&quot;病EBuChIMbwhwuydGQ&quot;,&quot;minor_disease_id&quot;:3801,&quot;minor_disease_name&quot;:&quot;小儿传导性聋&quot;,&quot;diagnosis&quot;:&quot;病情描述ETKeEOtVFyYwKjyPPcPtilqVPlgycXTeVodtICszRRwlfFNYZJUcHvkgTYOoVSuUTOlGHwDLhxtyCMVqZdAVQANTugblxsXDRhTF&quot;,&quot;expected_doctor_id&quot;:2770,&quot;expected_doctor_name&quot;:&quot;江国昌&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-03&quot;,&quot;expected_surgery_hospital_id&quot;:24202,&quot;expected_surgery_hospital_name&quot;:&quot;保山市第二人民医院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述ZLtWiJcEHsxknwsDneMqdzwtPKMesJTtAZDVyBPrhfldrhZpLPzXVRZWGfEUfTevQujocsCAnMTXKPbIMuSIlVWDRtVPMEqIeDOp&quot;,&quot;surgeon_id&quot;:3721,&quot;surgeon_name&quot;:&quot;郑军&quot;,&quot;surgeon_phone&quot;:&quot;18910778617&quot;,&quot;surgeon_medical_title&quot;:&quot;副主任医师&quot;,&quot;surgeon_academic_title&quot;:&quot;副教授&quot;,&quot;surgeon_hospital&quot;:&quot;首都医科大学附属北京安贞医院&quot;,&quot;surgeon_city_id&quot;:110100,&quot;surgeon_city_name&quot;:&quot;北京&quot;,&quot;surgeon_recommended_time&quot;:&quot;2017-07-19T05:38:38.000Z&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;major_reps_id&quot;:&quot;jing.tian@mingyizhudao.com&quot;,&quot;major_reps_name&quot;:&quot;田静&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:38:37&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:38:38&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10062,&quot;order_number&quot;:1019919696,&quot;type&quot;:1,&quot;status&quot;:2020,&quot;patient_name&quot;:&quot;辣妹SELd&quot;,&quot;patient_age&quot;:27,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13557219999&quot;,&quot;major_disease_id&quot;:1436,&quot;major_disease_name&quot;:&quot;伸直型桡骨下端骨折&quot;,&quot;minor_disease_id&quot;:3195,&quot;minor_disease_name&quot;:&quot;骨化性纤维瘤&quot;,&quot;diagnosis&quot;:&quot;病情描述XISSiVqjdAbYdQpvBQOtetmNqALEADoBOPpNegGYzzQTWpAyoKuSTJKtcIEwFNkAFuVxCgphSFyiDusiQWthRKBhPORDQhtQAeck&quot;,&quot;expected_doctor_id&quot;:426,&quot;expected_doctor_name&quot;:&quot;齐隽&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-25&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-08&quot;,&quot;expected_surgery_hospital_id&quot;:22173,&quot;expected_surgery_hospital_name&quot;:&quot;大竹县妇幼保健院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述XOAOKXiWTSxRLxWlVTjVnwxdhECbHSBKvcJRRSMvYPTuQIgdHRVfOZxSHHPMFlbTUvpmXYDZvOwHsKduGScASzMmTDMbYobCETxd&quot;,&quot;surgeon_id&quot;:3721,&quot;surgeon_name&quot;:&quot;郑军&quot;,&quot;surgeon_phone&quot;:&quot;18910778617&quot;,&quot;surgeon_medical_title&quot;:&quot;副主任医师&quot;,&quot;surgeon_academic_title&quot;:&quot;副教授&quot;,&quot;surgeon_hospital&quot;:&quot;首都医科大学附属北京安贞医院&quot;,&quot;surgeon_city_id&quot;:110100,&quot;surgeon_city_name&quot;:&quot;北京&quot;,&quot;surgeon_recommended_time&quot;:&quot;2017-07-19T05:38:37.000Z&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;major_reps_id&quot;:&quot;jing.tian@mingyizhudao.com&quot;,&quot;major_reps_name&quot;:&quot;田静&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:38:35&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:38:37&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10061,&quot;order_number&quot;:1019919683,&quot;type&quot;:1,&quot;status&quot;:2000,&quot;patient_name&quot;:&quot;辣妹eNOI&quot;,&quot;patient_age&quot;:87,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13220879999&quot;,&quot;major_disease_id&quot;:2815,&quot;major_disease_name&quot;:&quot;眼球穿通伤&quot;,&quot;minor_disease_id&quot;:4290,&quot;minor_disease_name&quot;:&quot;病DYMxMrMSqJJmqLZs&quot;,&quot;diagnosis&quot;:&quot;病情描述KftKCofUAXBIOhCNYCMMmjkkbggThSSnFjUMGRTZiTVHzBIfeOBnNeOEwkcxGsXNoVeCUHdGyJdLuThuDhbnKLJotvqubQutgoRJ&quot;,&quot;expected_doctor_id&quot;:3432,&quot;expected_doctor_name&quot;:&quot;齐宇&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-23&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-07-26&quot;,&quot;expected_surgery_hospital_id&quot;:63,&quot;expected_surgery_hospital_name&quot;:&quot;南京医科大学附属脑科医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;major_reps_id&quot;:&quot;jing.tian@mingyizhudao.com&quot;,&quot;major_reps_name&quot;:&quot;田静&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:38:34&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:38:34&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10060,&quot;order_number&quot;:1019919670,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹GtNF&quot;,&quot;patient_age&quot;:39,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13213729999&quot;,&quot;major_disease_id&quot;:1800,&quot;major_disease_name&quot;:&quot;颅裂&quot;,&quot;minor_disease_id&quot;:4104,&quot;minor_disease_name&quot;:&quot;病GgVHUsUnZYEhzJig&quot;,&quot;diagnosis&quot;:&quot;病情描述MSpVwHWyuvNTdWnIMwyXRbWbgdzQIluSQzFLeclXPPimmCMFkjbynkLyPxwtwWgUGPHgzupqWKDWustJHAKdUlSuxuPtseLsVwTg&quot;,&quot;expected_doctor_id&quot;:6853,&quot;expected_doctor_name&quot;:&quot;钟西北GI&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-24&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-07&quot;,&quot;expected_surgery_hospital_id&quot;:10947,&quot;expected_surgery_hospital_name&quot;:&quot;吉林大学第四医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:38:33&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:38:33&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10059,&quot;order_number&quot;:1019919666,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹wXJO&quot;,&quot;patient_age&quot;:51,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13138189999&quot;,&quot;major_disease_id&quot;:4352,&quot;major_disease_name&quot;:&quot;修改疾病名称kx&quot;,&quot;minor_disease_id&quot;:4324,&quot;minor_disease_name&quot;:&quot;病OuAHXDvxWLQqxBIM&quot;,&quot;diagnosis&quot;:&quot;病情描述DSZoLjlJmfIhtYGoUpOlqNCdqZWGZFprltGnRUCVuNOIxvzAJljmDiRQekspncxRjIdWEXADtAFmSnPMAuRrtTqeVCwZtNIuYSsf&quot;,&quot;expected_doctor_id&quot;:106,&quot;expected_doctor_name&quot;:&quot;胡志前&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-21&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-10&quot;,&quot;expected_surgery_hospital_id&quot;:9018,&quot;expected_surgery_hospital_name&quot;:&quot;武重医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:38:32&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:38:32&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;},{&quot;id&quot;:10058,&quot;order_number&quot;:1019919650,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹EIUh&quot;,&quot;patient_age&quot;:69,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13107159999&quot;,&quot;major_disease_id&quot;:3189,&quot;major_disease_name&quot;:&quot;颌骨骨髓炎&quot;,&quot;minor_disease_id&quot;:2151,&quot;minor_disease_name&quot;:&quot;主动脉瓣闭锁不全&quot;,&quot;diagnosis&quot;:&quot;病情描述iGnVtdpmNZpBMeGKXXyeGdfeJrSsRFNptbmdLZoZNMJqgSPifWdpljNjxAAqmQApUDvhctnhIiGFKPIgrDwlFeQWfGIiVKDYtpxz&quot;,&quot;expected_doctor_id&quot;:6871,&quot;expected_doctor_name&quot;:&quot;庄恕RS&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-23&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-23&quot;,&quot;expected_surgery_hospital_id&quot;:26131,&quot;expected_surgery_hospital_name&quot;:&quot;重庆市沙坪坎区第六人民医院&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 13:38:31&quot;,&quot;modified_at&quot;:&quot;2017-07-19 13:38:31&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;patient_gender_text&quot;:&quot;男&quot;}]}
+</stdout>
+          <failedSince>11</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_01_获取type1的图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_02_获取type2的图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_03_获取type3的图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.048</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_04_获取PNG文件名正常图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.046</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_05_获取GIF文件名正常图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.046</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_06_获取文件名有特殊字符图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.615</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_01_获取订单详情_提供正确的属于自己的订单ID</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.03</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_02_获取订单详情_提供正确的错误的ID_ID为非法整数</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.031</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_03_获取订单详情_提供正确的错误的ID_ID为英文</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.155</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_04_获取订单详情_提供不属于自己的订单ID</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.244</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_01_更新病例_主诉疾病</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.937</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_02_更新病例_次诉疾病</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.045</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_03_更新病例_患者性别</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.772</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_04_更新病例_病例描述</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.189</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_05_更新病例_更新图片</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: 图片为空不应该更新成功 expected [2210431] but found [1000000]
+	at com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords.test_05_更新病例_更新图片(UpdateMedicalRecords.java:511)
+</errorStackTrace>
+          <errorDetails>图片为空不应该更新成功 expected [2210431] but found [1000000]</errorDetails>
+          <stdout>[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+[INFO][BaseTest] ||    TestCase END:	test_04_更新病例_病例描述
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+[INFO][BaseTest] ||    TestCase START:	test_05_更新病例_更新图片
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+
+[INFO][UpdateMedicalRecords] 创建一个新订单
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;辣妹TWnv&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;37&quot;,&quot;patient_phone&quot;:&quot;13769809999&quot;,&quot;major_disease_id&quot;:&quot;3948&quot;,&quot;minor_disease_id&quot;:&quot;2580&quot;,&quot;diagnosis&quot;:&quot;病情描述sFbmjkSwhyXQXttbgdfRyucozrBhGkPeiowVzFBEZCOybgAARJvEvgVrSXQDzRzwsfFfOLsEkKPKYGDRlsnzDrXAnHwUXejCuJOq&quot;,&quot;is_reoperation&quot;:1,&quot;reoperation_description&quot;:&quot;二次手术描述iOGTIIiBJturzIhtHpsQHhcTXszLKwGLwHneknOOSnlpSwyYRZxTUttoAOjjDbDztNfuYiyOYNbXywLJSpxendxTGYdbzwjoWeON&quot;,&quot;expected_doctor_id&quot;:&quot;2627&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/23&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/15&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;15160&quot;,&quot;medical_record_pictures&quot;:[{&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;,&quot;type&quot;:&quot;1&quot;}]}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  327 ms
+[INFO][CreateOrder] orderid是: 1019919969
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/doctor/api/getorderdetail/1019919969
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  34 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;order&quot;:{&quot;id&quot;:10089,&quot;order_number&quot;:1019919969,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹TWnv&quot;,&quot;patient_age&quot;:37,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13769809999&quot;,&quot;major_disease_id&quot;:3948,&quot;major_disease_name&quot;:&quot;椎体骨髓瘤&quot;,&quot;minor_disease_id&quot;:2580,&quot;minor_disease_name&quot;:&quot;黄斑前膜&quot;,&quot;diagnosis&quot;:&quot;病情描述sFbmjkSwhyXQXttbgdfRyucozrBhGkPeiowVzFBEZCOybgAARJvEvgVrSXQDzRzwsfFfOLsEkKPKYGDRlsnzDrXAnHwUXejCuJOq&quot;,&quot;expected_doctor_id&quot;:2627,&quot;expected_doctor_name&quot;:&quot;王中林&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/23&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/15&quot;,&quot;expected_surgery_hospital_id&quot;:15160,&quot;expected_surgery_hospital_name&quot;:&quot;宽甸满族自治县中医院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述iOGTIIiBJturzIhtHpsQHhcTXszLKwGLwHneknOOSnlpSwyYRZxTUttoAOjjDbDztNfuYiyOYNbXywLJSpxendxTGYdbzwjoWeON&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017/07/19 13:39:31&quot;,&quot;modified_at&quot;:&quot;2017/07/19 13:39:31&quot;,&quot;medical_record_pictures&quot;:[{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443070&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:I4roNigSWogY2N_kn04a9dx3GLo=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443070&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:BwA_QunzmV5QHNeAeD9xcLrMwKk=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443070&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:uMx6ma0ErSdcSEfGX1rPAiJL7zg=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443070&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:TelqvFj61FNEqbAh6ktJ6IDtnpg=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;surgeon_recommended_time&quot;:&quot;&quot;,&quot;OrderStatusText&quot;:&quot;待处理&quot;,&quot;surgeon_fee&quot;:&quot;&quot;,&quot;surgeon_id&quot;:&quot;&quot;,&quot;surgeon_name&quot;:&quot;&quot;,&quot;surgeon_medical_title&quot;:&quot;&quot;,&quot;surgeon_academic_title&quot;:&quot;&quot;,&quot;surgeon_hospital&quot;:&quot;&quot;,&quot;surgeon_department&quot;:&quot;&quot;}}
+[INFO][UpdateMedicalRecords] 新增一张图片。。。
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  PUT http://services.dev.myzd.info/doctor/api/updatemedicalrecords/1019919969
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;美女cBlZ&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;33&quot;,&quot;patient_phone&quot;:&quot;13835069999&quot;,&quot;major_disease_id&quot;:&quot;3016&quot;,&quot;minor_disease_id&quot;:&quot;1654&quot;,&quot;diagnosis&quot;:&quot;病情描述cSQCAyDcyzXPpimCiXYmVYlFTvlZWKGieWSjBMAgSsAzpmKKZdUfGrjcKSulPyeGjNbPCEXUQWqlBpcOyHCTDWmMyHzZsGVLVRfR&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/13&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;90&quot;,&quot;medical_record_pictures&quot;:[{&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/4ab279ba-4626-4491-abee-25029d2341d6/WechatIMG560.jpeg&quot;,&quot;type&quot;:&quot;1&quot;}]}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  135 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	null
+[INFO][UpdateMedicalRecords] 查看刚刚更新的订单详情
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/doctor/api/getorderdetail/1019919969
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  35 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;order&quot;:{&quot;id&quot;:10089,&quot;order_number&quot;:1019919969,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;美女cBlZ&quot;,&quot;patient_age&quot;:33,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13835069999&quot;,&quot;major_disease_id&quot;:3016,&quot;major_disease_name&quot;:&quot;口咽恶性肿瘤&quot;,&quot;minor_disease_id&quot;:1654,&quot;minor_disease_name&quot;:&quot;维生素A过多病&quot;,&quot;diagnosis&quot;:&quot;病情描述cSQCAyDcyzXPpimCiXYmVYlFTvlZWKGieWSjBMAgSsAzpmKKZdUfGrjcKSulPyeGjNbPCEXUQWqlBpcOyHCTDWmMyHzZsGVLVRfR&quot;,&quot;expected_doctor_id&quot;:2627,&quot;expected_doctor_name&quot;:&quot;王中林&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/13&quot;,&quot;expected_surgery_hospital_id&quot;:90,&quot;expected_surgery_hospital_name&quot;:&quot;南通市第三人民医院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述iOGTIIiBJturzIhtHpsQHhcTXszLKwGLwHneknOOSnlpSwyYRZxTUttoAOjjDbDztNfuYiyOYNbXywLJSpxendxTGYdbzwjoWeON&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017/07/19 13:39:31&quot;,&quot;modified_at&quot;:&quot;2017/07/19 13:39:31&quot;,&quot;medical_record_pictures&quot;:[{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:CgrI3ORHWB-02tQpV0r2QL2qQMk=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:3gyCFCWLBTHO48ptLCmhomHZmmY=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:6rkz7VxAWPcXtEu_ALgpz32kyVc=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:S5bT9h-pQ9yY4EK07xqLKka1KSo=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;},{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/4ab279ba-4626-4491-abee-25029d2341d6/WechatIMG560.jpeg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:0TohyBmezM3LrICREZFZ9t63rgg=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/4ab279ba-4626-4491-abee-25029d2341d6/WechatIMG560.jpeg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:tF5Ei6WLKiGJZ5009H9aER35XFs=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/4ab279ba-4626-4491-abee-25029d2341d6/WechatIMG560.jpeg&quot;}],&quot;medical_record_pictures_deleted&quot;:[],&quot;surgeon_recommended_time&quot;:&quot;&quot;,&quot;OrderStatusText&quot;:&quot;待处理&quot;,&quot;surgeon_fee&quot;:&quot;&quot;,&quot;surgeon_id&quot;:&quot;&quot;,&quot;surgeon_name&quot;:&quot;&quot;,&quot;surgeon_medical_title&quot;:&quot;&quot;,&quot;surgeon_academic_title&quot;:&quot;&quot;,&quot;surgeon_hospital&quot;:&quot;&quot;,&quot;surgeon_department&quot;:&quot;&quot;}}
+[INFO][UpdateMedicalRecords] 再新增一张图片。。。
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  PUT http://services.dev.myzd.info/doctor/api/updatemedicalrecords/1019919969
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;美女cBlZ&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;33&quot;,&quot;patient_phone&quot;:&quot;13835069999&quot;,&quot;major_disease_id&quot;:&quot;3016&quot;,&quot;minor_disease_id&quot;:&quot;1654&quot;,&quot;diagnosis&quot;:&quot;病情描述cSQCAyDcyzXPpimCiXYmVYlFTvlZWKGieWSjBMAgSsAzpmKKZdUfGrjcKSulPyeGjNbPCEXUQWqlBpcOyHCTDWmMyHzZsGVLVRfR&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/13&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;90&quot;,&quot;medical_record_pictures&quot;:[{&quot;key&quot;:&quot;abc&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/4ab279ba-4626-4491-abee-25029d2341d6/WechatIMG560.jpeg&quot;,&quot;type&quot;:&quot;1&quot;}]}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  278 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	null
+[INFO][UpdateMedicalRecords] 查看刚刚更新的订单详情
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/doctor/api/getorderdetail/1019919969
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  35 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;order&quot;:{&quot;id&quot;:10089,&quot;order_number&quot;:1019919969,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;美女cBlZ&quot;,&quot;patient_age&quot;:33,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13835069999&quot;,&quot;major_disease_id&quot;:3016,&quot;major_disease_name&quot;:&quot;口咽恶性肿瘤&quot;,&quot;minor_disease_id&quot;:1654,&quot;minor_disease_name&quot;:&quot;维生素A过多病&quot;,&quot;diagnosis&quot;:&quot;病情描述cSQCAyDcyzXPpimCiXYmVYlFTvlZWKGieWSjBMAgSsAzpmKKZdUfGrjcKSulPyeGjNbPCEXUQWqlBpcOyHCTDWmMyHzZsGVLVRfR&quot;,&quot;expected_doctor_id&quot;:2627,&quot;expected_doctor_name&quot;:&quot;王中林&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/13&quot;,&quot;expected_surgery_hospital_id&quot;:90,&quot;expected_surgery_hospital_name&quot;:&quot;南通市第三人民医院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述iOGTIIiBJturzIhtHpsQHhcTXszLKwGLwHneknOOSnlpSwyYRZxTUttoAOjjDbDztNfuYiyOYNbXywLJSpxendxTGYdbzwjoWeON&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017/07/19 13:39:31&quot;,&quot;modified_at&quot;:&quot;2017/07/19 13:39:31&quot;,&quot;medical_record_pictures&quot;:[{&quot;url&quot;:&quot;https://assets.dev.myzd.info/abc?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:xDbLr9l0Za-cg1MDeNRakGr_y40=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/abc?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:1DZLNpe-kI4XEYd47R19BcAROA8=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;abc&quot;},{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:CgrI3ORHWB-02tQpV0r2QL2qQMk=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:3gyCFCWLBTHO48ptLCmhomHZmmY=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:6rkz7VxAWPcXtEu_ALgpz32kyVc=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:S5bT9h-pQ9yY4EK07xqLKka1KSo=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;},{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/4ab279ba-4626-4491-abee-25029d2341d6/WechatIMG560.jpeg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:0TohyBmezM3LrICREZFZ9t63rgg=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/4ab279ba-4626-4491-abee-25029d2341d6/WechatIMG560.jpeg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:tF5Ei6WLKiGJZ5009H9aER35XFs=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/4ab279ba-4626-4491-abee-25029d2341d6/WechatIMG560.jpeg&quot;}],&quot;medical_record_pictures_deleted&quot;:[],&quot;surgeon_recommended_time&quot;:&quot;&quot;,&quot;OrderStatusText&quot;:&quot;待处理&quot;,&quot;surgeon_fee&quot;:&quot;&quot;,&quot;surgeon_id&quot;:&quot;&quot;,&quot;surgeon_name&quot;:&quot;&quot;,&quot;surgeon_medical_title&quot;:&quot;&quot;,&quot;surgeon_academic_title&quot;:&quot;&quot;,&quot;surgeon_hospital&quot;:&quot;&quot;,&quot;surgeon_department&quot;:&quot;&quot;}}
+[INFO][UpdateMedicalRecords] 删除二张图片。。。
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  PUT http://services.dev.myzd.info/doctor/api/updatemedicalrecords/1019919969
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;美女cBlZ&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;33&quot;,&quot;patient_phone&quot;:&quot;13835069999&quot;,&quot;major_disease_id&quot;:&quot;3016&quot;,&quot;minor_disease_id&quot;:&quot;1654&quot;,&quot;diagnosis&quot;:&quot;病情描述cSQCAyDcyzXPpimCiXYmVYlFTvlZWKGieWSjBMAgSsAzpmKKZdUfGrjcKSulPyeGjNbPCEXUQWqlBpcOyHCTDWmMyHzZsGVLVRfR&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/13&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;90&quot;,&quot;medical_record_pictures&quot;:[{&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;,&quot;type&quot;:&quot;1&quot;}]}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  146 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	null
+[INFO][UpdateMedicalRecords] 查看刚刚更新的订单详情
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/doctor/api/getorderdetail/1019919969
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  33 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;order&quot;:{&quot;id&quot;:10089,&quot;order_number&quot;:1019919969,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;美女cBlZ&quot;,&quot;patient_age&quot;:33,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13835069999&quot;,&quot;major_disease_id&quot;:3016,&quot;major_disease_name&quot;:&quot;口咽恶性肿瘤&quot;,&quot;minor_disease_id&quot;:1654,&quot;minor_disease_name&quot;:&quot;维生素A过多病&quot;,&quot;diagnosis&quot;:&quot;病情描述cSQCAyDcyzXPpimCiXYmVYlFTvlZWKGieWSjBMAgSsAzpmKKZdUfGrjcKSulPyeGjNbPCEXUQWqlBpcOyHCTDWmMyHzZsGVLVRfR&quot;,&quot;expected_doctor_id&quot;:2627,&quot;expected_doctor_name&quot;:&quot;王中林&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/13&quot;,&quot;expected_surgery_hospital_id&quot;:90,&quot;expected_surgery_hospital_name&quot;:&quot;南通市第三人民医院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述iOGTIIiBJturzIhtHpsQHhcTXszLKwGLwHneknOOSnlpSwyYRZxTUttoAOjjDbDztNfuYiyOYNbXywLJSpxendxTGYdbzwjoWeON&quot;,&quot;agent_id&quot;:1164,&quot;agent_name&quot;:&quot;庄恕qR&quot;,&quot;agent_phone&quot;:&quot;13545209999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;PROFESSOR&quot;,&quot;agent_major&quot;:&quot;产科其他疾病&quot;,&quot;agent_city_id&quot;:211400,&quot;agent_city_name&quot;:&quot;葫芦岛&quot;,&quot;agent_province_id&quot;:210000,&quot;agent_province_name&quot;:&quot;辽宁&quot;,&quot;agent_hospital&quot;:&quot;葫芦岛锌厂职工医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-05-03T07:11:42.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017/07/19 13:39:31&quot;,&quot;modified_at&quot;:&quot;2017/07/19 13:39:31&quot;,&quot;medical_record_pictures&quot;:[{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:CgrI3ORHWB-02tQpV0r2QL2qQMk=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:3gyCFCWLBTHO48ptLCmhomHZmmY=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:6rkz7VxAWPcXtEu_ALgpz32kyVc=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500443071&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:S5bT9h-pQ9yY4EK07xqLKka1KSo=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;medical_record_pictures_deleted&quot;:[],&quot;surgeon_recommended_time&quot;:&quot;&quot;,&quot;OrderStatusText&quot;:&quot;待处理&quot;,&quot;surgeon_fee&quot;:&quot;&quot;,&quot;surgeon_id&quot;:&quot;&quot;,&quot;surgeon_name&quot;:&quot;&quot;,&quot;surgeon_medical_title&quot;:&quot;&quot;,&quot;surgeon_academic_title&quot;:&quot;&quot;,&quot;surgeon_hospital&quot;:&quot;&quot;,&quot;surgeon_department&quot;:&quot;&quot;}}
+[INFO][UpdateMedicalRecords] 删除所有图片。。。
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  PUT http://services.dev.myzd.info/doctor/api/updatemedicalrecords/1019919969
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;美女cBlZ&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;33&quot;,&quot;patient_phone&quot;:&quot;13835069999&quot;,&quot;major_disease_id&quot;:&quot;3016&quot;,&quot;minor_disease_id&quot;:&quot;1654&quot;,&quot;diagnosis&quot;:&quot;病情描述cSQCAyDcyzXPpimCiXYmVYlFTvlZWKGieWSjBMAgSsAzpmKKZdUfGrjcKSulPyeGjNbPCEXUQWqlBpcOyHCTDWmMyHzZsGVLVRfR&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/22&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/13&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;90&quot;}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  134 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	null
+</stdout>
+          <failedSince>11</failedSince>
+        </case>
+        <case>
+          <duration>1.047</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_06_更新病例_期望手术医院</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.021</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_07_更新病例_患者姓名</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.759</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_08_更新病例_患者年龄</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.CreateOrder.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.CreateOrder</name>
+      <duration>10.153</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>10.153</time>
+      <cases>
+        <case>
+          <duration>3.174</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.637</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_03_创建订单_缺少患者姓名不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.084</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_04_创建订单_缺少患者性别或性别不正确不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.059</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_05_创建订单_缺少患者年龄不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_02_创建订单_信息齐备_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.268</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_11_创建订单_信息齐备_期望手术医院不传</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.673</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_01_创建订单_信息齐备_已认证用户</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_01_创建订单_信息齐备_已认证用户(CreateOrder.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+    </errorStackTrace>
+          <errorDetails>expected object to not be null</errorDetails>
+          <failedSince>10</failedSince>
+        </case>
+        <case>
+          <duration>0.323</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_06_创建订单_缺少患者手机不可以创建</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:758)
+	at org.testng.Assert.assertNotEquals(Assert.java:763)
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_06_创建订单_缺少患者手机不可以创建(CreateOrder.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+    </errorStackTrace>
+          <errorDetails>null</errorDetails>
+          <failedSince>11</failedSince>
+        </case>
+        <case>
+          <duration>3.218</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.06</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_07_创建订单_缺少主诉疾病不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.634</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_08_创建订单_缺少次诉疾病可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory</name>
+      <duration>0.151</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>0.151</time>
+      <cases>
+        <case>
+          <duration>0.064</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory</className>
+          <testName>test_03_获取疾病_提供无效的categoryId_ID为其他字符</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.058</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory</className>
+          <testName>test_01_获取疾病_提供有效的categoryId</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.029</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDiseasesInCategory</className>
+          <testName>test_02_获取疾病_提供无效的categoryId_ID不存在</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</name>
+      <duration>15.615</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>15.615</time>
+      <cases>
+        <case>
+          <duration>0.025</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_03_错误token的请求不能获得个人信息并返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.025</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_02_没有token信息的请求不能获得个人信息并返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.094</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_04_测试data字段返回了足够的医生信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.231</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_06_测试总订单数_测试处理中订单数_CRM已领取</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>6.641</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_08_测试总订单数_待支付状态的订单数</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.001</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_09_测试返回的地区服务专员</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.093</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_01_有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.517</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_05_测试总订单数_测试处理中订单数_CRM未领取</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.988</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetDoctorProfile</className>
+          <testName>test_07_测试总订单数_测试处理中订单数_推荐完医生</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile</name>
+      <duration>0.487</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>0.487</time>
+      <cases>
+        <case>
+          <duration>0.266</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile</className>
+          <testName>test_01_有token的用户请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.085</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile</className>
+          <testName>test_02_没有token的用户请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.136</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetEmployeeProfile</className>
+          <testName>test_03_员工ID无效时返回空的Employee</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.GetOrderDetail.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</name>
+      <duration>3.834</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>3.834</time>
+      <cases>
+        <case>
+          <duration>0.031</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_02_获取订单详情_提供正确的错误的ID_ID为非法整数</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.031</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_03_获取订单详情_提供正确的错误的ID_ID为英文</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.616</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_01_获取订单详情_提供正确的属于自己的订单ID</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.156</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderDetail</className>
+          <testName>test_04_获取订单详情_提供不属于自己的订单ID</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.GetOrderList.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.GetOrderList</name>
+      <duration>8.703</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>8.703</time>
+      <cases>
+        <case>
+          <duration>1.398</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_04_获取订单列表_推荐医生后病历不展示上级医生信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>5.129</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_02_获取订单列表_登录用户_订单列表会更新且按时间倒序</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.021</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_03_获取订单列表_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.489</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_01_获取订单列表_登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.666</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetOrderList</className>
+          <testName>test_05_获取订单列表_三方通话成功后病历上展示上级医生信息</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: 手术医生学术职称字段不能缺失 expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at com.mingyizhudao.qa.testcase.doctor.GetOrderList.test_05_获取订单列表_三方通话成功后病历上展示上级医生信息(GetOrderList.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+    </errorStackTrace>
+          <errorDetails>手术医生学术职称字段不能缺失 expected object to not be null</errorDetails>
+          <failedSince>11</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.GetUploadToken.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</name>
+      <duration>0.214</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>0.214</time>
+      <cases>
+        <case>
+          <duration>0.046</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_06_获取文件名有特殊字符图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_01_获取type1的图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.046</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_05_获取GIF文件名正常图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.05</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_04_获取PNG文件名正常图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.025</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_03_获取type3的图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.024</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.GetUploadToken</className>
+          <testName>test_02_获取type2的图片token_成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.HospitalSearch.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</name>
+      <duration>0.771</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>0.771</time>
+      <cases>
+        <case>
+          <duration>0.144</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_04_查询字符串为中文时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.044</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_08_加城市ID搜索</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.045</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_06_查询字符串为中英混合时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.047</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_05_查询字符串为一串拼音时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.125</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_03_查询字符串为空时的返回结果</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.164</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_01_有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.128</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_02_没有searchName字段的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.074</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.HospitalSearch</className>
+          <testName>test_07_返回的结果中详细字段不缺少</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.ProfessionList.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.ProfessionList</name>
+      <duration>0.087</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>0.087</time>
+      <cases>
+        <case>
+          <duration>0.045</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.ProfessionList</className>
+          <testName>test_01_有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.042</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.ProfessionList</className>
+          <testName>test_02_没有token信息的请求可以获得有效信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</name>
+      <duration>4.956</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>4.956</time>
+      <cases>
+        <case>
+          <duration>0.478</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_03_已登录有token的用户可以更新个人信息hospital_id</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.309</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_02_已登录有token的用户可以更新个人信息department</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.31</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_05_已登录有token的用户可以更新个人信息major_id</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.026</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_06_未登录没有token的用户不可以更新信息</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.316</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_12_更新doctor_card_pictures字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.802</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_09_禁止更新hospital_name字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.118</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_08_禁止更新city_name字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.023</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_07_错误token的不可以更新信息并返回正确错误码</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.574</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateDoctorProfile</className>
+          <testName>test_10_禁止更新major_name字段</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</name>
+      <duration>8.019</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>8.019</time>
+      <cases>
+        <case>
+          <duration>1.048</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_06_更新病例_期望手术医院</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.773</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_04_更新病例_病例描述</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.022</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_07_更新病例_患者姓名</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.759</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_08_更新病例_患者年龄</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.244</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_01_更新病例_主诉疾病</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.191</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_05_更新病例_更新图片</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: 图片为空不应该更新成功 expected [2210431] but found [1000000]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords.test_05_更新病例_更新图片(UpdateMedicalRecords.java:511)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+    </errorStackTrace>
+          <errorDetails>图片为空不应该更新成功 expected [2210431] but found [1000000]</errorDetails>
+          <failedSince>11</failedSince>
+        </case>
+        <case>
+          <duration>0.938</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_02_更新病例_次诉疾病</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.044</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords</className>
+          <testName>test_03_更新病例_患者性别</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.login.CheckVerifyCode.xml</file>
+      <name>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</name>
+      <duration>8.804</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>8.804</time>
+      <cases>
+        <case>
+          <duration>0.087</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>同一手机号先请求验证码再验证应该返回token</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.006</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>无手机号有验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.033</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>有手机号无验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>8.642</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号非法或不符时发送验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.036</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号未发送过请求但直接进行验证应该返回错误</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.login.Refresh.xml</file>
+      <name>com.mingyizhudao.qa.testcase.login.Refresh</name>
+      <duration>1.156</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>1.156</time>
+      <cases>
+        <case>
+          <duration>0.152</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>刷新token后返回新的token且老token依然可用</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: expected [7200] but found [86400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.mingyizhudao.qa.testcase.login.Refresh.刷新token后返回新的token且老token依然可用(Refresh.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+    </errorStackTrace>
+          <errorDetails>expected [7200] but found [86400]</errorDetails>
+          <failedSince>10</failedSince>
+        </case>
+        <case>
+          <duration>1.004</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>body中的token和http头中的token不一致</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.login.SendVerifyCode.xml</file>
+      <name>com.mingyizhudao.qa.testcase.login.SendVerifyCode</name>
+      <duration>0.232</duration>
+      <timestamp>19 Jul 2017 05:39:35 GMT</timestamp>
+      <time>0.232</time>
+      <cases>
+        <case>
+          <duration>0.214</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误少于11位的手机号发送验证码失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.006</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写正确手机号发送验证码成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.012</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误手机号发送验证码成功失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>201.108</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

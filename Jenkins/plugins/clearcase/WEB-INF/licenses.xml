@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='clearcase' version='1.6.3'><l:dependency name='Jenkins ClearCase Plug-in' groupId='org.jenkins-ci.plugins' artifactId='clearcase' version='1.6.3' url='http://wiki.jenkins-ci.org/display/JENKINS/ClearCase+Plugin'><l:description/><l:license name='MIT license' url=''/></l:dependency></l:dependencies>

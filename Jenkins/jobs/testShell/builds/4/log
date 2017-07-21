@@ -1,0 +1,23 @@
+Started by user [8mha:////4P0s7hGjA9VljF4c+Hu91PaVlAz/nad31wngZ9nOeP3iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CJ9x5TczDwAi45d7MAAAAA=[0madmin
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\testShell
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ttshmily/serviceapi.git # timeout=10
+Fetching upstream changes from https://github.com/ttshmily/serviceapi.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/ttshmily/serviceapi.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/dev^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/dev^{commit}" # timeout=10
+Checking out Revision 88b4f6105e2fe0029b455c0905b4f7203f99deb3 (refs/remotes/origin/dev)
+Commit message: "src/test/java/com/mingyizhudao/qa/testcase/doctor/GetDoctorProfile.java"
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 88b4f6105e2fe0029b455c0905b4f7203f99deb3
+ > git.exe rev-list 88b4f6105e2fe0029b455c0905b4f7203f99deb3 # timeout=10
+[testShell] $ cmd /c call C:\Windows\TEMP\jenkins8773111391197444280.bat
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo hello 
+hello
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>exit 0 
+Finished: SUCCESS

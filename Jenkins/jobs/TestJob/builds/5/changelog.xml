@@ -1,0 +1,11 @@
+commit 3be31072a01f7bdbccc62f4e4a52a325bd89b06f
+tree 32ffd070167ab96e28c4f06e15bdbfacc8e4d45a
+parent 1695572493571d80663c9beb4ef22bcbe3ce8989
+author ttshmily <ttshmilyfc@163.com> 2017-07-11 12:04:48 +0800
+committer GitHub <noreply@github.com> 2017-07-11 12:04:48 +0800
+
+    Create environment.properties
+
+
+
+:000000 100644 0000000000000000000000000000000000000000 3cd614aefd1146e90630c552dc16847d29b6efc6 A	src/test/resources/config-test/environment.properties

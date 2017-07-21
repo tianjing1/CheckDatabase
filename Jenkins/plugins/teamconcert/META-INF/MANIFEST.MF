@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: sdpbld1
+Build-Jdk: 1.7.0
+Extension-Name: teamconcert
+Specification-Title: Integrates Jenkins with Rational Team Concert sou
+ rce control and build using the richer features of the build toolkit 
+ instead of the command line.
+Implementation-Title: teamconcert
+Implementation-Version: 1.2.0.3
+Group-Id: org.jenkins-ci.plugins
+Short-Name: teamconcert
+Long-Name: Team Concert Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/Team+Concert+Plugin
+Plugin-Version: 1.2.0.3
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Dependencies: credentials:1.10,workflow-scm-step:1.3;resolution
+ :=optional
+Plugin-Developers: Sridevi Sangaiah:ssangaiah:,Raghu NS:nsraghu:,Laksh
+ mi Narasimhan T V:lvaikunt:
+

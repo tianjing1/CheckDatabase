@@ -1,0 +1,43 @@
+Started by user [8mha:////4P0s7hGjA9VljF4c+Hu91PaVlAz/nad31wngZ9nOeP3iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CJ9x5TczDwAi45d7MAAAAA=[0madmin
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\TestJob
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ttshmily/serviceapi.git # timeout=10
+Fetching upstream changes from https://github.com/ttshmily/serviceapi.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/ttshmily/serviceapi.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/dev^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/dev^{commit}" # timeout=10
+Checking out Revision 88b4f6105e2fe0029b455c0905b4f7203f99deb3 (refs/remotes/origin/dev)
+Commit message: "src/test/java/com/mingyizhudao/qa/testcase/doctor/GetDoctorProfile.java"
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 88b4f6105e2fe0029b455c0905b4f7203f99deb3
+ > git.exe rev-list 88b4f6105e2fe0029b455c0905b4f7203f99deb3 # timeout=10
+[TestJob] $ cmd /c call C:\Windows\TEMP\jenkins525326554272852549.bat
+
+C:\Program Files (x86)\Jenkins\workspace\TestJob>mvn test -DsuiteFilename=all.xml 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building serviceapi 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ serviceapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\TestJob\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ serviceapi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ serviceapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 16 resources
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ serviceapi ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 100 source files to C:\Program Files (x86)\Jenkins\workspace\TestJob\target\test-classes
+Build was aborted
+Aborted by [8mha:////4FkXk2Ue5G0X0ug1cNgeKkkGRL/BYf563NYlfejiVtjsAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Finished: ABORTED

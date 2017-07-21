@@ -1,0 +1,132 @@
+Started by user [8mha:////4P0s7hGjA9VljF4c+Hu91PaVlAz/nad31wngZ9nOeP3iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CJ9x5TczDwAi45d7MAAAAA=[0madmin
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\testDoctor
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ttshmily/serviceapi.git # timeout=10
+Fetching upstream changes from https://github.com/ttshmily/serviceapi.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/ttshmily/serviceapi.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/dev^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/dev^{commit}" # timeout=10
+Checking out Revision 49f198f0e6e646d1d82da1604411c9494219b593 (refs/remotes/origin/dev)
+Commit message: "src/test/resources/config-test/doctor.xml"
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 49f198f0e6e646d1d82da1604411c9494219b593
+ > git.exe rev-list 7028ecfd2bff706cf313805a039e8f7827d968f8 # timeout=10
+[testDoctor] $ cmd /c call C:\Windows\TEMP\jenkins8952754697776590425.bat
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo protocol = http 1>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_doc = services.dev.myzd.info/doctor 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_login = login.dev.myzd.info 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_kb = 192.168.33.1 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_crm = services.dev.myzd.info/crm 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo crm_token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImppbmcudGlhbkBtaW5neWl6aHVkYW8uY29tIiwibmFtZSI6Ilx1NzUzMFx1OTc1OSIsInN1YiI6MjMsImlzcyI6Imh0dHA6XC9cLzE5Mi4xNjguMzMuMjJcL2FwaVwvdjFcL2NhbGxiYWNrIiwiaWF0IjoxNTAwNDM2ODc2LCJleHAiOjE1MDA2NTI4NzYsIm5iZiI6MTUwMDQzNjg3NiwianRpIjoiSTJndzJCSTVBUE1yOEE2ZSJ9.BbD9Zzd9OkwNHZVoSC6_c3R5f9jkVppL0FSIAHxZYQk 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_bda = services.dev.myzd.info/bd-assistant 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo bda_token = eyJzcmMiOiJjeHF5IiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJsZWFkaW5nX2dyb3VwIjoyLCJ1aWQiOiJjaGFvLmZhbmdAbWluZ3lpemh1ZGFvLmNvbSIsImdlbmRlciI6IjEiLCJzdGFmZl9pZCI6IlNIMDEzMyIsIm5hbWUiOiLmlrnotoUiLCJtb2JpbGUiOiIiLCJhdmF0YXIiOiJodHRwOi8vc2hwLnFwaWMuY24vYml6bXAvSEhFZGlhdmpSMVFNQ2dFVmh3OEwwaFNqYVRmZ05yOVp5TEFCaWEwSTJ0Y0RKdkFNdzM2dXpTYUEvIiwiZXhwIjoxNDk2NzE4MDU1LCJpYXQiOjE0OTY2MzE2NTUsImVtYWlsIjoiY2hhby5mYW5nQG1pbmd5aXpodWRhby5jb20iLCJzdGF0dXMiOjF9.p1SJUQqEvw6X7wlm7GJXDAzmRT60RvNHfFNkwN8kIJs 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo bda_token_staff = eyJzcmMiOiJjeHF5IiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJsZWFkaW5nX2dyb3VwIjo2LCJ1aWQiOiJmYW5nY2hhby10ZXN0QG1pbmd5aXpodWRhby5jb20iLCJnZW5kZXIiOiIxIiwic3RhZmZfaWQiOiJTSDA5OTkiLCJuYW1lIjoi5aSn5LiAIiwibW9iaWxlIjoiMTM4MTc2MzQyMDMiLCJhdmF0YXIiOiJodHRwOi8vcC5xbG9nby5jbi9iaXptYWlsLzdycU5SeUNQQWpaM3o2a2NOMlN1S3ZvQWhpYkJzV2ljVjZqUkNlT2V3dmNQMlJGaWJMVHU4ZU9kdy8wIiwiZXhwIjoxNDk2NzE4MDU1LCJpYXQiOjE0OTY2MzE2NTUsImVtYWlsIjoiZGF5aUBtaW5neWl6aHVkYW8uY29tIiwic3RhdHVzIjoxfQ.VR4MueuMfCN_sxztn32JmQzrXNCIt2Ceh5r2wZ_idT0 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo mainOperatorId = jing.tian@mingyizhudao.com 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo mainOperatorName = 田静 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>mvn test -DsuiteFilename=doctor.xml 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building serviceapi 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ serviceapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\testDoctor\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ serviceapi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ serviceapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 16 resources
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ serviceapi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ serviceapi ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[INFO][SendVerifyCode] 请求验证码到手机号13221199999 ...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/sendVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13221199999"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][SendVerifyCode] mobile是: 13221199999...请发送验证码到服务器进行验证
+[INFO][CheckVerifyCode] 发送短信验证码到服务器进行验证...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/checkVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13221199999","code":"123456","state":"test"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  80 ms
+[INFO][CheckVerifyCode] token是: eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImQ4MTI1ZGQzIn0.eyJ1aWQiOiIzMzE2IiwibW9iaWxlIjoiMTMyMjExOTk5OTkiLCJleHAiOjE1MDA1NDI0MDEsImlhdCI6MTUwMDQ1NjAwMX0._9hpixskwukwGv9NzxoJJ5upBGi13ILuBSG5XtEq-mE
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  2137 ms
+[INFO][BaseTest] 更新医生信息...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  {"doctor":{"name":"庄恕hc","department":"胸外科","major_id":"75","academic_title_list":"PROFESSOR","medical_title_list":"ATTENDING_PHYSICIAN","hospital_id":"6092","inviter_no":"SH0098"}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  2676 ms
+[DEBUG][UpdateDoctorProfile] {"code":2210421,"message":"医院ID参数不正确"}
+[ERROR][UpdateDoctorProfile] 更新医生信息失败
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  27 ms
+[INFO][BaseTest] mainDoctorId为:	3316
+[INFO][BaseTest] mainDoctorName为:	
+[INFO][BaseTest] mainDoctorHospitalId为:	
+[INFO][BaseTest] mainDoctorHospitalName为:	
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/doctors/3316/profiles
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  122 ms
+[DEBUG][RegisteredDoctor_Certify_V2] {"code":1000000,"message":"成功","data":{"user_id":3316,"mobile":"13221199999","name":null,"hospital_id":null,"hospital_name":null,"department":null,"major_id":null,"major_name":null,"academic_title":null,"medical_title":null,"inviter_no":null,"inviter_name":null,"province":null,"city":null,"is_verified":"0","date_verified":null,"created_at":"2017-07-19 17:20:03","modified_at":null,"is_famous":0,"signed_status":"NOT_SIGNED","doctor_card_pictures":[],"doctor_card_pictures_deleted":null,"experted_authentication_pictures":null,"experted_authentication_pictures_deleted":null,"academic_title_list":null,"medical_title_list":null,"city_id":null,"create_order_time":null,"icon":null,"register_id":null,"signed_time":null,"order_count":0,"province_id":null,"user_visible":0,"audit_time":null,"exp_list":null,"audit_state":"AUDIT_GNOT"}}
+[ERROR][RegisteredDoctor_Certify_V2] 信息不完整，不能验证
+[ERROR][BaseTest] 医生认证没通过，无法进行后续用例，退出...
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 8.687 s
+[INFO] Finished at: 2017-07-19T17:20:07+08:00
+[INFO] Final Memory: 12M/221M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project serviceapi: Execution default-test of goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test failed: The forked VM terminated without properly saying goodbye. VM crash or System.exit called?
+[ERROR] Command was cmd.exe /X /C ""C:\Program Files\Java\jdk1.8.0_131\jre\bin\java" -jar "C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire\surefirebooter4721706732697652201.jar" "C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire\surefire3549888148865552555tmp" "C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire\surefire_08597460434225092594tmp""
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/PluginExecutionException
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Build step 'Execute Windows batch command' marked build as failure
+Recording test results
+Finished: FAILURE

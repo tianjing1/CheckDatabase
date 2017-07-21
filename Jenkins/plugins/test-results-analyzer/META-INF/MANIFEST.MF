@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: vmenon
+Build-Jdk: 1.8.0_51
+Extension-Name: test-results-analyzer
+Implementation-Title: test-results-analyzer
+Implementation-Version: 0.3.4
+Group-Id: org.jenkins-ci.plugins
+Short-Name: test-results-analyzer
+Long-Name: Test Results Analyzer Plugin
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Test+Results+Analyzer+
+ Plugin
+Plugin-Version: 0.3.4
+Hudson-Version: 1.594
+Jenkins-Version: 1.594
+Plugin-Dependencies: junit:1.2-beta-4
+Plugin-Developers: Varun Menon:menonvarun:mr.varun.menon@gmail.com
+

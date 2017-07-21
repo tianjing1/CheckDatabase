@@ -1,0 +1,3212 @@
+Started by user [8mha:////4P0s7hGjA9VljF4c+Hu91PaVlAz/nad31wngZ9nOeP3iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CJ9x5TczDwAi45d7MAAAAA=[0madmin
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\TestJob
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ttshmily/serviceapi.git # timeout=10
+Fetching upstream changes from https://github.com/ttshmily/serviceapi.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/ttshmily/serviceapi.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 1695572493571d80663c9beb4ef22bcbe3ce8989 (refs/remotes/origin/master)
+Commit message: "add cases"
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 1695572493571d80663c9beb4ef22bcbe3ce8989
+ > git.exe rev-list 1695572493571d80663c9beb4ef22bcbe3ce8989 # timeout=10
+[TestJob] $ cmd /c call C:\Windows\TEMP\jenkins6911598945175017024.bat
+
+C:\Program Files (x86)\Jenkins\workspace\TestJob>mvn test -DsuiteFilename=all.xml 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building serviceapi 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ serviceapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\TestJob\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ serviceapi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ serviceapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ serviceapi ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 98 source files to C:\Program Files (x86)\Jenkins\workspace\TestJob\target\test-classes
+[INFO] /C:/Program Files (x86)/Jenkins/workspace/TestJob/src/test/java/com/mingyizhudao/qa/testcase/doctor/UpdateDoctorProfile.java: 某些输入文件使用了未经检查或不安全的操作。
+[INFO] /C:/Program Files (x86)/Jenkins/workspace/TestJob/src/test/java/com/mingyizhudao/qa/testcase/doctor/UpdateDoctorProfile.java: 有关详细信息, 请使用 -Xlint:unchecked 重新编译。
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ serviceapi ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[DEBUG][KB] http://192.168.33.1
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1&page=1
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1&page=1
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  16 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=1
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=1
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  51 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=2
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=2
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  22 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=3
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=3
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=4
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=4
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  21 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=5
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=5
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  22 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=6
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=6
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  21 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=7
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=7
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  27 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=8
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=8
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  22 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=9
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=9
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  23 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=10
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=10
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  23 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=11
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=11
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  22 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=12
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=12
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  23 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=13
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=13
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  22 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=14
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=14
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=15
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=15
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  23 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=16
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=16
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  21 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=17
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=17
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  22 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=18
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=18
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  26 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=19
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=19
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  21 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=20
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=20
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  21 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=21
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=21
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  21 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=22
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=22
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=23
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=23
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  23 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=24
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=24
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  21 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=25
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=25
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  21 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=26
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=26
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=27
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=27
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  26 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/hospitals?pageSize=1000&page=28
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=28
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  16 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/doctors?pageSize=1&page=1
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1&page=1
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/doctors?pageSize=1000&page=1
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=1
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/doctors?pageSize=1000&page=2
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=2
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  26 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/doctors?pageSize=1000&page=3
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=3
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  74 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/doctors?pageSize=1000&page=4
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=4
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  76 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/doctors?pageSize=1000&page=5
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=5
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  39 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/doctors?pageSize=1000&page=6
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=6
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  40 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/doctors?pageSize=1000&page=7
+[INFO][HttpRequest] 请求数据: >>>>>  pageSize=1000&page=7
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  34 ms
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/provinces
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 34
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=370000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=370000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 17
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=620000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=620000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=320000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=320000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=110000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=110000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 1
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=530000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=530000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=460000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=460000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 19
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=330000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=330000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=310000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=310000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 1
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=120000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=120000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 1
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=610000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=610000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=650000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=650000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 19
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=520000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=520000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=340000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=340000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=820000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=820000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 1
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=430000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=430000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=130000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=130000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=810000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=810000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 1
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=210000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=210000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=510000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=510000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 21
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=640000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=640000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=220000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=220000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=350000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=350000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=420000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=420000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 17
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=440000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=440000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 21
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=500000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=500000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 1
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=140000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=140000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=360000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=360000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=230000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=230000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=630000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=630000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=410000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=410000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 18
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=710000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=710000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 1
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=150000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=150000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=540000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=540000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities?provinceId=450000
+[INFO][HttpRequest] 请求数据: >>>>>  provinceId=450000
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/common/medicalTitleList
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[DEBUG][KB] {"code":1000000,"message":"OK","data":{"list":[{"ARCHIATER":"主任医师"},{"ASSOCIATE_ARCHIATER":"副主任医师"},{"ATTENDING_PHYSICIAN":"主治医师"},{"RESIDENT_PHYSICIAN":"医师/士"},{"CHIEF_NURSE":"主任护师"},{"ASSOCIATE_CHIEF_NURSE":"副主任护师"},{"SUPERVISOR_NURSE":"主管护师"},{"NURSE":"护师/士"},{"CHIEF_TECHNICIAN":"主任技师"},{"ASSOCIATE_CHIEF_TECHNICIAN":"副主任技师"},{"SUPERVISOR_TECHNICIAN":"主管技师"},{"TECHNICIAN":"技师/士"}]}}
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/common/academicTitleList
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeryCategories
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  10 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=44
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=44
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  22 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=88
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=88
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=45
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=45
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 33
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=89
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=89
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 22
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=46
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=46
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 48
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=47
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=47
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 156
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=48
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=48
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 125
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=49
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=49
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 192
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=50
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=50
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 36
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=51
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=51
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=52
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=52
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=53
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=53
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=10
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=10
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 98
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=54
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=54
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 20
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=11
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=11
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 135
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=55
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=55
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=12
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=12
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 247
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=56
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=56
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=13
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=13
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 69
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=57
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=57
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=14
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=14
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 22
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=58
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=58
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 32
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=15
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=15
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 47
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=59
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=59
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 21
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=16
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=16
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 33
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=17
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=17
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 26
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=18
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=18
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=19
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=19
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 65
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=1
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=1
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 41
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=2
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=2
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 36
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=3
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=3
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=4
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=4
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=5
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=5
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=6
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=6
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 32
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=7
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=7
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 94
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=8
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=8
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=9
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=9
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=60
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=60
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=61
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=61
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=62
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=62
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=63
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=63
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 28
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=20
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=20
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 27
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=64
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=64
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  20 ms
+[INFO][UT] list的长度为: 89
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=21
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=21
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 51
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=65
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=65
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=22
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=22
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  13 ms
+[INFO][UT] list的长度为: 79
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=66
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=66
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=23
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=23
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 31
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=67
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=67
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 68
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=24
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=24
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 18
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=68
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=68
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 20
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=25
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=25
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 23
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=69
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=69
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  8 ms
+[INFO][UT] list的长度为: 63
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=26
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=26
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=27
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=27
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 41
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=28
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=28
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=29
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=29
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 20
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=70
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=70
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  18 ms
+[INFO][UT] list的长度为: 20
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=71
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=71
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 32
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=72
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=72
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=73
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=73
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 178
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=30
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=30
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=74
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=74
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 53
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=31
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=31
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 71
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=75
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=75
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=32
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=32
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=76
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=76
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 21
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=33
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=33
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=77
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=77
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 39
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=34
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=34
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=78
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=78
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 20
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=35
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=35
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=79
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=79
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=36
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=36
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=37
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=37
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 111
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=38
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=38
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 39
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=39
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=39
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 27
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=80
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=80
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=81
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=81
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=82
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=82
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 119
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=83
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=83
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=40
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=40
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 74
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=84
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=84
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 32
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=41
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=41
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 42
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=85
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=85
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 121
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=42
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=42
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=86
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=86
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 41
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=43
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=43
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/surgeries?isShowAll=true&surgeryCategoryId=87
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&surgeryCategoryId=87
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 299
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/diseaseCategories/listTreeNode
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  12 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=44
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=44
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=88
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=88
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=45
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=45
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=89
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=89
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=46
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=46
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=47
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=47
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=48
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=48
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=49
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=49
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=90
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=90
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=91
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=91
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=50
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=50
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=51
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=51
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=52
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=52
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=53
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=53
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=10
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=10
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=54
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=54
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=11
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=11
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=55
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=55
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  11 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=12
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=12
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=56
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=56
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=13
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=13
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=57
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=57
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=14
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=14
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=58
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=58
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=15
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=15
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=59
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=59
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=16
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=16
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  22 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=17
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=17
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  28 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=18
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=18
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=19
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=19
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=1
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=1
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=2
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=2
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=3
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=3
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=4
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=4
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=5
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=5
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=6
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=6
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=7
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=7
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=8
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=8
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=9
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=9
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=60
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=60
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=61
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=61
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=62
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=62
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=63
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=63
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=20
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=20
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=64
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=64
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=21
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=21
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=65
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=65
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=22
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=22
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=66
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=66
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=23
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=23
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=67
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=67
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=24
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=24
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=68
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=68
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=25
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=25
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=69
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=69
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=26
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=26
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=27
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=27
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=28
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=28
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=29
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=29
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=70
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=70
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=71
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=71
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=72
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=72
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=73
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=73
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=30
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=30
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=74
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=74
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=31
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=31
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=75
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=75
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=32
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=32
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=76
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=76
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=33
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=33
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=77
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=77
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=34
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=34
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=78
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=78
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=35
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=35
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=79
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=79
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=36
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=36
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=37
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=37
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=38
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=38
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=39
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=39
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=80
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=80
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=81
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=81
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=82
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=82
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=83
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=83
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=40
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=40
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=84
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=84
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=41
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=41
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=85
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=85
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=42
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=42
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=86
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=86
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=43
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=43
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/diseases?isShowAll=true&diseaseCategoryId=87
+[INFO][HttpRequest] 请求数据: >>>>>  isShowAll=true&diseaseCategoryId=87
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/common/hospitalClassList
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/common/hospitalTypeList
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/513200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/370100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/632800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/370900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/530100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/441500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/421100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/330200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  15 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/610100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/340800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/420800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/231000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/640300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/210300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/411300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/510600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/451300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/621100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/810000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/371300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/430600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/130200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  14 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/650100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/520300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/220100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/222400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/522600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/440400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/350500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/445300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/360300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/530900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/152900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/150600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/620800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/341200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/211400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/511800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/140800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/410100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/320400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/450200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/230700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 17
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/410900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/370800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/632700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/441400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/421000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/330300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/141100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/610200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/420700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/340100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/510500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/640200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/210200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/411200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/451200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/371200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 2
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/621200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/512000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/130100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 21
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/220800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/430500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/640100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/652300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/520400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/130900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/522700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/445200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/440300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/350400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/230600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/360200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/532500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/150500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/450900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/511700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/620900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/341300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/320500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/211300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/140700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/433100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/450100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/540500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/620100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/429021/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/410400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/460100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/330400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/441700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/632600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/442000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/370700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/610300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/210900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/420200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  8 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/520100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/340200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/510400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/210100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/371100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/130400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 19
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/411500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/430800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/533300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/440600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/420100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/350300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/220700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/230500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/360100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/150800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/530700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/421300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/140200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/630200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/450400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/360900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/320600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/211200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/511600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/431100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/620200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/211100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/511400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/410300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 15
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/532300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/330500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/441600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/632500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/421200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/370600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/460200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/310100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469028/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469027/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/610400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469026/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469025/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469024/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/420900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469023/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469022/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  15 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/654300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  19 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469021/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/520200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/451400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/210800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/419001/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/340300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/321000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/411400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/371000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/510300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/430700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/130300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/533400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/440500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/350200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/610500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/652900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469029/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/220600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/530800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/230400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/140100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/630100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/150700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/653200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/320700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469030/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/450300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 17
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/511500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/410200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/152200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/139001/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/140900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 14
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/139002/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/360800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/341500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/232700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/431000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/431300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/131000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/620300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 2
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/511300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/211000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  8 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/410600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/540300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/441900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/330600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/370500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/460300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469006/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469005/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469002/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/361100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469001/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/654200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/120100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/210700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/321200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/340400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/430200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/321100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/650500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/350900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/411700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/623000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/440800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/130600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 23
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/533100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/350100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/220500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/652800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/371700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/469007/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/610600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/532800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/230300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/530500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/653100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/632300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/140400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/150200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/152500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/320800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/450600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/620400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/360700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 18
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/341600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/431200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/410500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/540400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/441800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/330700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/370400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/429006/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/460400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/429005/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/429004/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/420300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/331000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/361000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/522300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/340500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/210600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/321300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/510900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/430100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/350800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/650400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/510100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 20
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/130500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 19
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/411600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/440700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/430900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/371600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/331100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/610700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/652700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/220400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/532900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/530600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/150900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/653000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/230200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/611000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/320900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/140300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/632200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/710000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/150100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/450500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/341700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/620500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/320100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/360600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/410800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/370300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/330800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/540100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/542400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/511100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/513400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 17
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/110100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/441300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/654000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/141000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 17
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/420600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/411100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/640500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/231200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/820000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/451100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/340600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/510800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/210500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/350700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/430400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/130800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/520500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/220300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/371500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/610800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/445100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/440200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/659004/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/659003/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/659002/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/341800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/450800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/532600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/230100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 18
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/150400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/530300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/659006/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/140600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/341000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/659001/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 0
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/230900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/622900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/620600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/360500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 2
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/320200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  7 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/131100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/511000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/410700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/370200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/330900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/540200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 18
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/513300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 18
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/542500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/330100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/441200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/422800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/420500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/340700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/210400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 7
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/231100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/411000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/510700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/640400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/451000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 12
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/350600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  6 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/371400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/430300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/621000/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/650200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/440900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/610900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/520600/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/130700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 16
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/220200/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/440100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 11
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/360400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 13
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/530400/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 9
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/450700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 4
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/500100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 24
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/140500/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 6
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/150300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 3
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/341100/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 8
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/320300/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  5 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/511900/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][UT] list的长度为: 5
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/230800/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 10
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://192.168.33.1/api/v1/cities/620700/counties
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][UT] list的长度为: 6
+[INFO][SendVerifyCode] 请求验证码到手机号13686639999 ...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/sendVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13686639999"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][SendVerifyCode] mobile是: 13686639999...请发送验证码到服务器进行验证
+[INFO][CheckVerifyCode] 发送短信验证码到服务器进行验证...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/checkVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13686639999","code":"123456","state":"test"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  46 ms
+[INFO][CheckVerifyCode] token是: eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImMyY2U2MjQyIn0.eyJ1aWQiOiIzMTY1IiwibW9iaWxlIjoiMTM2ODY2Mzk5OTkiLCJleHAiOjE0OTk4MzE5NDksImlhdCI6MTQ5OTc0NTU0OX0.noecKnCbg_NlbWUqbHqWlnXqGcpiLIAj32ZZCxm9nlY
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  2258 ms
+[INFO][BaseTest] 更新医生信息...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  {"doctor":{"name":"庄恕Ru","department":"胸外科","major_id":"78","academic_title_list":"PROFESSOR","medical_title_list":"ASSOCIATE_CHIEF_TECHNICIAN","hospital_id":"26672","inviter_no":"SH0133"}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  345 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  319 ms
+[INFO][BaseTest] mainDoctorId为:	3165
+[INFO][BaseTest] mainDoctorName为:	庄恕Ru
+[INFO][BaseTest] mainDoctorHospitalId为:	26672
+[INFO][BaseTest] mainDoctorHospitalName为:	测试医库医院bbRocvBYJPKOyUck
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/doctors/3165/profiles
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  55 ms
+[DEBUG][RegisteredDoctor_Certify_V2] {"code":3110005,"message":"Token 已过期"}
+Tests run: 263, Failures: 1, Errors: 0, Skipped: 262, Time elapsed: 32.826 sec <<< FAILURE! - in TestSuite
+setUpSuite(com.mingyizhudao.qa.testcase.doctor.UpdateMedicalRecords)  Time elapsed: 32.156 sec  <<< FAILURE!
+java.lang.NullPointerException
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+
+Results :
+
+Failed tests: 
+  UpdateMedicalRecords>BaseTest.setUpSuite:127 » NullPointer
+
+Tests run: 135, Failures: 1, Errors: 0, Skipped: 134
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 39.692 s
+[INFO] Finished at: 2017-07-11T11:59:14+08:00
+[INFO] Final Memory: 25M/281M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project serviceapi: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Program Files (x86)\Jenkins\workspace\TestJob\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE

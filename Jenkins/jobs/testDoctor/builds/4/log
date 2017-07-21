@@ -1,0 +1,503 @@
+Started by user [8mha:////4P0s7hGjA9VljF4c+Hu91PaVlAz/nad31wngZ9nOeP3iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CJ9x5TczDwAi45d7MAAAAA=[0madmin
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\testDoctor
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ttshmily/serviceapi.git # timeout=10
+Fetching upstream changes from https://github.com/ttshmily/serviceapi.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress https://github.com/ttshmily/serviceapi.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/dev^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/dev^{commit}" # timeout=10
+Checking out Revision 49f198f0e6e646d1d82da1604411c9494219b593 (refs/remotes/origin/dev)
+Commit message: "src/test/resources/config-test/doctor.xml"
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 49f198f0e6e646d1d82da1604411c9494219b593
+ > git.exe rev-list 49f198f0e6e646d1d82da1604411c9494219b593 # timeout=10
+[testDoctor] $ cmd /c call C:\Windows\TEMP\jenkins1313509012254715983.bat
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo protocol = http 1>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_doc = services.dev.myzd.info/doctor 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_login = login.dev.myzd.info 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_kb = 192.168.33.1 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_crm = services.dev.myzd.info/crm 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo crm_token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImppbmcudGlhbkBtaW5neWl6aHVkYW8uY29tIiwibmFtZSI6Ilx1NzUzMFx1OTc1OSIsInN1YiI6MjMsImlzcyI6Imh0dHA6XC9cLzE5Mi4xNjguMzMuMjJcL2FwaVwvdjFcL2NhbGxiYWNrIiwiaWF0IjoxNTAwNDU2MjA0LCJleHAiOjE1MDA2NzIyMDQsIm5iZiI6MTUwMDQ1NjIwNCwianRpIjoiY0xTTzd3UTNLZmJIak91MSJ9.Tp51Tl73mReMGACxRwxV7VMN0m9sSbhu40yDl6-i85c 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo host_bda = services.dev.myzd.info/bd-assistant 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo bda_token = eyJzcmMiOiJjeHF5IiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJsZWFkaW5nX2dyb3VwIjoyLCJ1aWQiOiJjaGFvLmZhbmdAbWluZ3lpemh1ZGFvLmNvbSIsImdlbmRlciI6IjEiLCJzdGFmZl9pZCI6IlNIMDEzMyIsIm5hbWUiOiLmlrnotoUiLCJtb2JpbGUiOiIiLCJhdmF0YXIiOiJodHRwOi8vc2hwLnFwaWMuY24vYml6bXAvSEhFZGlhdmpSMVFNQ2dFVmh3OEwwaFNqYVRmZ05yOVp5TEFCaWEwSTJ0Y0RKdkFNdzM2dXpTYUEvIiwiZXhwIjoxNDk2NzE4MDU1LCJpYXQiOjE0OTY2MzE2NTUsImVtYWlsIjoiY2hhby5mYW5nQG1pbmd5aXpodWRhby5jb20iLCJzdGF0dXMiOjF9.p1SJUQqEvw6X7wlm7GJXDAzmRT60RvNHfFNkwN8kIJs 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo bda_token_staff = eyJzcmMiOiJjeHF5IiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJsZWFkaW5nX2dyb3VwIjo2LCJ1aWQiOiJmYW5nY2hhby10ZXN0QG1pbmd5aXpodWRhby5jb20iLCJnZW5kZXIiOiIxIiwic3RhZmZfaWQiOiJTSDA5OTkiLCJuYW1lIjoi5aSn5LiAIiwibW9iaWxlIjoiMTM4MTc2MzQyMDMiLCJhdmF0YXIiOiJodHRwOi8vcC5xbG9nby5jbi9iaXptYWlsLzdycU5SeUNQQWpaM3o2a2NOMlN1S3ZvQWhpYkJzV2ljVjZqUkNlT2V3dmNQMlJGaWJMVHU4ZU9kdy8wIiwiZXhwIjoxNDk2NzE4MDU1LCJpYXQiOjE0OTY2MzE2NTUsImVtYWlsIjoiZGF5aUBtaW5neWl6aHVkYW8uY29tIiwic3RhdHVzIjoxfQ.VR4MueuMfCN_sxztn32JmQzrXNCIt2Ceh5r2wZ_idT0 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo mainOperatorId = jing.tian@mingyizhudao.com 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>echo mainOperatorName = 田静 1>>C:\progra~2\Jenkins\workspace\testDoctor\src\test\resources\config-test\environment.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testDoctor>mvn test -DsuiteFilename=doctor.xml 
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building serviceapi 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ serviceapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Program Files (x86)\Jenkins\workspace\testDoctor\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ serviceapi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ serviceapi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 16 resources
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ serviceapi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ serviceapi ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+[INFO][SendVerifyCode] 请求验证码到手机号13789239999 ...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/sendVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13789239999"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  4 ms
+[INFO][SendVerifyCode] mobile是: 13789239999...请发送验证码到服务器进行验证
+[INFO][CheckVerifyCode] 发送短信验证码到服务器进行验证...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/checkVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13789239999","code":"123456","state":"test"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  46 ms
+[INFO][CheckVerifyCode] token是: eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6IjJlNGFhM2VkIn0.eyJ1aWQiOiIzMzE4IiwibW9iaWxlIjoiMTM3ODkyMzk5OTkiLCJleHAiOjE1MDA1NDI2NjIsImlhdCI6MTUwMDQ1NjI2Mn0.zNeRPNh7GSmGgAFYa-LCXFCRSiqSwnabLNGeu4btIZk
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  2144 ms
+[INFO][BaseTest] 更新医生信息...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  {"doctor":{"name":"庄恕zg","department":"胸外科","major_id":"37","academic_title_list":"LECTURER","medical_title_list":"ARCHIATER","hospital_id":"2135","inviter_no":"SH0098"}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  463 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  131 ms
+[INFO][BaseTest] mainDoctorId为:	3318
+[INFO][BaseTest] mainDoctorName为:	庄恕zg
+[INFO][BaseTest] mainDoctorHospitalId为:	2135
+[INFO][BaseTest] mainDoctorHospitalName为:	罗源县中医院
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/doctors/3318/profiles
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  140 ms
+[DEBUG][RegisteredDoctor_Certify_V2] {"code":1000000,"message":"成功","data":{"user_id":3318,"mobile":"13789239999","name":"庄恕zg","hospital_id":2135,"hospital_name":"罗源县中医院","department":"胸外科","major_id":37,"major_name":"功能性疾病","academic_title":"讲师","medical_title":"主任医师","inviter_no":"SH0098","inviter_name":"王磊","province":"福建","city":"福州","is_verified":"2","date_verified":null,"created_at":"2017-07-19 17:24:24","modified_at":"2017-07-19 17:24:24","is_famous":0,"signed_status":"NOT_SIGNED","doctor_card_pictures":[],"doctor_card_pictures_deleted":null,"experted_authentication_pictures":null,"experted_authentication_pictures_deleted":null,"academic_title_list":"LECTURER","medical_title_list":"ARCHIATER","city_id":350100,"create_order_time":null,"icon":null,"register_id":null,"signed_time":null,"order_count":0,"province_id":350000,"user_visible":0,"audit_time":null,"exp_list":null,"audit_state":"AUDIT_GNOT","inviter_mobile":"18721832484"}}
+[INFO][HttpRequest] 发送请求: >>>>>  PUT http://services.dev.myzd.info/crm/api/v1/doctors/3318/verificationssynchronization
+[INFO][HttpRequest] 请求数据: >>>>>  {"status":"1","reason":"程序认证注册医生并关联到医库"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  1146 ms
+[DEBUG][RegisteredDoctor_Certify_V2] {"code":1000000,"message":"OK","data":{"user_id":3318,"mobile":"13789239999","name":"庄恕zg","hospital_id":2135,"hospital_name":"罗源县中医院","department":"胸外科","major_id":37,"major_name":"功能性疾病","academic_title":"讲师","medical_title":"主任医师","inviter_no":"SH0098","inviter_name":"王磊","province":"福建","city":"福州","is_verified":"1","date_verified":"2017-07-19 17:24:25","created_at":"2017-07-19 17:24:24","modified_at":"2017-07-19 17:24:25","is_famous":0,"signed_status":"NOT_SIGNED","doctor_card_pictures":null,"doctor_card_pictures_deleted":null,"experted_authentication_pictures":null,"experted_authentication_pictures_deleted":null,"academic_title_list":"LECTURER","medical_title_list":"ARCHIATER","city_id":350100,"create_order_time":null,"icon":null,"register_id":7157,"signed_time":null,"order_count":0,"province_id":350000,"user_visible":0,"audit_time":null,"exp_list":null,"audit_state":"AUDIT_GNOT"}}
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/crm/api/v1/doctors/3318/profiles
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  118 ms
+[DEBUG][RegisteredDoctor_Certify_V2] {"code":1000000,"message":"成功","data":{"user_id":3318,"mobile":"13789239999","name":"庄恕zg","hospital_id":2135,"hospital_name":"罗源县中医院","department":"胸外科","major_id":37,"major_name":"功能性疾病","academic_title":"讲师","medical_title":"主任医师","inviter_no":"SH0098","inviter_name":"王磊","province":"福建","city":"福州","is_verified":"1","date_verified":"2017-07-19 17:24:25","created_at":"2017-07-19 17:24:24","modified_at":"2017-07-19 17:24:25","is_famous":0,"signed_status":"NOT_SIGNED","doctor_card_pictures":[],"doctor_card_pictures_deleted":null,"experted_authentication_pictures":null,"experted_authentication_pictures_deleted":null,"academic_title_list":"LECTURER","medical_title_list":"ARCHIATER","city_id":350100,"create_order_time":null,"icon":null,"register_id":7157,"signed_time":null,"order_count":0,"province_id":350000,"user_visible":0,"audit_time":null,"exp_list":null,"audit_state":"AUDIT_GNOT","inviter_mobile":"18721832484"}}
+[INFO][BaseTest] 认证成功
+[INFO][BaseTest] ///////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+[INFO][BaseTest] //    TestAPI START:	CreateOrder
+[INFO][BaseTest] ///////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_01_创建订单_信息齐备_已认证用户
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹rLEt","patient_gender":"1","patient_age":"14","patient_phone":"13317439999","major_disease_id":"772","minor_disease_id":"3825","diagnosis":"病情描述zVJOmwEWVrhGmQrjGCNCoHQCDqNfLqMJmDFKTfsqOfXgvVOMbNfcvOFfrZKCkwkOVKvxLSskXmYqMJjEYYqsiJTYCLcTzcuKXlCC","is_reoperation":0,"reoperation_description":"二次手术描述MdyZmZyFjUTjAMMhvlroknhSQGeqdXJkjsNTugdmREJMuJFHSEEswMiMPgqbUZcBITXTRXVsgIuCnczGkHUjYvhDznxWyWcEBcXT","expected_doctor_id":"6287","expected_surgery_start_date":"2017/07/21","expected_surgery_due_date":"2017/08/09","expected_surgery_hospital_id":"2723","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  370 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"id":10202,"order_number":1019921097,"type":1,"status":1000,"patient_name":"辣妹rLEt","patient_age":14,"patient_gender":1,"patient_phone":"13317439999","major_disease_id":772,"major_disease_name":"胃下垂","minor_disease_id":3825,"minor_disease_name":"包皮过长","diagnosis":"病情描述zVJOmwEWVrhGmQrjGCNCoHQCDqNfLqMJmDFKTfsqOfXgvVOMbNfcvOFfrZKCkwkOVKvxLSskXmYqMJjEYYqsiJTYCLcTzcuKXlCC","expected_doctor_id":6287,"expected_doctor_name":"庄恕bT","expected_surgery_start_date":"2017-07-21","expected_surgery_due_date":"2017-08-09","expected_surgery_hospital_id":2723,"expected_surgery_hospital_name":"甘肃省民政康复医院","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:52.800Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017-07-19 17:24:26","modified_at":"2017-07-19T09:24:26.816Z","medical_record_pictures":[{"type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}]}
+[INFO][CreateOrder] 查看刚刚创建的订单详情
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getorderdetail/1019921097
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  36 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"order":{"id":10202,"order_number":1019921097,"type":1,"status":1000,"patient_name":"辣妹rLEt","patient_age":14,"patient_gender":1,"patient_phone":"13317439999","major_disease_id":772,"major_disease_name":"胃下垂","minor_disease_id":3825,"minor_disease_name":"包皮过长","diagnosis":"病情描述zVJOmwEWVrhGmQrjGCNCoHQCDqNfLqMJmDFKTfsqOfXgvVOMbNfcvOFfrZKCkwkOVKvxLSskXmYqMJjEYYqsiJTYCLcTzcuKXlCC","expected_doctor_id":6287,"expected_doctor_name":"庄恕bT","expected_surgery_start_date":"2017/07/21","expected_surgery_due_date":"2017/08/09","expected_surgery_hospital_id":2723,"expected_surgery_hospital_name":"甘肃省民政康复医院","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:53.000Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017/07/19 17:24:27","modified_at":"2017/07/19 17:24:27","medical_record_pictures":[{"url":"https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&e=1500456567&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:yWnDkBySQL3HT7XNFfewczw-ofk=","larage_url":"https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&e=1500456567&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:gHyIaLEQEV_Q1IBrdzyIuTzc700=","type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"url":"https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&e=1500456567&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:Gv40uBgjf2bvtFIlFgLXUg74oN8=","larage_url":"https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&e=1500456567&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:97q8mkXZjTL9li0KFscQe8apTTo=","type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}],"surgeon_recommended_time":"","OrderStatusText":"待处理","surgeon_fee":"","surgeon_id":"","surgeon_name":"","surgeon_medical_title":"","surgeon_academic_title":"","surgeon_hospital":"","surgeon_department":""}}
+[INFO][UT] medical_record_pictures的长度为: 2
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_01_创建订单_信息齐备_已认证用户
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_02_创建订单_信息齐备_未登录用户
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹QyrD","patient_gender":"1","patient_age":"61","patient_phone":"13386629999","major_disease_id":"2658","minor_disease_id":"1897","diagnosis":"病情描述WJLtyYqviZhrEBOhZwMSWVyUHKDxfycwGWifKdHMRbeycvkXBvuFVsnEnkSLVcxIkygBKjRjNBAzBtgvtptezHbhAmEBstqjsqYh","is_reoperation":1,"reoperation_description":"二次手术描述VDnzocoHcktYuuyzvFyQbOfJkGFvvkzPERFuqSWLVXIfdBGrKMyEerTYXlJlbwFmbXGwGFvZZyKhlMkXgNfwUBNNNQKLNWgEqNiL","expected_doctor_id":"378","expected_surgery_start_date":"2017/07/25","expected_surgery_due_date":"2017/08/19","expected_surgery_hospital_id":"19075","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  19 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210304
+[INFO][BaseTest] <<<<<< [ message ]:	用户未登陆
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_02_创建订单_信息齐备_未登录用户
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_03_创建订单_缺少患者姓名不可以创建
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"","patient_gender":"1","patient_age":"30","patient_phone":"13090429999","major_disease_id":"1810","minor_disease_id":"2420","diagnosis":"病情描述feYRYRClgLCPsoSXhOByRPdSISvAGELAzCOZSrsihyIBlcNJuVfLQiYNojHxLlHPZBwfQHpfrICUEdEWhktmjuIZHDZJMPwBMVwQ","is_reoperation":1,"reoperation_description":"二次手术描述xPVOLZUoCpkdzNRRdOVvyhIFjWUAFyToBJBtNiRIVshGlHOZDmPjppsAbeDtsrEOhEyBYTPksBUXisxEGDvrlSpGNyVAuxKivmCE","expected_doctor_id":"6229","expected_surgery_start_date":"2017/07/23","expected_surgery_due_date":"2017/08/06","expected_surgery_hospital_id":"19876","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210401
+[INFO][BaseTest] <<<<<< [ message ]:	请输入患者名称
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"abcdefghijklmnopqrstuvwxyz一二三四五六七八九十甲乙丙地子卯寅丑","patient_gender":"1","patient_age":"30","patient_phone":"13090429999","major_disease_id":"1810","minor_disease_id":"2420","diagnosis":"病情描述feYRYRClgLCPsoSXhOByRPdSISvAGELAzCOZSrsihyIBlcNJuVfLQiYNojHxLlHPZBwfQHpfrICUEdEWhktmjuIZHDZJMPwBMVwQ","is_reoperation":1,"reoperation_description":"二次手术描述xPVOLZUoCpkdzNRRdOVvyhIFjWUAFyToBJBtNiRIVshGlHOZDmPjppsAbeDtsrEOhEyBYTPksBUXisxEGDvrlSpGNyVAuxKivmCE","expected_doctor_id":"6229","expected_surgery_start_date":"2017/07/23","expected_surgery_due_date":"2017/08/06","expected_surgery_hospital_id":"19876","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  320 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"id":10203,"order_number":1019921100,"type":1,"status":1000,"patient_name":"abcdefghijklmnopqrstuvwxyz一二三四五六七八九十甲乙丙地子卯寅丑","patient_age":30,"patient_gender":1,"patient_phone":"13090429999","major_disease_id":1810,"major_disease_name":"脑结核瘤","minor_disease_id":2420,"minor_disease_name":"臭汗症","diagnosis":"病情描述feYRYRClgLCPsoSXhOByRPdSISvAGELAzCOZSrsihyIBlcNJuVfLQiYNojHxLlHPZBwfQHpfrICUEdEWhktmjuIZHDZJMPwBMVwQ","expected_doctor_id":6229,"expected_doctor_name":"庄恕Bx","expected_surgery_start_date":"2017-07-23","expected_surgery_due_date":"2017-08-06","expected_surgery_hospital_id":19876,"expected_surgery_hospital_name":"石泉县妇幼保健院","is_reoperation":true,"reoperation_description":"二次手术描述xPVOLZUoCpkdzNRRdOVvyhIFjWUAFyToBJBtNiRIVshGlHOZDmPjppsAbeDtsrEOhEyBYTPksBUXisxEGDvrlSpGNyVAuxKivmCE","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:52.800Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017-07-19 17:24:27","modified_at":"2017-07-19T09:24:27.270Z","medical_record_pictures":[{"type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}]}
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_gender":"1","patient_age":"30","patient_phone":"13090429999","major_disease_id":"1810","minor_disease_id":"2420","diagnosis":"病情描述feYRYRClgLCPsoSXhOByRPdSISvAGELAzCOZSrsihyIBlcNJuVfLQiYNojHxLlHPZBwfQHpfrICUEdEWhktmjuIZHDZJMPwBMVwQ","is_reoperation":1,"reoperation_description":"二次手术描述xPVOLZUoCpkdzNRRdOVvyhIFjWUAFyToBJBtNiRIVshGlHOZDmPjppsAbeDtsrEOhEyBYTPksBUXisxEGDvrlSpGNyVAuxKivmCE","expected_doctor_id":"6229","expected_surgery_start_date":"2017/07/23","expected_surgery_due_date":"2017/08/06","expected_surgery_hospital_id":"19876","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210401
+[INFO][BaseTest] <<<<<< [ message ]:	请输入患者名称
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_03_创建订单_缺少患者姓名不可以创建
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_04_创建订单_缺少患者性别或性别不正确不可以创建
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹tCdI","patient_gender":"","patient_age":"92","patient_phone":"13625429999","major_disease_id":"1101","minor_disease_id":"3995","diagnosis":"病情描述HhgWopcVeRgnWFJdyQzQEeuUkLsKiWzFmGFOZxTeukCwqKikOjwlEeWdqWKRgZjrIuiJnQEmwobuWsfxQGXInecrMsRORGrKulUq","is_reoperation":0,"reoperation_description":"二次手术描述DQwOvzSTGOGsuGRqgoyqGUkolGmqLxAFQmjZkPZYtCqlBEKDvwOoVBekpzrZxiBjQQSigNlhtIFGrNoqiDLBTZprheyENexgnlxc","expected_doctor_id":"3498","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/22","expected_surgery_hospital_id":"21080","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210403
+[INFO][BaseTest] <<<<<< [ message ]:	请输入患者性别
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹tCdI","patient_gender":"3","patient_age":"92","patient_phone":"13625429999","major_disease_id":"1101","minor_disease_id":"3995","diagnosis":"病情描述HhgWopcVeRgnWFJdyQzQEeuUkLsKiWzFmGFOZxTeukCwqKikOjwlEeWdqWKRgZjrIuiJnQEmwobuWsfxQGXInecrMsRORGrKulUq","is_reoperation":0,"reoperation_description":"二次手术描述DQwOvzSTGOGsuGRqgoyqGUkolGmqLxAFQmjZkPZYtCqlBEKDvwOoVBekpzrZxiBjQQSigNlhtIFGrNoqiDLBTZprheyENexgnlxc","expected_doctor_id":"3498","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/22","expected_surgery_hospital_id":"21080","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210419
+[INFO][BaseTest] <<<<<< [ message ]:	患者性别参数不正确
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹tCdI","patient_age":"92","patient_phone":"13625429999","major_disease_id":"1101","minor_disease_id":"3995","diagnosis":"病情描述HhgWopcVeRgnWFJdyQzQEeuUkLsKiWzFmGFOZxTeukCwqKikOjwlEeWdqWKRgZjrIuiJnQEmwobuWsfxQGXInecrMsRORGrKulUq","is_reoperation":0,"reoperation_description":"二次手术描述DQwOvzSTGOGsuGRqgoyqGUkolGmqLxAFQmjZkPZYtCqlBEKDvwOoVBekpzrZxiBjQQSigNlhtIFGrNoqiDLBTZprheyENexgnlxc","expected_doctor_id":"3498","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/22","expected_surgery_hospital_id":"21080","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  26 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210403
+[INFO][BaseTest] <<<<<< [ message ]:	请输入患者性别
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_04_创建订单_缺少患者性别或性别不正确不可以创建
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_05_创建订单_缺少患者年龄不可以创建
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹MHje","patient_gender":"1","patient_age":"","patient_phone":"13319929999","major_disease_id":"2417","minor_disease_id":"4216","diagnosis":"病情描述dFwQVnTINnnrNANpygOWucYXsfyrwroRgxwvbXFElRqtAZpRwfsdlspxbjqqZCTYvwnVrxAxjsdkrINdYCijdUoJHAnBVLiYQVGu","is_reoperation":0,"reoperation_description":"二次手术描述ADPiwwcAyTwlOZjUYIULnIyuABMcSmYJGmsUiymuLqITAeleSwtnhVCOwYvQiBNUgFVepRWFXluXLUxqxTkLOTSpzNoOHydfSSAo","expected_doctor_id":"177","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/23","expected_surgery_hospital_id":"17623","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210402
+[INFO][BaseTest] <<<<<< [ message ]:	请输入患者年龄
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹MHje","patient_gender":"1","patient_phone":"13319929999","major_disease_id":"2417","minor_disease_id":"4216","diagnosis":"病情描述dFwQVnTINnnrNANpygOWucYXsfyrwroRgxwvbXFElRqtAZpRwfsdlspxbjqqZCTYvwnVrxAxjsdkrINdYCijdUoJHAnBVLiYQVGu","is_reoperation":0,"reoperation_description":"二次手术描述ADPiwwcAyTwlOZjUYIULnIyuABMcSmYJGmsUiymuLqITAeleSwtnhVCOwYvQiBNUgFVepRWFXluXLUxqxTkLOTSpzNoOHydfSSAo","expected_doctor_id":"177","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/23","expected_surgery_hospital_id":"17623","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210402
+[INFO][BaseTest] <<<<<< [ message ]:	请输入患者年龄
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_05_创建订单_缺少患者年龄不可以创建
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_06_创建订单_缺少患者手机不可以创建
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹WcBt","patient_gender":"1","patient_age":"81","patient_phone":"","major_disease_id":"1472","minor_disease_id":"4355","diagnosis":"病情描述SCFpmHPISjLDoJdirrYZWwZDPnoCjnuBefqAKpJFXOLPENtfIYxuZeldyFkkobJUWIIzvucLRGyvhQuflDFVfhtbuFDlvWbXwhQt","is_reoperation":1,"reoperation_description":"二次手术描述HcSjxAAWMGFekbbdsEHdLNVzPNZOOpItYrZlbUdOBeNcmLkrghtxHLSlDllNRjwuCWfkkYHvXqoKfJTQPhfruVvFUoSZXfYyzjUR","expected_doctor_id":"4878","expected_surgery_start_date":"2017/07/25","expected_surgery_due_date":"2017/08/09","expected_surgery_hospital_id":"4658","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  350 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"id":10204,"order_number":1019921115,"type":1,"status":1000,"patient_name":"辣妹WcBt","patient_age":81,"patient_gender":1,"patient_phone":"","major_disease_id":1472,"major_disease_name":"颈椎间盘突出","minor_disease_id":4355,"minor_disease_name":"病KcCUSWtzDXdhrExz","diagnosis":"病情描述SCFpmHPISjLDoJdirrYZWwZDPnoCjnuBefqAKpJFXOLPENtfIYxuZeldyFkkobJUWIIzvucLRGyvhQuflDFVfhtbuFDlvWbXwhQt","expected_doctor_id":4878,"expected_doctor_name":"钟西北NZ","expected_surgery_start_date":"2017-07-25","expected_surgery_due_date":"2017-08-09","expected_surgery_hospital_id":4658,"expected_surgery_hospital_name":"承德市双滦区精神病院","is_reoperation":true,"reoperation_description":"二次手术描述HcSjxAAWMGFekbbdsEHdLNVzPNZOOpItYrZlbUdOBeNcmLkrghtxHLSlDllNRjwuCWfkkYHvXqoKfJTQPhfruVvFUoSZXfYyzjUR","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:52.800Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017-07-19 17:24:27","modified_at":"2017-07-19T09:24:27.837Z","medical_record_pictures":[{"type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}]}
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_06_创建订单_缺少患者手机不可以创建
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_07_创建订单_缺少主诉疾病不可以创建
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹NMwK","patient_gender":"1","patient_age":"22","patient_phone":"13363439999","major_disease_id":"","minor_disease_id":"3813","diagnosis":"病情描述hVZduHSYkdPJxJkYjOuWpCKjzCqjRZMiFMsrPQsyIMWkIhxumeXCYcsbUchWlgJujjUWJtRmcpihrkquZYzsFjYznXFTEKoPCfAR","is_reoperation":0,"reoperation_description":"二次手术描述vtYjAQhCPgUSbKfCErUUCHvldysskynQNviyohZmFpvJROjCfLlHvsxbPPfUeCSoVJHMpXlASpSYHtbMESxMZyUsWJwzcZOgwvlo","expected_doctor_id":"5767","expected_surgery_start_date":"2017/07/25","expected_surgery_due_date":"2017/07/25","expected_surgery_hospital_id":"4024","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210405
+[INFO][BaseTest] <<<<<< [ message ]:	请输入主要诊断
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹NMwK","patient_gender":"1","patient_age":"22","patient_phone":"13363439999","minor_disease_id":"3813","diagnosis":"病情描述hVZduHSYkdPJxJkYjOuWpCKjzCqjRZMiFMsrPQsyIMWkIhxumeXCYcsbUchWlgJujjUWJtRmcpihrkquZYzsFjYznXFTEKoPCfAR","is_reoperation":0,"reoperation_description":"二次手术描述vtYjAQhCPgUSbKfCErUUCHvldysskynQNviyohZmFpvJROjCfLlHvsxbPPfUeCSoVJHMpXlASpSYHtbMESxMZyUsWJwzcZOgwvlo","expected_doctor_id":"5767","expected_surgery_start_date":"2017/07/25","expected_surgery_due_date":"2017/07/25","expected_surgery_hospital_id":"4024","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  26 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210405
+[INFO][BaseTest] <<<<<< [ message ]:	请输入主要诊断
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_07_创建订单_缺少主诉疾病不可以创建
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_08_创建订单_缺少次诉疾病可以创建
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹qkgz","patient_gender":"1","patient_age":"74","patient_phone":"13055929999","major_disease_id":"3841","minor_disease_id":"","diagnosis":"病情描述JWLKVrkGDRKAkgeJRGgKrUqrSEeyrinUvObpLEmrEqmTDkudBHFtVLEsVQSGMnZpzXDUWZQWbRzRjjgVEHPiHVfMROPiUeZKCBnv","is_reoperation":0,"reoperation_description":"二次手术描述ywdsEguGiwotDeUvIfSwDCbFvVJXGPfgeIUOVCzIrZIMHGjkfqCiDAuoUjoAfZkYflKqmLrOAxGNQPqfvbJMoPgSxcqgovIFhMlk","expected_doctor_id":"1296","expected_surgery_start_date":"2017/07/25","expected_surgery_due_date":"2017/08/17","expected_surgery_hospital_id":"2055","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  322 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"id":10205,"order_number":1019921123,"type":1,"status":1000,"patient_name":"辣妹qkgz","patient_age":74,"patient_gender":1,"patient_phone":"13055929999","major_disease_id":3841,"major_disease_name":"小儿疝气","diagnosis":"病情描述JWLKVrkGDRKAkgeJRGgKrUqrSEeyrinUvObpLEmrEqmTDkudBHFtVLEsVQSGMnZpzXDUWZQWbRzRjjgVEHPiHVfMROPiUeZKCBnv","expected_doctor_id":1296,"expected_doctor_name":"赵珩","expected_surgery_start_date":"2017-07-25","expected_surgery_due_date":"2017-08-17","expected_surgery_hospital_id":2055,"expected_surgery_hospital_name":"福州市鼓楼区水部街道闽都社区卫生服务中心","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:52.800Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017-07-19 17:24:28","modified_at":"2017-07-19T09:24:28.285Z","medical_record_pictures":[{"type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}]}
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹qkgz","patient_gender":"1","patient_age":"74","patient_phone":"13055929999","major_disease_id":"3841","diagnosis":"病情描述JWLKVrkGDRKAkgeJRGgKrUqrSEeyrinUvObpLEmrEqmTDkudBHFtVLEsVQSGMnZpzXDUWZQWbRzRjjgVEHPiHVfMROPiUeZKCBnv","is_reoperation":0,"reoperation_description":"二次手术描述ywdsEguGiwotDeUvIfSwDCbFvVJXGPfgeIUOVCzIrZIMHGjkfqCiDAuoUjoAfZkYflKqmLrOAxGNQPqfvbJMoPgSxcqgovIFhMlk","expected_doctor_id":"1296","expected_surgery_start_date":"2017/07/25","expected_surgery_due_date":"2017/08/17","expected_surgery_hospital_id":"2055","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  331 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"id":10206,"order_number":1019921130,"type":1,"status":1000,"patient_name":"辣妹qkgz","patient_age":74,"patient_gender":1,"patient_phone":"13055929999","major_disease_id":3841,"major_disease_name":"小儿疝气","diagnosis":"病情描述JWLKVrkGDRKAkgeJRGgKrUqrSEeyrinUvObpLEmrEqmTDkudBHFtVLEsVQSGMnZpzXDUWZQWbRzRjjgVEHPiHVfMROPiUeZKCBnv","expected_doctor_id":1296,"expected_doctor_name":"赵珩","expected_surgery_start_date":"2017-07-25","expected_surgery_due_date":"2017-08-17","expected_surgery_hospital_id":2055,"expected_surgery_hospital_name":"福州市鼓楼区水部街道闽都社区卫生服务中心","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:52.800Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017-07-19 17:24:28","modified_at":"2017-07-19T09:24:28.614Z","medical_record_pictures":[{"type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}]}
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_08_创建订单_缺少次诉疾病可以创建
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][BaseTest] 创建医生...
+[INFO][SendVerifyCode] 请求验证码到手机号13306999999 ...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/sendVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13306999999"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  2 ms
+[INFO][SendVerifyCode] mobile是: 13306999999...请发送验证码到服务器进行验证
+[INFO][CheckVerifyCode] 发送短信验证码到服务器进行验证...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/checkVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13306999999","code":"123456","state":"test"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  44 ms
+[INFO][CheckVerifyCode] token是: eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImFiMTZmZjE4In0.eyJ1aWQiOiIzMzE5IiwibW9iaWxlIjoiMTMzMDY5OTk5OTkiLCJleHAiOjE1MDA1NDI2NjgsImlhdCI6MTUwMDQ1NjI2OH0.BFvudtKBiiSN1hEpLjGhrOZpFpthEqSFBHN1t2ozfRA
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  2117 ms
+[INFO][BaseTest] 更新医生信息...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  {"doctor":{"name":"庄恕hC","department":"胸外科","major_id":"36","academic_title_list":"PROFESSOR","medical_title_list":"NURSE","hospital_id":"19293"}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  270 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  94 ms
+[INFO][BaseTest] mobile为:	13306999999
+[INFO][BaseTest] doctorId为:	3319
+[INFO][BaseTest] doctorHospitalId为:	19293
+[INFO][BaseTest] doctorHospitalName为:	太原市北城区创伤骨科医院
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  {"doctor":{"name":"庄恕hC","department":"胸外科","major_id":"36","academic_title_list":"PROFESSOR","medical_title_list":"NURSE","hospital_id":"19293"}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  257 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][CreateOrder] 创建未认证医生成功
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹wzyw","patient_gender":"1","patient_age":"35","patient_phone":"13036419999","major_disease_id":"2091","minor_disease_id":"2870","diagnosis":"病情描述WcFuZcYIZnIjqEXfjtsgBgnZVocVWXmIeBNmGZxejzEMChVCZivkbUzYviwwFBjJgPtReGNUtcJtMeZWESRssuVfNvGJbpfSHIrZ","is_reoperation":1,"reoperation_description":"二次手术描述TOyzueyWZheryBXKxYyFShXzlyBxdihOjQkoWBeKXqVdqVzLQjYCoBRmGPUquMJLwhljbbzIVhizgQQLIDowbzOyjBJNmEAKWgOY","expected_doctor_id":"3119","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/10","expected_surgery_hospital_id":"2853","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  25 ms
+[INFO][BaseTest] <<<<<< [ code ]:	2210802
+[INFO][BaseTest] <<<<<< [ message ]:	false
+[INFO][BaseTest] <<<<<< [ data ]:	null
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][BaseTest] 创建医生...
+[INFO][SendVerifyCode] 请求验证码到手机号13439469999 ...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/sendVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13439469999"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  3 ms
+[INFO][SendVerifyCode] mobile是: 13439469999...请发送验证码到服务器进行验证
+[INFO][CheckVerifyCode] 发送短信验证码到服务器进行验证...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://login.dev.myzd.info/api/login/checkVerifyCode
+[INFO][HttpRequest] 请求数据: >>>>>  {"mobile":"13439469999","code":"123456","state":"test"}
+[INFO][HttpRequest] 等待回应: <<<<<  200 null
+[INFO][HttpRequest] 响应时间: <<<<<  44 ms
+[INFO][CheckVerifyCode] token是: eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImI0YjkxYjUwIn0.eyJ1aWQiOiIzMzIwIiwibW9iaWxlIjoiMTM0Mzk0Njk5OTkiLCJleHAiOjE1MDA1NDI2NzEsImlhdCI6MTUwMDQ1NjI3MX0.fT9dlDwr0ujpcQOlliom_jzLXhIuBj2PnnW1_GpTe8Q
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  2129 ms
+[INFO][BaseTest] 更新医生信息...
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  {"doctor":{"name":"庄恕TP","department":"胸外科","major_id":"55","academic_title_list":"LECTURER","medical_title_list":"RESIDENT_PHYSICIAN","hospital_id":"20176","inviter_no":"SH9999"}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  303 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getdoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  97 ms
+[INFO][BaseTest] mobile为:	13439469999
+[INFO][BaseTest] doctorId为:	3320
+[INFO][BaseTest] doctorHospitalId为:	20176
+[INFO][BaseTest] doctorHospitalName为:	耀县孙思邈中医医院
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  {"doctor":{"name":"庄恕TP","department":"胸外科","major_id":"55","academic_title_list":"LECTURER","medical_title_list":"RESIDENT_PHYSICIAN","hospital_id":"20176","inviter_no":"SH9999"}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  278 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][CreateOrder] 创建未认证医生成功
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹TNXv","patient_gender":"1","patient_age":"52","patient_phone":"13350629999","major_disease_id":"2579","minor_disease_id":"3906","diagnosis":"病情描述gNxjwDbrtMtvKTiAmWsCCZjCpKgilrCGRALomHmMbAUQkoEiYVypjkNvJpXsqWCBqgPNpMSMefvzuZRfFzCzNIMKuHGDsWiIRZgJ","is_reoperation":1,"reoperation_description":"二次手术描述IPwXqpckMIRwYUTGGNEPdWneEAuQBsqZfVVsVMShwrGEGYvOSOEMGeqqqOjYxTfPQDdnxzekNBbrVEKLEVhiWMIHbsMlsfIdHWIQ","expected_doctor_id":"6749","expected_surgery_start_date":"2017/07/23","expected_surgery_due_date":"2017/08/17","expected_surgery_hospital_id":"10707","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  282 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"id":10207,"order_number":1019921149,"type":1,"status":1000,"patient_name":"辣妹TNXv","patient_age":52,"patient_gender":1,"patient_phone":"13350629999","major_disease_id":2579,"major_disease_name":"黄斑裂孔","minor_disease_id":3906,"minor_disease_name":"无顶冠状静脉窦综合征","diagnosis":"病情描述gNxjwDbrtMtvKTiAmWsCCZjCpKgilrCGRALomHmMbAUQkoEiYVypjkNvJpXsqWCBqgPNpMSMefvzuZRfFzCzNIMKuHGDsWiIRZgJ","expected_doctor_id":6749,"expected_doctor_name":"钟西北tJ","expected_surgery_start_date":"2017-07-23","expected_surgery_due_date":"2017-08-17","expected_surgery_hospital_id":10707,"expected_surgery_hospital_name":"通化市东昌区人民医院","is_reoperation":true,"reoperation_description":"二次手术描述IPwXqpckMIRwYUTGGNEPdWneEAuQBsqZfVVsVMShwrGEGYvOSOEMGeqqqOjYxTfPQDdnxzekNBbrVEKLEVhiWMIHbsMlsfIdHWIQ","agent_id":3320,"agent_name":"庄恕TP","agent_phone":"13439469999","agent_medical_title":"RESIDENT_PHYSICIAN","agent_academic_title":"LECTURER","agent_major":"烧伤内脏并发症","agent_city_id":610200,"agent_city_name":"铜川","agent_province_id":610000,"agent_province_name":"陕西","agent_hospital":"耀县孙思邈中医医院","agent_department":"胸外科","agent_contact_id":"SH9999","agent_registration_time":"2017-07-19T09:25:01.800Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017-07-19 17:24:34","modified_at":"2017-07-19T09:24:34.603Z","medical_record_pictures":[{"type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}]}
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+[INFO][BaseTest] ||    TestCase START:	test_11_创建订单_信息齐备_期望手术医院不传
+[INFO][BaseTest] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+
+[INFO][CreateOrder] 不传入期望手术医院的ID。。。
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹pxNi","patient_gender":"1","patient_age":"5","patient_phone":"13918589999","major_disease_id":"4057","minor_disease_id":"1095","diagnosis":"病情描述RsoGpqyjHQCXqgwkZCbfrEzNSwZROZvVQIKblCVVWZfYYipMTiwEQkGUWkCRtxDgitQsJXMFvuPHvhcGdcMZSIDRrNAYNpxtznRt","is_reoperation":1,"reoperation_description":"二次手术描述nHbEjVrpsPVgELsljFCYkssbHQNijNlOovTZnntjJfsJJiwZvSTnMLnhKnImACCjRfhzTgCmiFnPtPAPDlLbyqhmrEMNwchkAYPD","expected_doctor_id":"429","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/07","expected_surgery_hospital_id":"","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  338 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"id":10208,"order_number":1019921153,"type":1,"status":1000,"patient_name":"辣妹pxNi","patient_age":5,"patient_gender":1,"patient_phone":"13918589999","major_disease_id":4057,"major_disease_name":"病ewdYChGUhVBiOWZr","minor_disease_id":1095,"minor_disease_name":"成人腹股沟斜疝","diagnosis":"病情描述RsoGpqyjHQCXqgwkZCbfrEzNSwZROZvVQIKblCVVWZfYYipMTiwEQkGUWkCRtxDgitQsJXMFvuPHvhcGdcMZSIDRrNAYNpxtznRt","expected_doctor_id":429,"expected_doctor_name":"白强","expected_surgery_start_date":"2017-07-24","expected_surgery_due_date":"2017-08-07","expected_surgery_hospital_id":2135,"expected_surgery_hospital_name":"罗源县中医院","is_reoperation":true,"reoperation_description":"二次手术描述nHbEjVrpsPVgELsljFCYkssbHQNijNlOovTZnntjJfsJJiwZvSTnMLnhKnImACCjRfhzTgCmiFnPtPAPDlLbyqhmrEMNwchkAYPD","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:52.800Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017-07-19 17:24:34","modified_at":"2017-07-19T09:24:34.955Z","medical_record_pictures":[{"type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}]}
+[INFO][CreateOrder] 查看刚刚创建的订单详情
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getorderdetail/1019921153
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  37 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"order":{"id":10208,"order_number":1019921153,"type":1,"status":1000,"patient_name":"辣妹pxNi","patient_age":5,"patient_gender":1,"patient_phone":"13918589999","major_disease_id":4057,"major_disease_name":"病ewdYChGUhVBiOWZr","minor_disease_id":1095,"minor_disease_name":"成人腹股沟斜疝","diagnosis":"病情描述RsoGpqyjHQCXqgwkZCbfrEzNSwZROZvVQIKblCVVWZfYYipMTiwEQkGUWkCRtxDgitQsJXMFvuPHvhcGdcMZSIDRrNAYNpxtznRt","expected_doctor_id":429,"expected_doctor_name":"白强","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/07","expected_surgery_hospital_id":2135,"expected_surgery_hospital_name":"罗源县中医院","is_reoperation":true,"reoperation_description":"二次手术描述nHbEjVrpsPVgELsljFCYkssbHQNijNlOovTZnntjJfsJJiwZvSTnMLnhKnImACCjRfhzTgCmiFnPtPAPDlLbyqhmrEMNwchkAYPD","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:53.000Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017/07/19 17:24:35","modified_at":"2017/07/19 17:24:35","medical_record_pictures":[{"url":"https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:JDIVpFh8OSYB1SyJle59hsdW8Xs=","larage_url":"https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:Zr2GtjkyPD6Mgi7N89o_c7dlf2Q=","type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"url":"https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:sWIlW2ZZ8HDpi_4xHvQJb4tfC9o=","larage_url":"https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:cUW8u-L4zWON2H9aGF1smwUVmPQ=","type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}],"surgeon_recommended_time":"","OrderStatusText":"待处理","surgeon_fee":"","surgeon_id":"","surgeon_name":"","surgeon_medical_title":"","surgeon_academic_title":"","surgeon_hospital":"","surgeon_department":""}}
+[INFO][CreateOrder] 传入期望手术医院的ID=0。。。
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹pxNi","patient_gender":"1","patient_age":"5","patient_phone":"13918589999","major_disease_id":"4057","minor_disease_id":"1095","diagnosis":"病情描述RsoGpqyjHQCXqgwkZCbfrEzNSwZROZvVQIKblCVVWZfYYipMTiwEQkGUWkCRtxDgitQsJXMFvuPHvhcGdcMZSIDRrNAYNpxtznRt","is_reoperation":1,"reoperation_description":"二次手术描述nHbEjVrpsPVgELsljFCYkssbHQNijNlOovTZnntjJfsJJiwZvSTnMLnhKnImACCjRfhzTgCmiFnPtPAPDlLbyqhmrEMNwchkAYPD","expected_doctor_id":"429","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/07","expected_surgery_hospital_id":"0","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  323 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"id":10209,"order_number":1019921169,"type":1,"status":1000,"patient_name":"辣妹pxNi","patient_age":5,"patient_gender":1,"patient_phone":"13918589999","major_disease_id":4057,"major_disease_name":"病ewdYChGUhVBiOWZr","minor_disease_id":1095,"minor_disease_name":"成人腹股沟斜疝","diagnosis":"病情描述RsoGpqyjHQCXqgwkZCbfrEzNSwZROZvVQIKblCVVWZfYYipMTiwEQkGUWkCRtxDgitQsJXMFvuPHvhcGdcMZSIDRrNAYNpxtznRt","expected_doctor_id":429,"expected_doctor_name":"白强","expected_surgery_start_date":"2017-07-24","expected_surgery_due_date":"2017-08-07","expected_surgery_hospital_id":2135,"expected_surgery_hospital_name":"罗源县中医院","is_reoperation":true,"reoperation_description":"二次手术描述nHbEjVrpsPVgELsljFCYkssbHQNijNlOovTZnntjJfsJJiwZvSTnMLnhKnImACCjRfhzTgCmiFnPtPAPDlLbyqhmrEMNwchkAYPD","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:52.800Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017-07-19 17:24:35","modified_at":"2017-07-19T09:24:35.325Z","medical_record_pictures":[{"type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}]}
+[INFO][CreateOrder] 查看刚刚创建的订单详情
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getorderdetail/1019921169
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  41 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"order":{"id":10209,"order_number":1019921169,"type":1,"status":1000,"patient_name":"辣妹pxNi","patient_age":5,"patient_gender":1,"patient_phone":"13918589999","major_disease_id":4057,"major_disease_name":"病ewdYChGUhVBiOWZr","minor_disease_id":1095,"minor_disease_name":"成人腹股沟斜疝","diagnosis":"病情描述RsoGpqyjHQCXqgwkZCbfrEzNSwZROZvVQIKblCVVWZfYYipMTiwEQkGUWkCRtxDgitQsJXMFvuPHvhcGdcMZSIDRrNAYNpxtznRt","expected_doctor_id":429,"expected_doctor_name":"白强","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/07","expected_surgery_hospital_id":2135,"expected_surgery_hospital_name":"罗源县中医院","is_reoperation":true,"reoperation_description":"二次手术描述nHbEjVrpsPVgELsljFCYkssbHQNijNlOovTZnntjJfsJJiwZvSTnMLnhKnImACCjRfhzTgCmiFnPtPAPDlLbyqhmrEMNwchkAYPD","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:53.000Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017/07/19 17:24:35","modified_at":"2017/07/19 17:24:35","medical_record_pictures":[{"url":"https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:JDIVpFh8OSYB1SyJle59hsdW8Xs=","larage_url":"https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:Zr2GtjkyPD6Mgi7N89o_c7dlf2Q=","type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"url":"https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:sWIlW2ZZ8HDpi_4xHvQJb4tfC9o=","larage_url":"https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:cUW8u-L4zWON2H9aGF1smwUVmPQ=","type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}],"surgeon_recommended_time":"","OrderStatusText":"待处理","surgeon_fee":"","surgeon_id":"","surgeon_name":"","surgeon_medical_title":"","surgeon_academic_title":"","surgeon_hospital":"","surgeon_department":""}}
+[INFO][CreateOrder] 不传入期望手术医院的key。。。
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: >>>>>  {"order":{"patient_name":"辣妹pxNi","patient_gender":"1","patient_age":"5","patient_phone":"13918589999","major_disease_id":"4057","minor_disease_id":"1095","diagnosis":"病情描述RsoGpqyjHQCXqgwkZCbfrEzNSwZROZvVQIKblCVVWZfYYipMTiwEQkGUWkCRtxDgitQsJXMFvuPHvhcGdcMZSIDRrNAYNpxtznRt","is_reoperation":1,"reoperation_description":"二次手术描述nHbEjVrpsPVgELsljFCYkssbHQNijNlOovTZnntjJfsJJiwZvSTnMLnhKnImACCjRfhzTgCmiFnPtPAPDlLbyqhmrEMNwchkAYPD","expected_doctor_id":"429","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/07","medical_record_pictures":[{"key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg","type":"1"},{"key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg","type":"1"}]}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  301 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"id":10210,"order_number":1019921173,"type":1,"status":1000,"patient_name":"辣妹pxNi","patient_age":5,"patient_gender":1,"patient_phone":"13918589999","major_disease_id":4057,"major_disease_name":"病ewdYChGUhVBiOWZr","minor_disease_id":1095,"minor_disease_name":"成人腹股沟斜疝","diagnosis":"病情描述RsoGpqyjHQCXqgwkZCbfrEzNSwZROZvVQIKblCVVWZfYYipMTiwEQkGUWkCRtxDgitQsJXMFvuPHvhcGdcMZSIDRrNAYNpxtznRt","expected_doctor_id":429,"expected_doctor_name":"白强","expected_surgery_start_date":"2017-07-24","expected_surgery_due_date":"2017-08-07","expected_surgery_hospital_id":2135,"expected_surgery_hospital_name":"罗源县中医院","is_reoperation":true,"reoperation_description":"二次手术描述nHbEjVrpsPVgELsljFCYkssbHQNijNlOovTZnntjJfsJJiwZvSTnMLnhKnImACCjRfhzTgCmiFnPtPAPDlLbyqhmrEMNwchkAYPD","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:52.800Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017-07-19 17:24:35","modified_at":"2017-07-19T09:24:35.689Z","medical_record_pictures":[{"type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}]}
+[INFO][CreateOrder] 查看刚刚创建的订单详情
+[INFO][HttpRequest] 发送请求: >>>>>  GET http://services.dev.myzd.info/doctor/api/getorderdetail/1019921173
+[INFO][HttpRequest] 请求数据: >>>>>  
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  34 ms
+[INFO][BaseTest] <<<<<< [ code ]:	1000000
+[INFO][BaseTest] <<<<<< [ message ]:	成功
+[INFO][BaseTest] <<<<<< [ data ]:	{"order":{"id":10210,"order_number":1019921173,"type":1,"status":1000,"patient_name":"辣妹pxNi","patient_age":5,"patient_gender":1,"patient_phone":"13918589999","major_disease_id":4057,"major_disease_name":"病ewdYChGUhVBiOWZr","minor_disease_id":1095,"minor_disease_name":"成人腹股沟斜疝","diagnosis":"病情描述RsoGpqyjHQCXqgwkZCbfrEzNSwZROZvVQIKblCVVWZfYYipMTiwEQkGUWkCRtxDgitQsJXMFvuPHvhcGdcMZSIDRrNAYNpxtznRt","expected_doctor_id":429,"expected_doctor_name":"白强","expected_surgery_start_date":"2017/07/24","expected_surgery_due_date":"2017/08/07","expected_surgery_hospital_id":2135,"expected_surgery_hospital_name":"罗源县中医院","is_reoperation":true,"reoperation_description":"二次手术描述nHbEjVrpsPVgELsljFCYkssbHQNijNlOovTZnntjJfsJJiwZvSTnMLnhKnImACCjRfhzTgCmiFnPtPAPDlLbyqhmrEMNwchkAYPD","agent_id":3318,"agent_name":"庄恕zg","agent_phone":"13789239999","agent_medical_title":"ARCHIATER","agent_academic_title":"LECTURER","agent_major":"功能性疾病","agent_city_id":350100,"agent_city_name":"福州","agent_province_id":350000,"agent_province_name":"福建","agent_hospital":"罗源县中医院","agent_department":"胸外科","agent_contact_id":"SH0098","agent_referrer_id":"SH0143","agent_referrer_name":"田静","agent_referrer_group_id":"13","agent_registration_time":"2017-07-19T09:24:53.000Z","deposit_payment_id":0,"outcome_payment_id":0,"is_test":false,"created_at":"2017/07/19 17:24:36","modified_at":"2017/07/19 17:24:36","medical_record_pictures":[{"url":"https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:JDIVpFh8OSYB1SyJle59hsdW8Xs=","larage_url":"https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:Zr2GtjkyPD6Mgi7N89o_c7dlf2Q=","type":"1","key":"2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg"},{"url":"https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:sWIlW2ZZ8HDpi_4xHvQJb4tfC9o=","larage_url":"https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&e=1500456575&token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:cUW8u-L4zWON2H9aGF1smwUVmPQ=","type":"1","key":"2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg"}],"surgeon_recommended_time":"","OrderStatusText":"待处理","surgeon_fee":"","surgeon_id":"","surgeon_name":"","surgeon_medical_title":"","surgeon_academic_title":"","surgeon_hospital":"","surgeon_department":""}}
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[INFO][BaseTest] ||    TestCase END:	test_11_创建订单_信息齐备_期望手术医院不传
+[INFO][BaseTest] <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+[INFO][BaseTest] Test Cleaning...
+[INFO][BaseTest] mainDoctorId为3318
+[INFO][BaseTest] 恢复医生信息：
+[INFO][HttpRequest] 发送请求: >>>>>  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: >>>>>  {"doctor":{"name":"庄恕zg","department":"胸外科","major_id":"37","academic_title_list":"LECTURER","medical_title_list":"ARCHIATER","hospital_id":"2135","inviter_no":"SH0098"}}
+[INFO][HttpRequest] 等待回应: <<<<<  200 OK
+[INFO][HttpRequest] 响应时间: <<<<<  308 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][BaseTest] ============================================================================================================= 
+[INFO][BaseTest] ||    TestAPI END:	CreateOrder
+[INFO][BaseTest] ============================================================================================================= 
+
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.839 sec <<< FAILURE! - in TestSuite
+test_06_创建订单_缺少患者手机不可以创建(com.mingyizhudao.qa.testcase.doctor.CreateOrder)  Time elapsed: 0.37 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_06_创建订单_缺少患者手机不可以创建(CreateOrder.java:227)
+
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+
+Results :
+
+Failed tests: 
+  CreateOrder.test_06_创建订单_缺少患者手机不可以创建:227 null
+
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 18.496 s
+[INFO] Finished at: 2017-07-19T17:24:37+08:00
+[INFO] Final Memory: 14M/217M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project serviceapi: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+Build step 'Execute Windows batch command' marked build as failure
+Recording test results
+Finished: FAILURE

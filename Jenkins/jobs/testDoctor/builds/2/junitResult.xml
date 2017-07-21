@@ -1,0 +1,752 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports\TEST-TestSuite.xml</file>
+      <name>TestSuite</name>
+      <duration>17.169</duration>
+      <time>17.169</time>
+      <cases>
+        <case>
+          <duration>0.013</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写正确手机号发送验证码成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误少于11位的手机号发送验证码失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误手机号发送验证码成功失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.131</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>同一手机号先请求验证码再验证应该返回token</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.006</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号未发送过请求但直接进行验证应该返回错误</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.178</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号非法或不符时发送验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>无手机号有验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.007</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>有手机号无验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.247</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>body中的token和http头中的token不一致</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.143</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>刷新token后返回新的token且老token依然可用</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected [7200] but found [86400]
+	at com.mingyizhudao.qa.testcase.login.Refresh.刷新token后返回新的token且老token依然可用(Refresh.java:50)
+</errorStackTrace>
+          <errorDetails>expected [7200] but found [86400]</errorDetails>
+          <stdout>[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+[INFO][BaseTest] ||    TestCase END:	body中的token和http头中的token不一致
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+[INFO][BaseTest] ||    TestCase START:	刷新token后返回新的token且老token依然可用
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+
+[INFO][SendVerifyCode] 请求验证码到手机号13172459999 ...
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://login.dev.myzd.info/api/login/sendVerifyCode
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;mobile&quot;:&quot;13172459999&quot;}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 null
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  2 ms
+[INFO][SendVerifyCode] mobile是: 13172459999...请发送验证码到服务器进行验证
+[INFO][CheckVerifyCode] 发送短信验证码到服务器进行验证...
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://login.dev.myzd.info/api/login/checkVerifyCode
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;mobile&quot;:&quot;13172459999&quot;,&quot;code&quot;:&quot;123456&quot;,&quot;state&quot;:&quot;test&quot;}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 null
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  111 ms
+[INFO][CheckVerifyCode] token是: eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImZmM2M5ZGNlIn0.eyJ1aWQiOiIzMzA4IiwibW9iaWxlIjoiMTMxNzI0NTk5OTkiLCJleHAiOjE1MDA1NDE5NzMsImlhdCI6MTUwMDQ1NTU3M30.FStt7NdWmTaNt33w7N1RQFwEH_1jsBpzpiBVxaaCAEc
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://login.dev.myzd.info/api/login/refresh
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImZmM2M5ZGNlIn0.eyJ1aWQiOiIzMzA4IiwibW9iaWxlIjoiMTMxNzI0NTk5OTkiLCJleHAiOjE1MDA1NDE5NzMsImlhdCI6MTUwMDQ1NTU3M30.FStt7NdWmTaNt33w7N1RQFwEH_1jsBpzpiBVxaaCAEc&quot;}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 null
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  3 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	success
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJzcmMiOiIiLCJhbGciOiJIUzI1NiIsInNpZCI6ImZmM2M5ZGNlIn0.eyJ1aWQiOiIzMzA4IiwibW9iaWxlIjoiMTMxNzI0NTk5OTkiLCJleHAiOjE1MDA1NDE5NzMsImlhdCI6MTUwMDQ1NTU3M30.FStt7NdWmTaNt33w7N1RQFwEH_1jsBpzpiBVxaaCAEc&quot;,&quot;expire&quot;:86400}
+</stdout>
+          <failedSince>2</failedSince>
+        </case>
+        <case>
+          <duration>0.564</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_01_创建订单_信息齐备_已认证用户</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: expected object to not be null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_01_创建订单_信息齐备_已认证用户(CreateOrder.java:94)
+</errorStackTrace>
+          <errorDetails>expected object to not be null</errorDetails>
+          <stdout>[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+[INFO][BaseTest] ||    TestCase END:	刷新token后返回新的token且老token依然可用
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+
+[INFO][BaseTest] Test Cleaning...
+[INFO][BaseTest] mainDoctorId为3305
+[INFO][BaseTest] 恢复医生信息：
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/doctor/api/updatedoctorprofile
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;doctor&quot;:{&quot;name&quot;:&quot;庄恕Hu&quot;,&quot;department&quot;:&quot;胸外科&quot;,&quot;major_id&quot;:&quot;54&quot;,&quot;academic_title_list&quot;:&quot;NONE&quot;,&quot;medical_title_list&quot;:&quot;TECHNICIAN&quot;,&quot;hospital_id&quot;:&quot;17903&quot;,&quot;inviter_no&quot;:&quot;SH0025&quot;}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  375 ms
+[INFO][UpdateDoctorProfile] 更新医生信息成功
+[INFO][BaseTest] ============================================================================================================= 
+[INFO][BaseTest] ||    TestAPI END:	Refresh
+[INFO][BaseTest] ============================================================================================================= 
+
+[INFO][BaseTest] ///////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+[INFO][BaseTest] //    TestAPI START:	CreateOrder
+[INFO][BaseTest] ///////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+[INFO][BaseTest] ||    TestCase START:	test_01_创建订单_信息齐备_已认证用户
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;辣妹zydX&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;27&quot;,&quot;patient_phone&quot;:&quot;13496359999&quot;,&quot;major_disease_id&quot;:&quot;4110&quot;,&quot;minor_disease_id&quot;:&quot;4388&quot;,&quot;diagnosis&quot;:&quot;病情描述gEmiitteuypqoYcrZFUUlPqdTzszlGYVhzdctYXeBZpQxQdFICAiRSlHpMfQslWXvutzlxjvnMmLlqJvwQlxAZJqKdMYtUHkocEI&quot;,&quot;is_reoperation&quot;:0,&quot;reoperation_description&quot;:&quot;二次手术描述eVDVXyWreQEdOOBlGQwRvCHFPWBMCreCSPLhmowJTDXpSXJHlrKobUlZznxgXMTkItoJqzSkezLFRcfAESgMGcIfICHJPdqljjLH&quot;,&quot;expected_doctor_id&quot;:&quot;6170&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/21&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/18&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;5090&quot;,&quot;medical_record_pictures&quot;:[{&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;,&quot;type&quot;:&quot;1&quot;}]}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  512 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;id&quot;:10177,&quot;order_number&quot;:1019920843,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹zydX&quot;,&quot;patient_age&quot;:27,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13496359999&quot;,&quot;major_disease_id&quot;:4110,&quot;major_disease_name&quot;:&quot;多等等&quot;,&quot;minor_disease_id&quot;:4388,&quot;minor_disease_name&quot;:&quot;病BzVUQThGbGKezFCN&quot;,&quot;diagnosis&quot;:&quot;病情描述gEmiitteuypqoYcrZFUUlPqdTzszlGYVhzdctYXeBZpQxQdFICAiRSlHpMfQslWXvutzlxjvnMmLlqJvwQlxAZJqKdMYtUHkocEI&quot;,&quot;expected_doctor_id&quot;:6170,&quot;expected_doctor_name&quot;:&quot;庄恕Px&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-21&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-18&quot;,&quot;expected_surgery_hospital_id&quot;:5090,&quot;expected_surgery_hospital_name&quot;:&quot;河北红十字石家庄中西医结合医院&quot;,&quot;agent_id&quot;:3305,&quot;agent_name&quot;:&quot;庄恕Hu&quot;,&quot;agent_phone&quot;:&quot;13206379999&quot;,&quot;agent_medical_title&quot;:&quot;TECHNICIAN&quot;,&quot;agent_academic_title&quot;:&quot;NONE&quot;,&quot;agent_major&quot;:&quot;整形外科&quot;,&quot;agent_city_id&quot;:370200,&quot;agent_city_name&quot;:&quot;青岛&quot;,&quot;agent_province_id&quot;:370000,&quot;agent_province_name&quot;:&quot;山东&quot;,&quot;agent_hospital&quot;:&quot;胶州市心理康复医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-07-19T09:13:18.800Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 17:12:53&quot;,&quot;modified_at&quot;:&quot;2017-07-19T09:12:53.698Z&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}]}
+[INFO][CreateOrder] 查看刚刚创建的订单详情
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  GET http://services.dev.myzd.info/doctor/api/getorderdetail/1019920843
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  36 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;order&quot;:{&quot;id&quot;:10177,&quot;order_number&quot;:1019920843,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹zydX&quot;,&quot;patient_age&quot;:27,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;13496359999&quot;,&quot;major_disease_id&quot;:4110,&quot;major_disease_name&quot;:&quot;多等等&quot;,&quot;minor_disease_id&quot;:4388,&quot;minor_disease_name&quot;:&quot;病BzVUQThGbGKezFCN&quot;,&quot;diagnosis&quot;:&quot;病情描述gEmiitteuypqoYcrZFUUlPqdTzszlGYVhzdctYXeBZpQxQdFICAiRSlHpMfQslWXvutzlxjvnMmLlqJvwQlxAZJqKdMYtUHkocEI&quot;,&quot;expected_doctor_id&quot;:6170,&quot;expected_doctor_name&quot;:&quot;庄恕Px&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/21&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/18&quot;,&quot;expected_surgery_hospital_id&quot;:5090,&quot;expected_surgery_hospital_name&quot;:&quot;河北红十字石家庄中西医结合医院&quot;,&quot;agent_id&quot;:3305,&quot;agent_name&quot;:&quot;庄恕Hu&quot;,&quot;agent_phone&quot;:&quot;13206379999&quot;,&quot;agent_medical_title&quot;:&quot;TECHNICIAN&quot;,&quot;agent_academic_title&quot;:&quot;NONE&quot;,&quot;agent_major&quot;:&quot;整形外科&quot;,&quot;agent_city_id&quot;:370200,&quot;agent_city_name&quot;:&quot;青岛&quot;,&quot;agent_province_id&quot;:370000,&quot;agent_province_name&quot;:&quot;山东&quot;,&quot;agent_hospital&quot;:&quot;胶州市心理康复医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-07-19T09:13:19.000Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017/07/19 17:12:54&quot;,&quot;modified_at&quot;:&quot;2017/07/19 17:12:54&quot;,&quot;medical_record_pictures&quot;:[{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500455874&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:2OWIBQ7yrRWeJqCAFX0jugHB9XA=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500455874&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:aVAP8sKqZU51S1mBpHufJAOmElY=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/size-limit/204800&amp;e=1500455874&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:t3Jr2QaK1MQJo96EuJWozHWkDJA=&quot;,&quot;larage_url&quot;:&quot;https://assets.dev.myzd.info/2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg?imageMogr2/auto-orient/format/jpg/interlace/1&amp;e=1500455874&amp;token=4c4YlZcZVO3lqGki56RfXXGfhnxemhbeUXrCoFxO:z4EXr8FHChwHGsRRNlluw1yaGEI=&quot;,&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}],&quot;surgeon_recommended_time&quot;:&quot;&quot;,&quot;OrderStatusText&quot;:&quot;待处理&quot;,&quot;surgeon_fee&quot;:&quot;&quot;,&quot;surgeon_id&quot;:&quot;&quot;,&quot;surgeon_name&quot;:&quot;&quot;,&quot;surgeon_medical_title&quot;:&quot;&quot;,&quot;surgeon_academic_title&quot;:&quot;&quot;,&quot;surgeon_hospital&quot;:&quot;&quot;,&quot;surgeon_department&quot;:&quot;&quot;}}
+[INFO][UT] medical_record_pictures的长度为: 2
+</stdout>
+          <failedSince>2</failedSince>
+        </case>
+        <case>
+          <duration>0.024</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_02_创建订单_信息齐备_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.529</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_03_创建订单_缺少患者姓名不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.086</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_04_创建订单_缺少患者性别或性别不正确不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.06</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_05_创建订单_缺少患者年龄不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.523</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_06_创建订单_缺少患者手机不可以创建</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_06_创建订单_缺少患者手机不可以创建(CreateOrder.java:227)
+</errorStackTrace>
+          <stdout>[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+[INFO][BaseTest] ||    TestCase END:	test_05_创建订单_缺少患者年龄不可以创建
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+[INFO][BaseTest] ||    TestCase START:	test_06_创建订单_缺少患者手机不可以创建
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;辣妹jAPm&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;73&quot;,&quot;patient_phone&quot;:&quot;&quot;,&quot;major_disease_id&quot;:&quot;4275&quot;,&quot;minor_disease_id&quot;:&quot;2056&quot;,&quot;diagnosis&quot;:&quot;病情描述ciIwpkqvNCUqztgSqPvkMZuiQWrHeOqTPKtjAWWdfIbzcSesVncPodjvwgXHsRxwRNzcpipGwPAZBmWUUoRblgdhOZmElTewuYIT&quot;,&quot;is_reoperation&quot;:1,&quot;reoperation_description&quot;:&quot;二次手术描述dmOkewvcqxKxfNbumRCSyGOecXpeuQyCcQAfvGFFnQtzEIGgEtxUwpQmJkUZulCiEhzJQgJGRYduYOQqbMhTEkIgTuGGAcNDxhLh&quot;,&quot;expected_doctor_id&quot;:&quot;5463&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/21&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/02&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;21468&quot;,&quot;medical_record_pictures&quot;:[{&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;,&quot;type&quot;:&quot;1&quot;}]}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  499 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;id&quot;:10179,&quot;order_number&quot;:1019920868,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹jAPm&quot;,&quot;patient_age&quot;:73,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;&quot;,&quot;major_disease_id&quot;:4275,&quot;major_disease_name&quot;:&quot;病MPjRKWtdQiHVWSXT&quot;,&quot;minor_disease_id&quot;:2056,&quot;minor_disease_name&quot;:&quot;猝死型冠心病&quot;,&quot;diagnosis&quot;:&quot;病情描述ciIwpkqvNCUqztgSqPvkMZuiQWrHeOqTPKtjAWWdfIbzcSesVncPodjvwgXHsRxwRNzcpipGwPAZBmWUUoRblgdhOZmElTewuYIT&quot;,&quot;expected_doctor_id&quot;:5463,&quot;expected_doctor_name&quot;:&quot;庄恕UW&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-21&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-02&quot;,&quot;expected_surgery_hospital_id&quot;:21468,&quot;expected_surgery_hospital_name&quot;:&quot;上海市松江区九亭镇卫生院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述dmOkewvcqxKxfNbumRCSyGOecXpeuQyCcQAfvGFFnQtzEIGgEtxUwpQmJkUZulCiEhzJQgJGRYduYOQqbMhTEkIgTuGGAcNDxhLh&quot;,&quot;agent_id&quot;:3305,&quot;agent_name&quot;:&quot;庄恕Hu&quot;,&quot;agent_phone&quot;:&quot;13206379999&quot;,&quot;agent_medical_title&quot;:&quot;TECHNICIAN&quot;,&quot;agent_academic_title&quot;:&quot;NONE&quot;,&quot;agent_major&quot;:&quot;整形外科&quot;,&quot;agent_city_id&quot;:370200,&quot;agent_city_name&quot;:&quot;青岛&quot;,&quot;agent_province_id&quot;:370000,&quot;agent_province_name&quot;:&quot;山东&quot;,&quot;agent_hospital&quot;:&quot;胶州市心理康复医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0025&quot;,&quot;agent_registration_time&quot;:&quot;2017-07-19T09:13:18.800Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 17:12:54&quot;,&quot;modified_at&quot;:&quot;2017-07-19T09:12:54.961Z&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}]}
+</stdout>
+          <failedSince>2</failedSince>
+        </case>
+        <case>
+          <duration>0.061</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_07_创建订单_缺少主诉疾病不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.109</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_08_创建订单_缺少次诉疾病可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.033</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.476</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.028</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_11_创建订单_信息齐备_期望手术医院不传</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports\doctor\doctor.xml</file>
+      <name>doctor</name>
+      <duration>10.76</duration>
+      <timestamp>19 Jul 2017 09:13:04 GMT</timestamp>
+      <time>10.76</time>
+      <cases>
+        <case>
+          <duration>0.563</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_01_创建订单_信息齐备_已认证用户</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: expected object to not be null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_01_创建订单_信息齐备_已认证用户(CreateOrder.java:94)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 24 stack frames
+    </errorStackTrace>
+          <errorDetails>expected object to not be null</errorDetails>
+          <failedSince>2</failedSince>
+        </case>
+        <case>
+          <duration>0.024</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_02_创建订单_信息齐备_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.528</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_03_创建订单_缺少患者姓名不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.085</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_04_创建订单_缺少患者性别或性别不正确不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.061</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_05_创建订单_缺少患者年龄不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.508</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_06_创建订单_缺少患者手机不可以创建</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_06_创建订单_缺少患者手机不可以创建(CreateOrder.java:227)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 24 stack frames
+    </errorStackTrace>
+          <errorDetails>null</errorDetails>
+          <failedSince>2</failedSince>
+        </case>
+        <case>
+          <duration>0.065</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_07_创建订单_缺少主诉疾病不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.115</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_08_创建订单_缺少次诉疾病可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.036</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.476</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.028</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_11_创建订单_信息齐备_期望手术医院不传</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports\doctor\login.xml</file>
+      <name>login</name>
+      <duration>2.048</duration>
+      <timestamp>19 Jul 2017 09:12:53 GMT</timestamp>
+      <time>2.048</time>
+      <cases>
+        <case>
+          <duration>0.014</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写正确手机号发送验证码成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.005</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误少于11位的手机号发送验证码失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误手机号发送验证码成功失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.136</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>同一手机号先请求验证码再验证应该返回token</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.006</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号未发送过请求但直接进行验证应该返回错误</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.177</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号非法或不符时发送验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>无手机号有验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.007</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>有手机号无验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.247</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>body中的token和http头中的token不一致</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.128</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>刷新token后返回新的token且老token依然可用</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: expected [7200] but found [86400]
+	at com.mingyizhudao.qa.testcase.login.Refresh.刷新token后返回新的token且老token依然可用(Refresh.java:50)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 26 stack frames
+    </errorStackTrace>
+          <errorDetails>expected [7200] but found [86400]</errorDetails>
+          <failedSince>2</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.CreateOrder.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.CreateOrder</name>
+      <duration>10.506</duration>
+      <timestamp>19 Jul 2017 09:13:04 GMT</timestamp>
+      <time>10.506</time>
+      <cases>
+        <case>
+          <duration>0.087</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_04_创建订单_缺少患者性别或性别不正确不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.029</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_11_创建订单_信息齐备_期望手术医院不传</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.063</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_05_创建订单_缺少患者年龄不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.037</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.117</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_08_创建订单_缺少次诉疾病可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.529</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_03_创建订单_缺少患者姓名不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.477</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.067</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_07_创建订单_缺少主诉疾病不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.565</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_01_创建订单_信息齐备_已认证用户</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:404)
+	at org.testng.Assert.assertNotNull(Assert.java:389)
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_01_创建订单_信息齐备_已认证用户(CreateOrder.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+    </errorStackTrace>
+          <errorDetails>expected object to not be null</errorDetails>
+          <failedSince>2</failedSince>
+        </case>
+        <case>
+          <duration>0.509</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_06_创建订单_缺少患者手机不可以创建</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:758)
+	at org.testng.Assert.assertNotEquals(Assert.java:763)
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_06_创建订单_缺少患者手机不可以创建(CreateOrder.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+    </errorStackTrace>
+          <errorDetails>null</errorDetails>
+          <failedSince>2</failedSince>
+        </case>
+        <case>
+          <duration>0.026</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_02_创建订单_信息齐备_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.login.CheckVerifyCode.xml</file>
+      <name>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</name>
+      <duration>0.338</duration>
+      <timestamp>19 Jul 2017 09:13:04 GMT</timestamp>
+      <time>0.338</time>
+      <cases>
+        <case>
+          <duration>0.007</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号未发送过请求但直接进行验证应该返回错误</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.007</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>无手机号有验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.009</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>有手机号无验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.137</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>同一手机号先请求验证码再验证应该返回token</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.178</duration>
+          <className>com.mingyizhudao.qa.testcase.login.CheckVerifyCode</className>
+          <testName>手机号非法或不符时发送验证码返回正确的错误提示</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.login.Refresh.xml</file>
+      <name>com.mingyizhudao.qa.testcase.login.Refresh</name>
+      <duration>0.377</duration>
+      <timestamp>19 Jul 2017 09:13:04 GMT</timestamp>
+      <time>0.377</time>
+      <cases>
+        <case>
+          <duration>0.248</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>body中的token和http头中的token不一致</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.129</duration>
+          <className>com.mingyizhudao.qa.testcase.login.Refresh</className>
+          <testName>刷新token后返回新的token且老token依然可用</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: expected [7200] but found [86400]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.mingyizhudao.qa.testcase.login.Refresh.刷新token后返回新的token且老token依然可用(Refresh.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+    </errorStackTrace>
+          <errorDetails>expected [7200] but found [86400]</errorDetails>
+          <failedSince>2</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.login.SendVerifyCode.xml</file>
+      <name>com.mingyizhudao.qa.testcase.login.SendVerifyCode</name>
+      <duration>0.026</duration>
+      <timestamp>19 Jul 2017 09:13:04 GMT</timestamp>
+      <time>0.026</time>
+      <cases>
+        <case>
+          <duration>0.016</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写正确手机号发送验证码成功</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.004</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误手机号发送验证码成功失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.006</duration>
+          <className>com.mingyizhudao.qa.testcase.login.SendVerifyCode</className>
+          <testName>填写错误少于11位的手机号发送验证码失败</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>41.224003</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

@@ -1,0 +1,29 @@
+Started by user [8mha:////4P0s7hGjA9VljF4c+Hu91PaVlAz/nad31wngZ9nOeP3iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CJ9x5TczDwAi45d7MAAAAA=[0madmin
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\testShell
+[testShell] $ cmd /c call C:\Windows\TEMP\jenkins8930267304577468231.bat
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo protocol = http  1>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo host_doc = services.dev.myzd.info/doctor  1>>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo host_login = login.dev.myzd.info  1>>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo host_kb = 192.168.33.1  1>>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo host_crm = services.dev.myzd.info/crm  1>>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo crm_token = eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImppbmcudGlhbkBtaW5neWl6aHVkYW8uY29tIiwibmFtZSI6Ilx1NzUzMFx1OTc1OSIsInN1YiI6MjMsImlzcyI6Imh0dHA6XC9cLzE5Mi4xNjguMzMuMjJcL2FwaVwvdjFcL2NhbGxiYWNrIiwiaWF0IjoxNDk5NzQzNzk4LCJleHAiOjE0OTk5NTk3OTgsIm5iZiI6MTQ5OTc0Mzc5OCwianRpIjoiNEc3M0lJZlpmU2x5d1dsUCJ9.buqegkv8yJV8Ph--0PPi_SqQfKWyEgjmYQt07ON7l_o  1>>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo host_bda = services.dev.myzd.info/bd-assistant  1>>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo bda_token = eyJzcmMiOiJjeHF5IiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJsZWFkaW5nX2dyb3VwIjoyLCJ1aWQiOiJjaGFvLmZhbmdAbWluZ3lpemh1ZGFvLmNvbSIsImdlbmRlciI6IjEiLCJzdGFmZl9pZCI6IlNIMDEzMyIsIm5hbWUiOiLmlrnotoUiLCJtb2JpbGUiOiIiLCJhdmF0YXIiOiJodHRwOi8vc2hwLnFwaWMuY24vYml6bXAvSEhFZGlhdmpSMVFNQ2dFVmh3OEwwaFNqYVRmZ05yOVp5TEFCaWEwSTJ0Y0RKdkFNdzM2dXpTYUEvIiwiZXhwIjoxNDk2NzE4MDU1LCJpYXQiOjE0OTY2MzE2NTUsImVtYWlsIjoiY2hhby5mYW5nQG1pbmd5aXpodWRhby5jb20iLCJzdGF0dXMiOjF9.p1SJUQqEvw6X7wlm7GJXDAzmRT60RvNHfFNkwN8kIJs  1>>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo bda_token_staff = eyJzcmMiOiJjeHF5IiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJsZWFkaW5nX2dyb3VwIjo2LCJ1aWQiOiJmYW5nY2hhby10ZXN0QG1pbmd5aXpodWRhby5jb20iLCJnZW5kZXIiOiIxIiwic3RhZmZfaWQiOiJTSDA5OTkiLCJuYW1lIjoi5aSn5LiAIiwibW9iaWxlIjoiMTM4MTc2MzQyMDMiLCJhdmF0YXIiOiJodHRwOi8vcC5xbG9nby5jbi9iaXptYWlsLzdycU5SeUNQQWpaM3o2a2NOMlN1S3ZvQWhpYkJzV2ljVjZqUkNlT2V3dmNQMlJGaWJMVHU4ZU9kdy8wIiwiZXhwIjoxNDk2NzE4MDU1LCJpYXQiOjE0OTY2MzE2NTUsImVtYWlsIjoiZGF5aUBtaW5neWl6aHVkYW8uY29tIiwic3RhdHVzIjoxfQ.VR4MueuMfCN_sxztn32JmQzrXNCIt2Ceh5r2wZ_idT0  1>>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo mainOperatorId = jing.tian@mingyizhudao.com  1>>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo mainOperatorName = 田静  1>>C:\progra~2\Jenkins\workspace\testShell\src\test\resources\config-test\environment1.properties 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>exit 0 
+Finished: SUCCESS

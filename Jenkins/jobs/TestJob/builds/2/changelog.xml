@@ -1,0 +1,385 @@
+commit 1695572493571d80663c9beb4ef22bcbe3ce8989
+tree ec6ec209f31ab5f288ead9fc0f76309adbdd23fd
+parent 4c6b681cb06e3cf03070cc763b08b36da2aa5a36
+author ttshmily <ttshmilyfc@163.com> 2017-07-04 16:34:42 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-07-04 16:34:42 +0800
+
+    add cases
+
+
+
+:100644 100644 f9ec6a4ef87bf36f3a50064cffcfada4db465711 925da869d3d1cab00451b24a6b4d2856de7ee8d8 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Finance_BillList.java
+:100644 100644 430cd07fbcf0dc11694d07cd1440650d6cb3f35d 76cb45df15c5f7685b3c2aecc8c06c847c4e304b M	src/test/java/com/mingyizhudao/qa/testcase/crm/Finance_PayInfo.java
+:100644 100644 ca0ae43ca8742e87a194d58c92053f7f2191cda1 335c4f1f2da2bef5ebd8e8989ec4e6b75b513f96 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Cancel.java
+:100644 100644 76b05d918bd1eecbfbcc8b615100aee1d0021772 63579aa53962c3bebb5dedbd9a5e9cc6bd1d92d1 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_List.java
+:100644 100644 f2b3c5fb12b3e3cd05680c2c69546b73728549e2 4bcfac5f8efc7253272a8c3ab3c67981e8b5dabb M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_RecommendDoctor.java
+:100644 100644 cd1ea38291787aa9a591d98f47c3816daf827d1c 550469fe26bd8aade65ccfbd641bd7a97c5c59dc M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Reject.java
+:100644 100644 1ecb5a31bb63cb488900d7e1b0cb579d3b1f4ef8 dce0208b23e9697e89d96ccf070d00385f2512a0 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Review.java
+:100644 100644 256e19b28c6a8f40e882dfc4060e9882fa943436 1f23f5825e4cbcf524e55fe79c67cc544ec2362c M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_TrackList.java
+:100644 100644 a4933ed4591ee8fb60bed09ebe6a4d5dd8d5899e 804207219e18140bfb0abb6fdc3dec0a75dc37f4 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/CreateSurgeryBriefs.java
+:100644 100644 84bfcc84a07f71d772725025881078b347d3003e 3e1b1cdf4c5c1543b11ffb5b7b7c38d268c0361e M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetDoctorProfile.java
+:100644 100644 93ea4e9f4f2912840bc319e8939d4c4e9907cf42 684a3ac41798de0c9e443edf39d756dc6f9890a8 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderList.java
+:100644 100644 3c9e77f278bc467e68e46a9deba2197ecdaa00ba d893feb1ff63a80da60100e239781f4ed5db5687 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderListV2.java
+commit 4c6b681cb06e3cf03070cc763b08b36da2aa5a36
+tree 0612e05b56b540388dad9c617a10a9105283537d
+parent 08a744bffa6f7c5d272d14cf38de75f0d1862447
+author ttshmily <ttshmilyfc@163.com> 2017-07-03 22:43:26 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-07-03 22:43:26 +0800
+
+    testcase update
+
+
+
+:100644 100644 a9535986e34e6b6027e1b92df4cc0331a3130155 8c25bd19cbe9089a75bb8ddd69a227c310207741 M	src/test/java/com/mingyizhudao/qa/dataprofile/crm/ExpertProfile.java
+:000000 100644 0000000000000000000000000000000000000000 4208e44cb78425edbe36cee5b399d3b71b6ea329 A	src/test/java/com/mingyizhudao/qa/dataprofile/doctor/SurgeryBrief.java
+:100644 100644 0fee13ab1755a59170bbcf163af2646639e9950d f9ec6a4ef87bf36f3a50064cffcfada4db465711 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Finance_BillList.java
+:100644 100644 4d72f68af78a1a57136886c0f6db12f5971bed84 e799109d04defdddd250c0715a1660cdc67d6279 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Finance_PayBill.java
+:100644 100644 b3e46df6116e9ff9a81980c99ac1ce7e8cc0b72a 430cd07fbcf0dc11694d07cd1440650d6cb3f35d M	src/test/java/com/mingyizhudao/qa/testcase/crm/Finance_PayInfo.java
+:100644 100644 dee00e6b68e1bdabaed5fc7c66ea4ce313dca673 a3dfcc70e748ffa975ad00716b4e4a8345422f7e M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBExpert_Create.java
+:100644 100644 7b766b906711eb272f0b104003bb31d2dcd8110f 77cc9c88213e7db0ec130d542d6b77b964fb4872 M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBExpert_Detail.java
+:100644 100644 0c092a66d585e3ee034c410b10ce16373aa183b4 a6d23823c145ec99e8a22082abbbc55853d92e55 M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBHospital_List.java
+:100644 100644 501101d670b6cca6e3c4d19ec19114f0de09674b ca0ae43ca8742e87a194d58c92053f7f2191cda1 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Cancel.java
+:100644 100644 97b00e303f449013c82605c2d720d562c9774d23 76b05d918bd1eecbfbcc8b615100aee1d0021772 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_List.java
+:100644 100644 cb8c0d3db26c732f5875607b7ec5b8042bd56de2 9d7f2153c4a4a419ed6b87c1880313be0ed16d3f M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Modify.java
+:000000 100644 0000000000000000000000000000000000000000 9a6bb9e4f10130a36c1e0bcd9076806c9218de8f A	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_ModifyBrief.java
+:100644 100644 816c692d054042c44adfab6b38461aa572dd901d cd1ea38291787aa9a591d98f47c3816daf827d1c M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Reject.java
+:100644 100644 c9fd7051b0018ed9332015624e16793d945da76b 1ecb5a31bb63cb488900d7e1b0cb579d3b1f4ef8 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Review.java
+:100644 100644 91f4ae6eefd75b456e40b1b40a262d10c413fdef 55cf161b7b15201da95e669e787bf603ff7cabf8 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Rollback.java
+:100644 100644 4d6761f6372d8f3212afb811888032b2cec5d2e8 4895aae138bb02203868d47f5ede2fdcf9c6eb8f M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_ThreewayCall.java
+:100644 100644 db2af6923913f832c74038c6ab71a991b3216857 75b3bfe590ae1bf2da56f5ef38ba6cee7d793d6b M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_Certify.java
+:100644 100644 c60e89700b7fd2b908137d651ebd769a9fdcc452 0377f8510265b68ab6d8d7e99309192566239ff5 M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_Certify_V2.java
+:100644 100644 3ffd363628a58ac0a43b6a88db8543c285211bf4 b286719388aae3d06068f1952d8d4cb35c47982d M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_Modify.java
+:100644 100644 13fb89364e9cbd284f9bc6bdd6acaa7a0f40c2b6 256e19b28c6a8f40e882dfc4060e9882fa943436 M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_TrackList.java
+:100644 100644 c32008da8faf4d1ec78629f86cba2b6480b314ed 8d7f4edd14d8d5bb9eca07815846094566d23798 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/CreateOrder.java
+:100644 100644 770bad86a210533d43ff827ab210b33d5bfd856e a4933ed4591ee8fb60bed09ebe6a4d5dd8d5899e M	src/test/java/com/mingyizhudao/qa/testcase/doctor/CreateSurgeryBriefs.java
+:100644 100644 18cd1da1e472d312f6a1adeea1fd3c01ae2d7c30 84bfcc84a07f71d772725025881078b347d3003e M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetDoctorProfile.java
+:100644 100644 968a5d1b581a4705a4e7911bfa18f6963538dc82 7aa4942e7ec86885766975a190fe50c0cdc8b6dc M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetEmployeeProfile.java
+:100644 100644 42db7a35eb103fe2f430706dd7a4b2ec000ff337 2e36e40b56763a4718836ad5ada241d4c578efb6 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderDetail.java
+:100644 100644 21a90539e89768cf8d68c290b9215c4584616575 93ea4e9f4f2912840bc319e8939d4c4e9907cf42 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderList.java
+:100644 100644 89774afed5724b533209f5fcd377ae34be9027b7 3c9e77f278bc467e68e46a9deba2197ecdaa00ba M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderListV2.java
+:100644 100644 b290b98c43fc0e3906afa84923b42b3d6120dd7c bc359f85cc52b9cb1ebb3e5fd0619150923ddf8b M	src/test/java/com/mingyizhudao/qa/testcase/login/CheckVerifyCode.java
+:100644 100644 6b3bede8daef45cc6fb4d6a87dc04b93583e22b3 75cc20896c91774e6f3ea7eb1e5e1e3cf3c20505 M	src/test/java/com/mingyizhudao/qa/testcase/login/SendVerifyCode.java
+:100644 100644 9671866b7f7feaa0cab55f993d9fa86710786301 0a8af5c4b78cf3fa195ef21cf8fda3d799a919e4 M	src/test/java/com/mingyizhudao/qa/util/UT.java
+commit 08a744bffa6f7c5d272d14cf38de75f0d1862447
+tree 3aba6da28fbe7eef2a9c8b854bda6c121bb9c1b7
+parent 424f42193a0db94bebc26704fbd917701b6554dc
+author ttshmily <ttshmilyfc@163.com> 2017-07-03 13:43:06 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-07-03 13:43:06 +0800
+
+    delete order by agent testcase
+
+
+
+:100644 100644 07cd36260c4ec38e599e67388d6d95d5f9f0b4e1 501101d670b6cca6e3c4d19ec19114f0de09674b M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Cancel.java
+:100644 000000 dac24920f38386f54cb9ed8678749bf756272b0c 0000000000000000000000000000000000000000 D	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_CancelAfterPayment.java
+:100644 100644 d5f3f879288380372c18b7cde74eeacf2da4b6a1 816c692d054042c44adfab6b38461aa572dd901d M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Reject.java
+:100644 100644 694cfb0f70fcd77fd1a1b4522ca1f51f7a098c8e 91f4ae6eefd75b456e40b1b40a262d10c413fdef M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Rollback.java
+:100644 100644 3e7dbeae1b52ed0f5d5e2781ce176bf0962ef30d f0879343fb36897c0786f585ce157e497e91dd1c M	src/test/java/com/mingyizhudao/qa/testcase/doctor/CancelOrder.java
+:100644 100644 228985920205db27d2787eb70cf2329d1d7a0184 8ef56a60d9415f56d976d8a0bf6064fcf2013d49 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/DeleteOrderByAgent.java
+:100644 100644 d4aa336526139e2a47bbbe3d7edf63367287484c 89774afed5724b533209f5fcd377ae34be9027b7 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderListV2.java
+:100644 100644 9ddf941af4542e8ccba740aed022d61e95b8d9c9 9671866b7f7feaa0cab55f993d9fa86710786301 M	src/test/java/com/mingyizhudao/qa/util/UT.java
+commit 424f42193a0db94bebc26704fbd917701b6554dc
+tree b51cbacfd6c2420a5cc43b09d1662b794f3dee2b
+parent 01d0bcdba11726a49100f04282db63d73512e62d
+author ttshmily <ttshmilyfc@163.com> 2017-07-03 11:51:09 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-07-03 11:51:09 +0800
+
+    delteOrderbyagent and add finiance for crm
+
+
+
+:100644 100644 bc2d462549c6380f56a2ae681630bfc419ce056a d81c734bc6b83397e7803d151b4799ec7850bab4 M	src/test/java/com/mingyizhudao/qa/dataprofile/doctor/OrderDetail.java
+:000000 100644 0000000000000000000000000000000000000000 0fee13ab1755a59170bbcf163af2646639e9950d A	src/test/java/com/mingyizhudao/qa/testcase/crm/Finance_BillList.java
+:000000 100644 0000000000000000000000000000000000000000 4d72f68af78a1a57136886c0f6db12f5971bed84 A	src/test/java/com/mingyizhudao/qa/testcase/crm/Finance_PayBill.java
+:000000 100644 0000000000000000000000000000000000000000 b3e46df6116e9ff9a81980c99ac1ce7e8cc0b72a A	src/test/java/com/mingyizhudao/qa/testcase/crm/Finance_PayInfo.java
+:100644 100644 01e0f2e44229e314ed93f14111eb8a161615616e c32008da8faf4d1ec78629f86cba2b6480b314ed M	src/test/java/com/mingyizhudao/qa/testcase/doctor/CreateOrder.java
+:000000 100644 0000000000000000000000000000000000000000 228985920205db27d2787eb70cf2329d1d7a0184 A	src/test/java/com/mingyizhudao/qa/testcase/doctor/DeleteOrderByAgent.java
+:100644 100644 b68aa21e23b502900b27806449e99be9d7adab3d 21a90539e89768cf8d68c290b9215c4584616575 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderList.java
+:100644 100644 43aab09b87feca25ab03c6d036912b33b972c93b d4aa336526139e2a47bbbe3d7edf63367287484c M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderListV2.java
+:100755 100755 c936eb778adbb26ccca5277f67ff5815da07fad5 4f15ca500cb061dce1579687901cfcfe95d8eaff M	src/test/java/com/mingyizhudao/qa/util/HttpRequest.java
+commit f3dea3d3c76e1eaf5dd9f344711e7d75f706019f
+tree 162b196f4043c032779527d32a9675a1d37b5972
+parent 1e99e5e504d48c80ff05855f5cbdc017dc3bb3ba
+author ttshmily <ttshmilyfc@163.com> 2017-06-29 17:22:59 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-06-29 17:22:59 +0800
+
+    refactor parseJson
+
+
+
+:100644 100644 d11ca1f3a462130a6be8292674d5b5f788a617d1 f792a243a650ff9bcb139c69cdd28c39f1cae4ac M	src/test/java/com/mingyizhudao/qa/common/BaseTest.java
+:100644 100644 575b43282dfbaf949565fa1f02addb31422a21a9 a6dc0036e6ba1d91328b93e3d7e24448aade70f9 M	src/test/java/com/mingyizhudao/qa/common/KB.java
+:100644 100644 8e7439d869d81122ee2abc303c04befc685a6ce3 e157e784604ff4952f8d38ba86de03ae31886781 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/BDCityList.java
+:100644 100644 58a04bfd99b5ee8d4b749dd7321cdc6cb68eab69 483c674d8f707603ce08c2450f48e835e1d8701d M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/DistrictManagement.java
+:100644 100644 bbfddfe163f1eca699f95c05a05298b624950b63 491ac586f221176df2e416ca1073da8815768116 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/DoctorList.java
+:100644 100644 97c85d7b5da491e2662f5a329766c7bfc796bac5 6e3f2c2f0a1f3e56f9a510e66c91ccb00065da0c M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/OrderDetail.java
+:100644 100644 853e24767722b5820c0132235e5e2df21f080653 f8e176b34f48b2b6d0a052754e0b31bf573270bc M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/OrderList.java
+:100644 100644 51e3424ebffe72d241045dacd511bbd19cc50889 5cc8035457f052602a99bdebb1994ba158f75e8e M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/PersonalInfo.java
+:100644 100644 884276699ba12a6b2580598b884b1eefd3d1db22 9c20f612820bfe80641d6af41dd76e643de4bb71 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/PersonalInfoV2.java
+:100644 100644 89ef9e5a79c2ddc5ba0372e9eb14a0e70729d17c 20c958162eb3ea1df512981050ba7f95f518d314 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/SearchHospital.java
+:100644 100644 61e57b265d92892a7b0ac94bb60178c5db80ae09 db897ae56b116b72b6653b02e4e20befa96605fb M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/TeamListV2.java
+:100644 100644 cb1ae9f7075dfe15773e1738caa2a609af21c25b e4016726043246904d4fdfe69013ced87b00a2cb M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/UndistributedList.java
+:100644 100644 6e5c8a74b58e34cb18113f73730d919a5b0da67b 069323104038a8b6a6c0308d9df331aab1bcddbe M	src/test/java/com/mingyizhudao/qa/testcase/crm/Common_Cities.java
+:100644 100644 890b4086b7003fedd4e210d2c88e3388b7d80b8d d7e2751d1913dbda9c1700b5815747f8a64b209c M	src/test/java/com/mingyizhudao/qa/testcase/crm/Common_GetTitles.java
+:100644 100644 80233fabc27a517f83883ec1b3b52daddcfbd6b5 b979c34a9b996313686e5388b3ec1622fd835c16 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Common_SearchHospitals.java
+:100644 100644 3b7310a6c0154026703d81ff035a47cda8acf02c 3ffc8d17217cec2857d4003ea79d59584aa4ead2 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Common_UploadToken.java
+:100644 100644 782e88fb1a8ec47aa7b7278645e95847f040ce37 4c91a388e7a4b33056be51e5d9a80e1cf9560ced M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBDisease_Create.java
+:100644 100644 66a15123f79add2ad6366d36811871b86bbf663c 2649beff00eade701630cdf90be6484959ef586c M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBDisease_Detail.java
+:100644 100644 115c91c73bf3adca5c548a88667ee167ced69ffa ee32f4d47e80b1db023ff0d946f159c2cfb77d05 M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBDisease_Update.java
+:100644 100644 42abaecc0385e61666c6ce5cab144953c32ee55e dee00e6b68e1bdabaed5fc7c66ea4ce313dca673 M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBExpert_Create.java
+:100644 100644 ce1624df0cb54eb09ac651679f1f1d063628360f 7b766b906711eb272f0b104003bb31d2dcd8110f M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBExpert_Detail.java
+:100644 100644 b4b264452fcac95cce10247a8d3b74977b14db2f 4a058770069c0f3cfc5d02ab412aa9cfa35343e3 M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBExpert_List.java
+:100644 100644 4992deb9dbe67dc75e0babac907cdd2a684c022c 2b6b1cdcde434c2eaedeac22c5a2fcbe50811616 M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBExpert_Update.java
+:100644 100644 6aaf3df06d3df2c120f133d164f94a5aa4dc8e32 478897c1fc2c67d2f72e320cb9e058f493943430 M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBHospital_Create.java
+:100644 100644 d0434f02259f303a28708306edf1d4e5be14bd8c a3c554bdc3ab8e8ba55196d0b10f5b07d4d8003a M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBHospital_Detail.java
+:100644 100644 97af51460a28f9f342f1d777962ce7ab4fe965da 0c092a66d585e3ee034c410b10ce16373aa183b4 M	src/test/java/com/mingyizhudao/qa/testcase/crm/KBHospital_List.java
+:100644 100644 d8d1a4e9bb18fb7e21a11ce70d6e7c3c9891a58b 3db1331d2222149d12431bf9845bcfc92c494a73 M	src/test/java/com/mingyizhudao/qa/testcase/crm/KB_Track.java
+:100644 100644 1a4b1237edeabc8e9dbac22f948e41f6b4b4d140 f0795b107e84019a139ee841a83b07ef315780ac M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Counts.java
+:100644 100644 5dbaef0a6bb0b77f94595def640e96a812235d1a 1a7bd4f7ebb68d71ba22eb9025bbb38b02d43c54 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Detail.java
+:100644 100644 c10279672ad89467e66ac0e8764a26dd67c2ce47 97b00e303f449013c82605c2d720d562c9774d23 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_List.java
+:100644 100644 0a30de7cf2cdaca590a1a38fc4151915188ca3f2 cb8c0d3db26c732f5875607b7ec5b8042bd56de2 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Modify.java
+:100644 100644 ec597f72f8fe8e18817cd8af5d293fd4bb2e3355 d8a08f218c70828bc406d23b492086156684f9db M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_ReceiveTask.java
+:100644 100644 0e1ca702139de8c943253606b28b551464d35b31 f2b3c5fb12b3e3cd05680c2c69546b73728549e2 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_RecommendDoctor.java
+:100644 100644 0d2f708dcb91513b48f92b2df711506da625547d d5f3f879288380372c18b7cde74eeacf2da4b6a1 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Reject.java
+:100644 100644 c08277768bae57cceeb1b766c6a0afa231795bf9 694cfb0f70fcd77fd1a1b4522ca1f51f7a098c8e M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_Rollback.java
+:100644 100644 c9a4fd564fd3584582bfedf2627ddd00ac39e099 4d6761f6372d8f3212afb811888032b2cec5d2e8 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_ThreewayCall.java
+:100644 100644 e7d6b8b4c1f4d4817c3359f6f928f8e057e1b66d 05e6ceff094530ac0934d4295eaff88e3a3f3fa2 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_TrackList.java
+:100644 100644 397ecd4135406beb0a518bfcf15232579a51f266 db2af6923913f832c74038c6ab71a991b3216857 M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_Certify.java
+:100644 100644 3ab0299dc9484e56707ce229242e1d134ddcf6da c60e89700b7fd2b908137d651ebd769a9fdcc452 M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_Certify_V2.java
+:100644 100644 cfa3da7f9bb9f1d4f57deaa486719a1e5b4ba568 efb7303f0843e6052c6f872479b4b525be109e01 M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_Counts.java
+:100644 100644 cc40d86947d20291eede970677bf25c814fcea2f f5afa670cb0fe14ad72076cf8981152520ddd4f8 M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_Detail.java
+:100644 100644 e57faa933260001f68666440b8a0941c4b860105 dc3322302f91d3c61313e850318ea67f161478c0 M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_List.java
+:100644 100644 331d94d24ae766fa9d87dff8a5f345db41be092f 3ffd363628a58ac0a43b6a88db8543c285211bf4 M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_Modify.java
+:100644 100644 320edb5d184ad47dfb4c8f3189b08cd16b64bd75 d94aad657aa36d2568d4fb58905ccbc864aa8f98 M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_Sign.java
+:100644 100644 2e46e4a798babaf62b8ce834d67c03093e15733f 13fb89364e9cbd284f9bc6bdd6acaa7a0f40c2b6 M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_TrackList.java
+:100644 100644 01470dd7491fabd3bf4adf1457fcf7bde9250c87 3e7dbeae1b52ed0f5d5e2781ce176bf0962ef30d M	src/test/java/com/mingyizhudao/qa/testcase/doctor/CancelOrder.java
+:100644 100644 020e88e6557491584bc551ae909548e9cc58e92e 01e0f2e44229e314ed93f14111eb8a161615616e M	src/test/java/com/mingyizhudao/qa/testcase/doctor/CreateOrder.java
+:100644 100644 0ffa76594f1f27061bf2f946ec80687b63d08423 0ac6a4cfbe31c767e7b4cd7fe2de31f86d96b9c0 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/CreatePayment.java
+:100644 100644 23d3afcb8116f207cceedf8e8629a747d85dbc58 be18e1e69792c8b63115a15ee8cb9ee37ec9bf29 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetDiseasesInCategory.java
+:100644 100644 3a00035fb6a77866a4770cc80a5d977f457d582a 18cd1da1e472d312f6a1adeea1fd3c01ae2d7c30 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetDoctorProfile.java
+:100644 100644 a72a4e80b5c70f9b01dd93c10da7d625163d86e7 968a5d1b581a4705a4e7911bfa18f6963538dc82 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetEmployeeProfile.java
+:100644 100644 7018e43f5c7239004098bc844609567800262874 42db7a35eb103fe2f430706dd7a4b2ec000ff337 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderDetail.java
+:100644 100644 a12f897eb59f9ea252b11aef79c09b69c6a52d34 b68aa21e23b502900b27806449e99be9d7adab3d M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderList.java
+:100644 100644 932734340d931990a3ba0805df99c4407c248c9a 43aab09b87feca25ab03c6d036912b33b972c93b M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderListV2.java
+:100644 100644 b09a7cd342e506e85a905cdabdc01d3dc3df0c6f 9544a4b563b842fd2b1bc28070cce7e7c3875575 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetSurgeryCategory.java
+:100644 100644 c96dfaef1b4ab16667a8222b3688cd83df30d038 f68e2aed4a9a9f989a18681e1584630c6ff2c109 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetSurgeryList.java
+:100644 100644 0091d4ef0c69ff3b86f9bb5dbee5a9dc9903469b e93468d55df8b7e8e9684b4893a80649d55c6755 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetUploadToken.java
+:100644 100644 ab3a24236c385a8aeb97d9d60ac8d0053d366f50 af341ca752611356f7c76c9eddf295eed95d5f4b M	src/test/java/com/mingyizhudao/qa/testcase/doctor/HospitalSearch.java
+:100644 100644 6224f9da8381937aeac683f1c5daaddd72f83f75 2bf0dead133f0bc40b7436b61322b7adfdda8b0f M	src/test/java/com/mingyizhudao/qa/testcase/doctor/ProfessionList.java
+:100644 100644 9bc6a45a2ed09410bd8388cef5bf0e25c11e4a5f adaf2ce643ad1012aef5f35d1ec3ae3e9b21fea4 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/UpdateDoctorProfile.java
+:100644 100644 5b8ead7ea67504ff91e8a7d947e9e052e47d08ae 620199a278baa48338eab341a2f76e663c893f14 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/UpdateMedicalRecords.java
+:100644 100644 89251a65d62212dc003b7314898fb5da965520b3 b290b98c43fc0e3906afa84923b42b3d6120dd7c M	src/test/java/com/mingyizhudao/qa/testcase/login/CheckVerifyCode.java
+:100644 100644 35c413c223b959e69c28791bc3e4a9424b4213a2 c2349594f25f4f30b33a9d0394ebbb080a97dd41 M	src/test/java/com/mingyizhudao/qa/testcase/login/Refresh.java
+:100644 100644 80bae11932cd4e46e4ac8d3e1534fe634f18445a 9ddf941af4542e8ccba740aed022d61e95b8d9c9 M	src/test/java/com/mingyizhudao/qa/util/UT.java
+commit f50c01d5b50bdc2e046aa5ac7883216e3d3241c5
+tree 279c5168c1531b092aecb82a378f829ba97e0d22
+parent 6c9e3b10b1240b4f63c56b518c38febdf52fff8c
+author tianjing1 <422391950@qq.com> 2017-06-29 17:16:13 +0800
+committer tianjing1 <422391950@qq.com> 2017-06-29 17:16:13 +0800
+
+    src/test/java/com/mingyizhudao/qa/common/KB.java
+
+
+
+:100644 100644 575b43282dfbaf949565fa1f02addb31422a21a9 5264b1a372b024d87735b6514175c18ac2928a74 M	src/test/java/com/mingyizhudao/qa/common/KB.java
+commit 6c9e3b10b1240b4f63c56b518c38febdf52fff8c
+tree a3726d28e73bf8479b9cee09f63dcb695e1894e5
+parent 6ce70944a7e65282f88161a5631d2a3910bb042f
+author tianjing1 <422391950@qq.com> 2017-06-28 11:21:40 +0800
+committer tianjing1 <422391950@qq.com> 2017-06-28 11:21:40 +0800
+
+    src/test/java/com/mingyizhudao/qa/common/BaseTest.java
+
+
+
+:100644 100644 75389243f2bc7a5ea5611e9871fd2b15ebaad3af c2b2523cb4d8f279e47797790f0a6a0feb240180 M	src/test/java/com/mingyizhudao/qa/common/BaseTest.java
+commit 1e99e5e504d48c80ff05855f5cbdc017dc3bb3ba
+tree a89dd61bb44c2b37fbde60bdeabba104095bcb12
+parent 5b0d31769b5f4a5076e07fcaba75cb168a047d00
+author ttshmily <ttshmilyfc@163.com> 2017-06-27 21:28:33 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-06-27 21:28:33 +0800
+
+    minr changes
+
+
+
+:100644 100644 75389243f2bc7a5ea5611e9871fd2b15ebaad3af d11ca1f3a462130a6be8292674d5b5f788a617d1 M	src/test/java/com/mingyizhudao/qa/common/BaseTest.java
+:100644 100644 94623e18e7d16c90c9fb795e035048f56753eabb bbfddfe163f1eca699f95c05a05298b624950b63 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/DoctorList.java
+:100644 100644 ce59a89a415c3d6c5f4ccea61b4bb8860f4f29e7 853e24767722b5820c0132235e5e2df21f080653 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/OrderList.java
+:100644 100644 e726b78d2fe09bcb92f39f816a87408ad0186c16 51e3424ebffe72d241045dacd511bbd19cc50889 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/PersonalInfo.java
+:100644 100644 0f2380f03108eab04c05502c75be4c5be3e48803 61e57b265d92892a7b0ac94bb60178c5db80ae09 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/TeamListV2.java
+:100644 100644 969b7561933890f15204076b4c5c5d42c1701d1e a12f897eb59f9ea252b11aef79c09b69c6a52d34 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderList.java
+commit 68ca70a2e6a9a3d909c090cd38eabe35ff5cca16
+tree afbfa623f3a049334d17d3f1d1940c01e4411fd9
+parent 04691964fffa0a1d7e693ec28f4319fc5a6c88d8
+author ttshmily <ttshmilyfc@163.com> 2017-06-27 20:02:59 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-06-27 20:02:59 +0800
+
+    update
+
+
+
+:100644 100644 c04da00f93634059c89f854a49ebf16cd7c6b781 94623e18e7d16c90c9fb795e035048f56753eabb M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/DoctorList.java
+:100644 100644 786f9648739790c1582ef3be829830ed1da88b05 8b0e798dcf11367a3e6648859008ac06837d1276 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/DoctorListV2.java
+:100644 100644 694a9768a561b3917e0d9bf058399965e66ff606 ce59a89a415c3d6c5f4ccea61b4bb8860f4f29e7 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/OrderList.java
+:100644 100644 4f189e8f9a3242ec62dff168499f0d62849838d7 e726b78d2fe09bcb92f39f816a87408ad0186c16 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/PersonalInfo.java
+:100644 100644 a53e39b7aa91387fce7b376fc500eeb5ac500ee6 884276699ba12a6b2580598b884b1eefd3d1db22 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/PersonalInfoV2.java
+:100644 100644 00ead79adff432a3856656f8d5356d9d7e09176b 2b736e5bb19c18dc4d16151b6a9c9fd226e24d9e M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/TeamList.java
+:100644 100644 3b3fe171de4e3d0d2d0f3aa041642eaba495af0c 0f2380f03108eab04c05502c75be4c5be3e48803 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/TeamListV2.java
+:100644 100644 9a13416d32591ef74130a6ca320dc253328457cb c9a4fd564fd3584582bfedf2627ddd00ac39e099 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_ThreewayCall.java
+:100644 100644 ad7e58e4ea96c3968f1367dd428d699fa1e812fa 976f8fbc1abc94cfc340d87aa628a11b28abade3 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/CreateOrder.java
+:100644 100644 27edd774e8be7aa47e6427f382f30cdf69848508 969b7561933890f15204076b4c5c5d42c1701d1e M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderList.java
+:000000 100644 0000000000000000000000000000000000000000 932734340d931990a3ba0805df99c4407c248c9a A	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetOrderListV2.java
+:100644 100644 f4cb1eb1da1ffb4bfbf97cb052a5f57373e1afa6 ab3a24236c385a8aeb97d9d60ac8d0053d366f50 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/HospitalSearch.java
+:100644 100644 fe503de660b6020fb163aa40a5810790487839fa 2eb8051bd0126184f31955bf835b26d689d1476c M	src/test/java/com/mingyizhudao/qa/testcase/doctor/UpdateDoctorProfile.java
+:100644 000000 4ee87ae043f291e125e04a0b8e5b117f6a0ae537 0000000000000000000000000000000000000000 D	src/test/resources/config-test/environment.properties
+commit 6ce70944a7e65282f88161a5631d2a3910bb042f
+tree 83e7baf36c66be158c7e91549d694beb28794ffa
+parent 04691964fffa0a1d7e693ec28f4319fc5a6c88d8
+author tianjing1 <422391950@qq.com> 2017-06-27 19:22:06 +0800
+committer tianjing1 <422391950@qq.com> 2017-06-27 19:22:06 +0800
+
+    /src/testcase/doctor/GetDoctorProfile
+
+
+
+:100644 100644 43f3f70799f4615e88972cc7875373faab4d8322 575b43282dfbaf949565fa1f02addb31422a21a9 M	src/test/java/com/mingyizhudao/qa/common/KB.java
+:100644 100644 4b3a6d9cf9bb93c90194267b9819aa6efe729bc4 ec597f72f8fe8e18817cd8af5d293fd4bb2e3355 M	src/test/java/com/mingyizhudao/qa/testcase/crm/Order_ReceiveTask.java
+:100644 100644 ad7e58e4ea96c3968f1367dd428d699fa1e812fa b32fa43e3cf3b4ba2fd72f1b30e22a96527c7316 M	src/test/java/com/mingyizhudao/qa/testcase/doctor/CreateOrder.java
+:100644 100644 fda2a1a6698c22d456ddc4c80f99656ae75180c3 3a00035fb6a77866a4770cc80a5d977f457d582a M	src/test/java/com/mingyizhudao/qa/testcase/doctor/GetDoctorProfile.java
+:100644 100644 fe503de660b6020fb163aa40a5810790487839fa 0457d7cbb81c71007e13b6a9a3e5192ced754a3b M	src/test/java/com/mingyizhudao/qa/testcase/doctor/UpdateDoctorProfile.java
+commit 04691964fffa0a1d7e693ec28f4319fc5a6c88d8
+tree e93545f2a70418f47abcbed27379ed20d75faadc
+parent 9f97b6d34341d785e3e13ff41247b20581ac7746
+author ttshmily <ttshmilyfc@163.com> 2017-06-27 09:44:02 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-06-27 09:44:02 +0800
+
+    update ignore file
+
+
+
+:100644 100644 a2a74e5221f9a9c90048365df0b05cc50ad38dee a194399abb3315028e7837d9fece0e0ab443ff34 M	.gitignore
+:100644 000000 2b0683d1b5cedd76184fa039e82b9d0728dbcd78 0000000000000000000000000000000000000000 D	src/test/resources/kb_academic_title.txt
+:100644 000000 87e9a94935f31383b85e37a3bc836214824e2e4d 0000000000000000000000000000000000000000 D	src/test/resources/kb_city.txt
+:100644 000000 8c969eb74832455a871cd63e21749bab868137be 0000000000000000000000000000000000000000 D	src/test/resources/kb_county.txt
+:100644 000000 9c0abacfc638c1b5341dc259759e1e8aab70f167 0000000000000000000000000000000000000000 D	src/test/resources/kb_disease.txt
+:100644 000000 a169587597af85c0c11b7ffc25dbb9ffce70300a 0000000000000000000000000000000000000000 D	src/test/resources/kb_doctor.txt
+:100644 000000 6dffc624f76667edc7446a4eca3264506214e30f 0000000000000000000000000000000000000000 D	src/test/resources/kb_hospital.txt
+:100644 000000 f1ac222e976f00e2b63eb21f70fb22799a06e75c 0000000000000000000000000000000000000000 D	src/test/resources/kb_hospital_class.txt
+:100644 000000 21f0bdcfa1bd045d0f944fd110e12d042b9d50f6 0000000000000000000000000000000000000000 D	src/test/resources/kb_hospital_type.txt
+:100644 000000 9832a73ade96658d1c1be16b6d192fafbbb4f28b 0000000000000000000000000000000000000000 D	src/test/resources/kb_major.txt
+:100644 000000 8a45ed8e3ecf10d90c76df672f8899fdcd2681f7 0000000000000000000000000000000000000000 D	src/test/resources/kb_medical_title.txt
+:100644 000000 1279b49313415b0d937145f4335f2e436ace5369 0000000000000000000000000000000000000000 D	src/test/resources/kb_province.txt
+:100644 000000 b69420f87cae3b76d422afbad61c5133194b17d7 0000000000000000000000000000000000000000 D	src/test/resources/kb_surgery.txt
+:100644 000000 addad8eb59f6bc0e256622e745500f621aac9e0a 0000000000000000000000000000000000000000 D	src/test/resources/kb_surgery_category.txt
+:100644 000000 6b584e8ece562ebffc15d38808cd6b98fc3d97ea 0000000000000000000000000000000000000000 D	src/test/resources/test.txt
+commit e9e3db8de0fd488754f8ed59a6c19dc14856c706
+tree c35aa050d8a962788cf6de48d080381406f3ea46
+parent a1a0e206ab671361e6b4a072d9c2cd6c4dad4a2e
+author ttshmily <ttshmilyfc@163.com> 2017-06-27 09:35:51 +0800
+committer GitHub <noreply@github.com> 2017-06-27 09:35:51 +0800
+
+    Delete serviceapi.iml
+
+
+
+:100644 000000 994b83b6b1250fb1d716049851ed0d87a7eaee38 0000000000000000000000000000000000000000 D	serviceapi.iml
+commit 4db83ae3a145028a1de8e4d13619ba34a8c5ace7
+tree ddf325a4d7bb5e9c06b457d6126677a7cb73472e
+parent c3809927a7257e2714c7ec8e96194ac1f9657bb3
+author ttshmily <ttshmilyfc@163.com> 2017-06-27 09:30:28 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-06-27 09:30:28 +0800
+
+    add bd testcase
+
+
+
+:100644 100644 c77ace402b238ce62597cc9da8418a27b922fa0f 8e7439d869d81122ee2abc303c04befc685a6ce3 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/BDCityList.java
+:100644 100644 d1f4e5e848a8d7156ced25f77508e70f5dd20004 58a04bfd99b5ee8d4b749dd7321cdc6cb68eab69 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/DistrictManagement.java
+:100644 100644 1acd620b86bd181dd6bb2fd8ff7e6dd50625af7d 786f9648739790c1582ef3be829830ed1da88b05 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/DoctorListV2.java
+:100644 100644 20b344b9a67e8069a7e51b5c011c6eebac808a10 a53e39b7aa91387fce7b376fc500eeb5ac500ee6 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/PersonalInfoV2.java
+:100644 100644 bd9d19a98738aa34b4dec10ba561640ca81d5069 3b3fe171de4e3d0d2d0f3aa041642eaba495af0c M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/TeamListV2.java
+:100644 100644 02a6d1e9bbb1b9dae1368f633cbcb307063dbc51 cb1ae9f7075dfe15773e1738caa2a609af21c25b M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/UndistributedList.java
+:100644 100644 16c07d39f6567fa9079f2c3a19cae2c17eaf43c7 52040f243a3ac90d75b0d0c778a98dbba9d2180d M	src/test/resources/config-test/environment.properties
+commit c3809927a7257e2714c7ec8e96194ac1f9657bb3
+tree bb5158f2e0b95fb624035080bd82a13d71916e65
+parent e212da523e5137388ae2ad2d6f4c392d7d74686e
+author ttshmily <ttshmilyfc@163.com> 2017-06-27 09:29:12 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-06-27 09:29:12 +0800
+
+    update
+
+
+
+:100644 100644 7d2485939185a29344e085126e90512707ff8236 f2224ae236fcba88718c502d132e0235b34a26a1 M	.gitignore
+:000000 100644 0000000000000000000000000000000000000000 c77ace402b238ce62597cc9da8418a27b922fa0f A	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/BDCityList.java
+:000000 100644 0000000000000000000000000000000000000000 d1f4e5e848a8d7156ced25f77508e70f5dd20004 A	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/DistrictManagement.java
+:000000 100644 0000000000000000000000000000000000000000 02a6d1e9bbb1b9dae1368f633cbcb307063dbc51 A	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/UndistributedList.java
+commit e212da523e5137388ae2ad2d6f4c392d7d74686e
+tree 46893f15adf8204af3a18310c4e81bcd6d7043f8
+parent a2a19d2d1321a1b5f7771dede14a43d69cd4e9d5
+author ttshmily <ttshmilyfc@163.com> 2017-06-26 10:45:45 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-06-26 10:45:45 +0800
+
+    doctorlistv2 testcase
+
+
+
+:100644 100644 cac8a78e230040aff56a3e8aa7d249e303ca2e98 1acd620b86bd181dd6bb2fd8ff7e6dd50625af7d M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/DoctorListV2.java
+commit a2a19d2d1321a1b5f7771dede14a43d69cd4e9d5
+tree 44ebf3cb184a6816c00a4b4cfb5d65d6b64e4b20
+parent d9d6145ca5d90e003cadd600dd682ff9f9ecb9b0
+author ttshmily <ttshmilyfc@163.com> 2017-06-23 18:48:08 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-06-23 18:48:08 +0800
+
+    same as above
+
+
+
+:100644 100644 73fe627e720f145125c51db4e97ecd3e29e81fc9 20b344b9a67e8069a7e51b5c011c6eebac808a10 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/PersonalInfoV2.java
+commit d9d6145ca5d90e003cadd600dd682ff9f9ecb9b0
+tree 7347985e5bec961c41fa03466c0803e8b4b87cfd
+parent a4100211ec54f5dbf120555572e28849e4a6ca34
+author ttshmily <ttshmilyfc@163.com> 2017-06-23 18:46:46 +0800
+committer ttshmily <ttshmilyfc@163.com> 2017-06-23 18:46:46 +0800
+
+    bd cases
+
+
+
+:100644 100644 bfd864415c0a13d5de3c6d9ea1fc1ac528a93435 a59cf45591e49ea3ec5a3764437764946d416240 M	src/test/java/com/mingyizhudao/qa/common/BaseTest.java
+:000000 100644 0000000000000000000000000000000000000000 cac8a78e230040aff56a3e8aa7d249e303ca2e98 A	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/DoctorListV2.java
+:100644 100644 21046dfd58a8fc2c184a66de26701d42af1e5fae 4f189e8f9a3242ec62dff168499f0d62849838d7 M	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/PersonalInfo.java
+:000000 100644 0000000000000000000000000000000000000000 73fe627e720f145125c51db4e97ecd3e29e81fc9 A	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/PersonalInfoV2.java
+:000000 100644 0000000000000000000000000000000000000000 bd9d19a98738aa34b4dec10ba561640ca81d5069 A	src/test/java/com/mingyizhudao/qa/testcase/bdassistant/TeamListV2.java
+:100644 100644 80f29efe0cece397faf8248c76dca29026355402 3ab0299dc9484e56707ce229242e1d134ddcf6da M	src/test/java/com/mingyizhudao/qa/testcase/crm/RegisteredDoctor_Certify_V2.java
+commit 576784bae0a3c4b8908825afeb812d08714f8ed9
+tree f2f1634b8b34da241f6f1697b4cc7585136b874b
+parent 2f1815ac1ce8695bb354ae71f941f58aa007347d
+author tianjing1 <422391950@qq.com> 2017-06-22 16:01:33 +0800
+committer tianjing1 <422391950@qq.com> 2017-06-22 16:01:33 +0800
+
+    update
+
+
+
+:100644 100644 1964a056ddda2876109988483a1a03162cd32bdf c9a8ce521d3741732d774999b80649527d831638 M	pom.xml
+:100644 100644 747af620cb02dc656e983930fdda0226a9a3ea10 994b83b6b1250fb1d716049851ed0d87a7eaee38 M	serviceapi.iml
+:100644 100644 a63d8c2f7f6df2d976a1bd4035aaed3a7c6b191e 4ee0090aa62412a4aadfb7c2ed11c843e127caaf M	src/test/java/com/mingyizhudao/qa/common/BaseTest.java
+:100644 100644 22c2dc6b27f6604bb8fdc832b7cabe79300adf0d 43f3f70799f4615e88972cc7875373faab4d8322 M	src/test/java/com/mingyizhudao/qa/common/KB.java
+:100644 100644 75154b1a6346008569cdbb16b9de7f0c9d5473fc 89251a65d62212dc003b7314898fb5da965520b3 M	src/test/java/com/mingyizhudao/qa/testcase/login/CheckVerifyCode.java
+:100644 100644 c89dd8185b4fd2388d603d57cd934bf6654ff572 f04e2c5a298e06df8543491684c85eaf76cdea5c M	src/test/resources/config-test/environment.properties
+:000000 100644 0000000000000000000000000000000000000000 2b0683d1b5cedd76184fa039e82b9d0728dbcd78 A	src/test/resources/kb_academic_title.txt
+:000000 100644 0000000000000000000000000000000000000000 87e9a94935f31383b85e37a3bc836214824e2e4d A	src/test/resources/kb_city.txt
+:000000 100644 0000000000000000000000000000000000000000 8c969eb74832455a871cd63e21749bab868137be A	src/test/resources/kb_county.txt
+:000000 100644 0000000000000000000000000000000000000000 9c0abacfc638c1b5341dc259759e1e8aab70f167 A	src/test/resources/kb_disease.txt
+:000000 100644 0000000000000000000000000000000000000000 2e7ca001153893b087c4aae629d3a2affff9bd03 A	src/test/resources/kb_doctor.txt
+:000000 100644 0000000000000000000000000000000000000000 6dffc624f76667edc7446a4eca3264506214e30f A	src/test/resources/kb_hospital.txt
+:000000 100644 0000000000000000000000000000000000000000 f1ac222e976f00e2b63eb21f70fb22799a06e75c A	src/test/resources/kb_hospital_class.txt
+:000000 100644 0000000000000000000000000000000000000000 21f0bdcfa1bd045d0f944fd110e12d042b9d50f6 A	src/test/resources/kb_hospital_type.txt
+:000000 100644 0000000000000000000000000000000000000000 9832a73ade96658d1c1be16b6d192fafbbb4f28b A	src/test/resources/kb_major.txt
+:000000 100644 0000000000000000000000000000000000000000 8a45ed8e3ecf10d90c76df672f8899fdcd2681f7 A	src/test/resources/kb_medical_title.txt
+:000000 100644 0000000000000000000000000000000000000000 1279b49313415b0d937145f4335f2e436ace5369 A	src/test/resources/kb_province.txt
+:000000 100644 0000000000000000000000000000000000000000 b69420f87cae3b76d422afbad61c5133194b17d7 A	src/test/resources/kb_surgery.txt
+:000000 100644 0000000000000000000000000000000000000000 addad8eb59f6bc0e256622e745500f621aac9e0a A	src/test/resources/kb_surgery_category.txt
+:000000 100644 0000000000000000000000000000000000000000 6b584e8ece562ebffc15d38808cd6b98fc3d97ea A	src/test/resources/test.txt

@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result plugin="junit@1.20">
+  <suites>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports\TEST-TestSuite.xml</file>
+      <name>TestSuite</name>
+      <duration>14.839</duration>
+      <time>14.839</time>
+      <cases>
+        <case>
+          <duration>0.424</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_01_创建订单_信息齐备_已认证用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.024</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_02_创建订单_信息齐备_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.385</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_03_创建订单_缺少患者姓名不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.138</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_04_创建订单_缺少患者性别或性别不正确不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.057</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_05_创建订单_缺少患者年龄不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.37</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_06_创建订单_缺少患者手机不可以创建</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>java.lang.AssertionError: null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_06_创建订单_缺少患者手机不可以创建(CreateOrder.java:227)
+</errorStackTrace>
+          <stdout>[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+[INFO][BaseTest] ||    TestCase END:	test_05_创建订单_缺少患者年龄不可以创建
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; 
+
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+[INFO][BaseTest] ||    TestCase START:	test_06_创建订单_缺少患者手机不可以创建
+[INFO][BaseTest] &gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt; 
+
+[INFO][HttpRequest] 发送请求: &gt;&gt;&gt;&gt;&gt;  POST http://services.dev.myzd.info/doctor/api/createorder
+[INFO][HttpRequest] 请求数据: &gt;&gt;&gt;&gt;&gt;  {&quot;order&quot;:{&quot;patient_name&quot;:&quot;辣妹WcBt&quot;,&quot;patient_gender&quot;:&quot;1&quot;,&quot;patient_age&quot;:&quot;81&quot;,&quot;patient_phone&quot;:&quot;&quot;,&quot;major_disease_id&quot;:&quot;1472&quot;,&quot;minor_disease_id&quot;:&quot;4355&quot;,&quot;diagnosis&quot;:&quot;病情描述SCFpmHPISjLDoJdirrYZWwZDPnoCjnuBefqAKpJFXOLPENtfIYxuZeldyFkkobJUWIIzvucLRGyvhQuflDFVfhtbuFDlvWbXwhQt&quot;,&quot;is_reoperation&quot;:1,&quot;reoperation_description&quot;:&quot;二次手术描述HcSjxAAWMGFekbbdsEHdLNVzPNZOOpItYrZlbUdOBeNcmLkrghtxHLSlDllNRjwuCWfkkYHvXqoKfJTQPhfruVvFUoSZXfYyzjUR&quot;,&quot;expected_doctor_id&quot;:&quot;4878&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017/07/25&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017/08/09&quot;,&quot;expected_surgery_hospital_id&quot;:&quot;4658&quot;,&quot;medical_record_pictures&quot;:[{&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;,&quot;type&quot;:&quot;1&quot;},{&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;,&quot;type&quot;:&quot;1&quot;}]}}
+[INFO][HttpRequest] 等待回应: &lt;&lt;&lt;&lt;&lt;  200 OK
+[INFO][HttpRequest] 响应时间: &lt;&lt;&lt;&lt;&lt;  350 ms
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ code ]:	1000000
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ message ]:	成功
+[INFO][BaseTest] &lt;&lt;&lt;&lt;&lt;&lt; [ data ]:	{&quot;id&quot;:10204,&quot;order_number&quot;:1019921115,&quot;type&quot;:1,&quot;status&quot;:1000,&quot;patient_name&quot;:&quot;辣妹WcBt&quot;,&quot;patient_age&quot;:81,&quot;patient_gender&quot;:1,&quot;patient_phone&quot;:&quot;&quot;,&quot;major_disease_id&quot;:1472,&quot;major_disease_name&quot;:&quot;颈椎间盘突出&quot;,&quot;minor_disease_id&quot;:4355,&quot;minor_disease_name&quot;:&quot;病KcCUSWtzDXdhrExz&quot;,&quot;diagnosis&quot;:&quot;病情描述SCFpmHPISjLDoJdirrYZWwZDPnoCjnuBefqAKpJFXOLPENtfIYxuZeldyFkkobJUWIIzvucLRGyvhQuflDFVfhtbuFDlvWbXwhQt&quot;,&quot;expected_doctor_id&quot;:4878,&quot;expected_doctor_name&quot;:&quot;钟西北NZ&quot;,&quot;expected_surgery_start_date&quot;:&quot;2017-07-25&quot;,&quot;expected_surgery_due_date&quot;:&quot;2017-08-09&quot;,&quot;expected_surgery_hospital_id&quot;:4658,&quot;expected_surgery_hospital_name&quot;:&quot;承德市双滦区精神病院&quot;,&quot;is_reoperation&quot;:true,&quot;reoperation_description&quot;:&quot;二次手术描述HcSjxAAWMGFekbbdsEHdLNVzPNZOOpItYrZlbUdOBeNcmLkrghtxHLSlDllNRjwuCWfkkYHvXqoKfJTQPhfruVvFUoSZXfYyzjUR&quot;,&quot;agent_id&quot;:3318,&quot;agent_name&quot;:&quot;庄恕zg&quot;,&quot;agent_phone&quot;:&quot;13789239999&quot;,&quot;agent_medical_title&quot;:&quot;ARCHIATER&quot;,&quot;agent_academic_title&quot;:&quot;LECTURER&quot;,&quot;agent_major&quot;:&quot;功能性疾病&quot;,&quot;agent_city_id&quot;:350100,&quot;agent_city_name&quot;:&quot;福州&quot;,&quot;agent_province_id&quot;:350000,&quot;agent_province_name&quot;:&quot;福建&quot;,&quot;agent_hospital&quot;:&quot;罗源县中医院&quot;,&quot;agent_department&quot;:&quot;胸外科&quot;,&quot;agent_contact_id&quot;:&quot;SH0098&quot;,&quot;agent_referrer_id&quot;:&quot;SH0143&quot;,&quot;agent_referrer_name&quot;:&quot;田静&quot;,&quot;agent_referrer_group_id&quot;:&quot;13&quot;,&quot;agent_registration_time&quot;:&quot;2017-07-19T09:24:52.800Z&quot;,&quot;deposit_payment_id&quot;:0,&quot;outcome_payment_id&quot;:0,&quot;is_test&quot;:false,&quot;created_at&quot;:&quot;2017-07-19 17:24:27&quot;,&quot;modified_at&quot;:&quot;2017-07-19T09:24:27.837Z&quot;,&quot;medical_record_pictures&quot;:[{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1265834e-97d8-44a0-95e7-047c7facaee8/IMG_20170429_102737.jpg&quot;},{&quot;type&quot;:&quot;1&quot;,&quot;key&quot;:&quot;2017/05/04/1315bbe0-2836-4776-8216-ec55044f32dd/IMG_20161013_172442.jpg&quot;}]}
+</stdout>
+          <failedSince>2</failedSince>
+        </case>
+        <case>
+          <duration>0.058</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_07_创建订单_缺少主诉疾病不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.66</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_08_创建订单_缺少次诉疾病可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.84</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.162</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.107</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_11_创建订单_信息齐备_期望手术医院不传</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports\doctor\doctor.xml</file>
+      <name>doctor</name>
+      <duration>9.593</duration>
+      <timestamp>19 Jul 2017 09:24:36 GMT</timestamp>
+      <time>9.593</time>
+      <cases>
+        <case>
+          <duration>0.433</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_01_创建订单_信息齐备_已认证用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.028</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_02_创建订单_信息齐备_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.387</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_03_创建订单_缺少患者姓名不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.144</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_04_创建订单_缺少患者性别或性别不正确不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.057</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_05_创建订单_缺少患者年龄不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.357</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_06_创建订单_缺少患者手机不可以创建</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: null
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_06_创建订单_缺少患者手机不可以创建(CreateOrder.java:227)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+... Removed 24 stack frames
+    </errorStackTrace>
+          <errorDetails>null</errorDetails>
+          <failedSince>2</failedSince>
+        </case>
+        <case>
+          <duration>0.062</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_07_创建订单_缺少主诉疾病不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.663</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_08_创建订单_缺少次诉疾病可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.838</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.163</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.106</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_11_创建订单_信息齐备_期望手术医院不传</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>C:\Program Files (x86)\Jenkins\workspace\testDoctor\target\surefire-reports\junitreports\TEST-com.mingyizhudao.qa.testcase.doctor.CreateOrder.xml</file>
+      <name>com.mingyizhudao.qa.testcase.doctor.CreateOrder</name>
+      <duration>9.252</duration>
+      <timestamp>19 Jul 2017 09:24:36 GMT</timestamp>
+      <time>9.252</time>
+      <cases>
+        <case>
+          <duration>0.064</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_07_创建订单_缺少主诉疾病不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>3.165</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_10_创建订单_信息齐备_认证中的医生有邀请者可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.357</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_06_创建订单_缺少患者手机不可以创建</testName>
+          <skipped>false</skipped>
+          <errorStackTrace>
+      java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotEquals(Assert.java:758)
+	at org.testng.Assert.assertNotEquals(Assert.java:763)
+	at com.mingyizhudao.qa.testcase.doctor.CreateOrder.test_06_创建订单_缺少患者手机不可以创建(CreateOrder.java:227)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+    </errorStackTrace>
+          <errorDetails>null</errorDetails>
+          <failedSince>2</failedSince>
+        </case>
+        <case>
+          <duration>0.434</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_01_创建订单_信息齐备_已认证用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>1.108</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_11_创建订单_信息齐备_期望手术医院不传</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.145</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_04_创建订单_缺少患者性别或性别不正确不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.387</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_03_创建订单_缺少患者姓名不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>2.839</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_09_创建订单_信息齐备_认证中的医生没有邀请者不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.664</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_08_创建订单_缺少次诉疾病可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.029</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_02_创建订单_信息齐备_未登录用户</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.06</duration>
+          <className>com.mingyizhudao.qa.testcase.doctor.CreateOrder</className>
+          <testName>test_05_创建订单_缺少患者年龄不可以创建</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>33.684</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

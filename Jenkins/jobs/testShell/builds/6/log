@@ -1,0 +1,9 @@
+Started by user [8mha:////4P0s7hGjA9VljF4c+Hu91PaVlAz/nad31wngZ9nOeP3iAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CJ9x5TczDwAi45d7MAAAAA=[0madmin
+[EnvInject] - Loading node environment variables.
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\testShell
+[testShell] $ cmd /c call C:\Windows\TEMP\jenkins2307135566723753680.bat
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>echo hello  1>C:\Users\TianJing\Documents\test.txt 
+
+C:\Program Files (x86)\Jenkins\workspace\testShell>exit 0 
+Finished: SUCCESS
